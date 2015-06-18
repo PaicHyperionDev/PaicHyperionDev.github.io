@@ -1,0 +1,539 @@
+<!doctype html>
+<html class="theme-next use-motion ">
+<head>
+  
+
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+
+
+
+  <link rel="stylesheet" type="text/css" href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5"/>
+
+
+<link rel="stylesheet" type="text/css" href="/css/main.css?v=0.4.3"/>
+
+
+
+
+  <meta name="keywords" content="Hexo,next" />
+
+
+
+
+
+  <link rel="shorticon icon" type="image/x-icon" href="/favicon.ico?v=0.4.3" />
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var CONFIG = {
+    scheme: '',
+    analytics: {
+      google: ''
+    },
+    sidebar: 'post'
+  };
+</script>
+
+
+
+
+  <title> PaicHyperionDev </title>
+</head>
+
+<body>
+  <!--[if lte IE 8]>
+  <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;margin:0 auto;'>
+    <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+      <img src="http://7u2nvr.com1.z0.glb.clouddn.com/picouterie.jpg" border="0" height="42" width="820"
+           alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today or use other browser ,like chrome firefox safari."
+           style='margin-left:auto;margin-right:auto;display: block;'/>
+    </a>
+  </div>
+<![endif]-->
+
+  <div class="container one-column 
+   page-home 
+">
+    <div class="headband"></div>
+
+    <div id="header" class="header">
+      <div class="header-inner">
+        <h1 class="site-meta">
+  <span class="logo-line-before"><i></i></span>
+  <a href="/" class="brand">
+      <span class="logo">
+        <i class="icon-logo"></i>
+      </span>
+      <span class="site-title">PaicHyperionDev</span>
+  </a>
+  <span class="logo-line-after"><i></i></span>
+</h1>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<div class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu ">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/">
+            <i class="menu-item-icon icon-home"></i> <br />
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives">
+            <i class="menu-item-icon icon-archives"></i> <br />
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags">
+            <i class="menu-item-icon icon-tags"></i> <br />
+            标签
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+</div>
+
+
+      </div>
+    </div>
+
+    <div id="main" class="main">
+      <div class="main-inner">
+        <div id="content" class="content">
+          
+  <div id="posts" class="posts-expand">
+    
+      
+
+  <div class="post post-type-normal ">
+    <div class="post-header">
+
+      
+      
+        <h1 class="post-title">
+          
+          
+            
+              <a class="post-title-link" href="/uncategorized/android-studio-full-guide/">
+                Android Studio新手完全指引
+              </a>
+            
+          
+        </h1>
+      
+
+      <div class="post-meta">
+        <span class="post-time">
+          发表于 2015-06-17
+        </span>
+
+        
+
+        
+          
+        
+      </div>
+    </div>
+
+    <div class="post-body">
+
+      
+      
+
+      
+        
+          <h2 id="Android_Studio的下载及安装">Android Studio的下载及安装</h2><p>如果你的电脑可以翻墙，那么请直接到<a href="https://developer.android.com/sdk/index.html" target="_blank" rel="external">Android官网</a>下载，如下图所示：</p>
+<p><img src="http://img.blog.csdn.net/20150611092832975?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYXNjZTE4ODU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center" alt=""></p>
+<p>如果不幸翻不了墙，没关系，可以到<a href="http://www.androiddevtools.cn/" target="_blank" rel="external">AndroidDevTools</a>下载，这个网站基本涵盖了Android开发所需的所有工具，文件放在百度云上面，下载速度杠杠的。</p>
+<p>下载并安装完成后，首次启动会去下载更新一系列文件，如果已经翻了墙，就等待其更新完成；如果没有翻墙，就别傻等了，最终等到的只会是提示下载失败。如何解决呢？你可以断开电脑的网络连接，或者找到Android Studio安装目录的bin目录下面的idea.properties文件，添加一条禁用开始运行向导的配置项：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">disable.android.first.run=true</span><br></pre></td></tr></table></figure>
+<p>这样再次启动Android Studio就会很快进入欢迎页面：</p>
+<p><img src="http://img.blog.csdn.net/20150611111105389?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYXNjZTE4ODU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center" alt=""></p>
+<p>点击Configure-Preference进入偏好设置页面，搜索proxy，如下图所示，手动配置代理服务器即可：</p>
+<p><img src="http://img.blog.csdn.net/20150611103655712?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYXNjZTE4ODU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center" alt=""></p>
+<p>Android SDK在线更新镜像服务器可以在<a href="http://www.androiddevtools.cn/" target="_blank" rel="external">AndroidDevTools</a>上面找到：</p>
+<p><img src="http://img.blog.csdn.net/20150611104500163?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYXNjZTE4ODU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center" alt=""></p>
+<p>返回到欢迎页面，点击Configure-SDK Manager，进入SDK Manager管理页面，接着打开SDK Manager的偏好设置（Preference）页面，这里也要设置代理服务器，并勾选「Force https://… sources to be fetched using <a href="http://...」复选框：" target="_blank" rel="external">http://...」复选框：</a></p>
+<p><img src="http://img.blog.csdn.net/20150611105808349?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYXNjZTE4ODU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center" alt=""></p>
+<p>设置完成之后，等待SDK自动下载更新即可。</p>
+<blockquote>
+<p>对于从Eclipse迁移到Android Studio的建议：<br>1）不要使用Android Studio的自动迁移功能将项目从Eclipse自动转换为Android Studio工程结构，建议重新建立一个纯净的Android Studio工程，并手动拷贝src和lib等文件；<br>2）Android Studio不要复用Eclipse之前使用的SDK，建议使用Android Studio提供的SDK Manager重新下载；<br>3）一句话：保证Android Studio的纯正性。</p>
+</blockquote>
+<h2 id="Android_NDK的安装及使用">Android NDK的安装及使用</h2><p>由于并不是每个app都会用到NDK，事实上，大多数app都不需要用到NDK，因此，NDK的安装独立成一节，不感兴趣的筒靴可以跳过，NDK的安装相对简单，只需要到<a href="https://developer.android.com/ndk/downloads/index.html" target="_blank" rel="external">NDK Downloads</a>或者<a href="http://www.androiddevtools.cn/" target="_blank" rel="external">AndroidDevTools</a>下载NDK的压缩包，然后解压到本地目录中即可。</p>
+<p>接着在Android工程根目录的local.properties文件中新增ndk.dir变量，其值指向ndk绝对路径，例如：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">## This file is automatically generated by Android Studio.&#10;# Do not modify this file -- YOUR CHANGES WILL BE ERASED!&#10;#&#10;# This file should *NOT* be checked into Version Control Systems,&#10;# as it contains information specific to your local configuration.&#10;#&#10;# Location of the SDK. This is only used by Gradle.&#10;# For customization when using a Version Control System, please read the&#10;# header note.&#10;sdk.dir=/Users/guhaoxin/Library/Android/sdk&#10;ndk.dir=/Users/guhaoxin/Library/Android/android-ndk-r10</span><br></pre></td></tr></table></figure>
+<p>NDK的使用主要有两种形式，一种是拿到第三方的so文件，我们通过JNI封装其提供的native接口给Java层使用另一种是自己使用C／C++编写底层代码，然后编译生成so文件，接着重复第一种的做法。具体实现还是比较麻烦的，篇幅比较大，需要用到的筒靴可以参考以下这几篇文章：</p>
+<ul>
+<li><a href="http://www.shaneenishry.com/blog/2014/08/17/ndk-with-android-studio/" target="_blank" rel="external">NDK with Android Studio</a></li>
+<li><a href="http://ph0b.com/android-studio-gradle-and-ndk-integration/" target="_blank" rel="external">Android Studio, gradle and NDK integration</a></li>
+<li><a href="http://blog.gaku.net/share-code-between-projects-in-android-studio/" target="_blank" rel="external">Share code between projects in Android Studio</a></li>
+<li><a href="http://blog.gaku.net/ndk/" target="_blank" rel="external">Using custom Android.mk with Gradle/Android Studio</a></li>
+</ul>
+<p>等有时间再结合实际项目整理一篇Android Studio＋NDK的入门指引。</p>
+<h2 id="Android_Studio的基本用法">Android Studio的基本用法</h2><p>Android Studio的基本用法就比较琐碎了，篇幅也比较大，已经有很多文章进行过介绍，这里就不展开讲解了，想了解的可以参考@StormZhang的系列教程，教程中基于Android Studio 1.0 版本进行介绍，跟最新的有些许差别，但并不影响我们学习。</p>
+<p>Android Studio系列教程：</p>
+<ul>
+<li><a href="http://stormzhang.com/devtools/2014/11/25/android-studio-tutorial1/" target="_blank" rel="external">下载与安装</a></li>
+<li><a href="http://stormzhang.com/devtools/2014/11/28/android-studio-tutorial2/" target="_blank" rel="external">基本设置与运行</a></li>
+<li><a href="http://stormzhang.com/devtools/2014/12/09/android-studio-tutorial3/" target="_blank" rel="external">快捷键</a></li>
+<li><a href="http://stormzhang.com/devtools/2014/12/18/android-studio-tutorial4/" target="_blank" rel="external">Gradle基础</a></li>
+<li><a href="http://stormzhang.com/devtools/2015/01/05/android-studio-tutorial5/" target="_blank" rel="external">Gradle命令详解与导入第三方包</a></li>
+<li><a href="http://stormzhang.com/devtools/2015/01/15/android-studio-tutorial6/" target="_blank" rel="external">Gradle多渠道打包</a></li>
+</ul>
+<h2 id="Android_Gradle_Plugin基本用法">Android Gradle Plugin基本用法</h2><p>看完上面的系列教程，应该对Gradle也有了基本的认识，但还不够，只有认真看完<a href="http://chaosleong.gitbooks.io/gradle-for-android/content/index.html" target="_blank" rel="external">Gradle Plugin User Guide </a>才能基本应付日常的开发工作，如果想进一步进阶，可阅读完整版<a href="https://docs.gradle.org/current/userguide/userguide" target="_blank" rel="external">Gradle User Guide</a>。当然，根据王守仁先生的“知行合一”思想，看的再多，不在项目中好好操练，那也是白费力气的。</p>
+<p>当然，如果你发现gradle编译速度很慢，可以尝试<a href="https://medium.com/@erikhellman/boosting-the-performance-for-gradle-in-your-android-projects-6d5f9e4580b6" target="_blank" rel="external">Boosting the performance for Gradle in your Android projects</a>这篇文章中介绍的方法，兴许对你有用。</p>
+<h2 id="通过Gradle发布项目到JCenter">通过Gradle发布项目到JCenter</h2><p>目前Github上面的大多数Android项目都从Eclipse＋Ant模式迁移到了Android Studio＋Gradle开发模式，为了方便函数库的依赖管理，都会将函数库生成的压缩包发布到JCenter上面，这样第三方工程需要使用该函数库，只需要在build.gradle文件中加入一行代码即可，例如我的工程使用到EventBus，那么设置如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dependencies &#123;&#10;    compile &#39;de.greenrobot:eventbus:2.4.0&#39;&#10;&#125;</span><br></pre></td></tr></table></figure>
+<p>那么问题来了，如果我自己开发了一个函数库，也要以这样的方式提供给第三方使用，那么就需要把这个项目发布到JCenter上面。</p>
+<blockquote>
+<p>当然了，前提是你这个函数库是开源的或者是经过混淆的，否则就趁在被公司开除之前放弃这种想法，老老实实直接提供Jar包给第三方好了。</p>
+</blockquote>
+<p>关于整个的发布流程，已经有很多不错的文章介绍了，建议看<a href="http://blog.saymagic.cn/2015/02/16/release-library-to-jcenter.html" target="_blank" rel="external">Android Studio发布项目到Jcenter</a>和<a href="http://www.jianshu.com/p/c721f9297b2f?utm_campaign=hugo&amp;utm_medium=reader_share&amp;utm_content=note" target="_blank" rel="external">Android 项目打包到 JCenter 的坑</a>这两篇文章就够了。</p>
+<h2 id="JDK版本的降级">JDK版本的降级</h2><p>关于Android Studio使用的JDK版本是否需要从JDK7或者JDK8降级到JDK6，可以参见我之前写的一篇文章：<a href="http://www.jianshu.com/p/d8d1d72d0248" target="_blank" rel="external">Mac下修改Android Studio 所用的JDK版本</a>。</p>
+
+        
+      
+    </div>
+
+    <div class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </div>
+  </div>
+
+
+    
+      
+
+  <div class="post post-type-normal ">
+    <div class="post-header">
+
+      
+      
+        <h1 class="post-title">
+          
+          
+            
+              <a class="post-title-link" href="/uncategorized/change-jdk-version/">
+                Mac下修改Android Studio 所用的JDK版本
+              </a>
+            
+          
+        </h1>
+      
+
+      <div class="post-meta">
+        <span class="post-time">
+          发表于 2015-06-16
+        </span>
+
+        
+
+        
+          
+        
+      </div>
+    </div>
+
+    <div class="post-body">
+
+      
+      
+
+      
+        
+          <blockquote>
+<p>@author <a href="https://github.com/ASCE1885" target="_blank" rel="external">ASCE1885</a></p>
+</blockquote>
+<p>最近项目从Eclipse＋Ant构建模式转移到了Android Studio＋Gradle构建模式，自然的JDK版本号也从JDK6升级到了JDK7，但后来发现，由于我们是一个SDK项目，最终会以JAR包形式提供给第三方使用，这样就会遇到一个问题，如果我们使用JDK7编译JAR包，而第三方编译环境使用的还是旧的JDK6，那么编译工程的时候就会出现：</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">Unsupported</span> <span class="tag">major</span><span class="class">.minor</span> <span class="tag">version</span> 51<span class="class">.0</span></span><br></pre></td></tr></table></figure>
+<p>因此需要把我们的Android Studio工程编译环境从JDK7降为JDK6，下面就是修改记录。</p>
+<h2 id="Mac系统JDK不同版本的路径">Mac系统JDK不同版本的路径</h2><p>默认情况下，Mac系统JDK不同版本的默认安装目录有点差别，JDK6，JDK7和JDK8的 安装目录分别如下所示：</p>
+<figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="regexp">/System/</span>Library<span class="regexp">/Java/</span>JavaVirtualMachines<span class="regexp">/1.6.0.jdk/</span>Contents/Home</span><br><span class="line"><span class="regexp">/Library/</span>Java<span class="regexp">/JavaVirtualMachines/</span>jdk1.7.0.jdk<span class="regexp">/Contents/</span>Home</span><br><span class="line"><span class="regexp">/Library/</span>Java<span class="regexp">/JavaVirtualMachines/</span>jdk1.8.0.jdk<span class="regexp">/Contents/</span>Home</span><br></pre></td></tr></table></figure>
+<h2 id="Android_Studio的修改">Android Studio的修改</h2><p>点击Android Studio的File-Other Settings-Default Project Structure：</p>
+<p><img src="http://img.blog.csdn.net/20150604171658327?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYXNjZTE4ODU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center" alt=""></p>
+<p>打开Project Structure对话框，在这个对话框中可以修改Android SDK和JDK的路径：</p>
+<p><img src="http://img.blog.csdn.net/20150604171945411?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYXNjZTE4ODU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center" alt=""></p>
+<h2 id="环境变量的修改">环境变量的修改</h2><p>经过上面的修改，我们在Android Studio UI界面上编译时，将使用我们修改后的JDK6版本，但是当我们在Terminal中输入java -version查看当前JDK版本信息时，会发现还是之前的JDK7版本，可能的原因是之前系统中设置了JAVA_HOME环境变量，因此这里也要修改一下。</p>
+<p><img src="http://img.blog.csdn.net/20150604173440845?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYXNjZTE4ODU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center" alt=""></p>
+<p>打开Terminal，输入vim ~/.bash_profile，打开这个文件，内容如下：</p>
+<p><img src="http://img.blog.csdn.net/20150604173713944?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYXNjZTE4ODU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center" alt=""></p>
+<p>可以看到，环境变量里面确实还是之前的JDK7版本，将其指向JDK6的安装路径就可以了。然后重新加载profile使其生效：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">source</span> ~/.bash_profile</span><br></pre></td></tr></table></figure>
+<h2 id="Jenkins的修改">Jenkins的修改</h2><p>自动化编译使用的是Tomcat＋Jenkins，Jenkins的修改比较简单，在Jenkins首页点击[系统管理]－[系统设置]，找到如下JDK设置选项进行修改即可：</p>
+<p><img src="http://img.blog.csdn.net/20150605163511881?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYXNjZTE4ODU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center" alt=""></p>
+<p>修改完成之后，重启Tomcat，会发现Jenkins页面访问失败，原因在于我们使用的Jenkins版本最低只支持JRE7，官网截图如下：</p>
+<p><img src="http://img.blog.csdn.net/20150605163753693?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYXNjZTE4ODU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center" alt=""></p>
+<p>而在环境变量那一步我们已经将JDK版本从JDK7降为JDK6了，这时可以通过修改Tomcat的JRE_HOME参数来解决，打开Tomcat安装目录下bin/catalina.sh（因为我使用的是Mac系统，Windows系统请切换到catalina.bat），搜索JRE_HOME参数，如果不存在就新建之，并赋值为电脑上JDK7目录：</p>
+<figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">JRE_HOME=<span class="regexp">/Library/</span>Java<span class="regexp">/JavaVirtualMachines/</span>jdk1.<span class="number">7.0</span>_75.jdk<span class="regexp">/Contents/</span>Home</span><br></pre></td></tr></table></figure>
+
+        
+      
+    </div>
+
+    <div class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </div>
+  </div>
+
+
+    
+      
+
+  <div class="post post-type-normal ">
+    <div class="post-header">
+
+      
+      
+        <h1 class="post-title">
+          
+          
+            
+              <a class="post-title-link" href="/uncategorized/hello-world/">
+                Hello World
+              </a>
+            
+          
+        </h1>
+      
+
+      <div class="post-meta">
+        <span class="post-time">
+          发表于 2014-10-18
+        </span>
+
+        
+
+        
+          
+        
+      </div>
+    </div>
+
+    <div class="post-body">
+
+      
+      
+
+      
+        
+          <p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>/Users/herrdu/Documents/blog/source/_posts/hello-world.md<br>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+
+        
+      
+    </div>
+
+    <div class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </div>
+  </div>
+
+
+    
+  </div>
+
+  
+
+        </div>
+
+        
+      </div>
+
+
+      
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      <div class="site-overview">
+        <div class="site-author motion-element">
+          <img class="site-author-image" src="/images/default_avatar.jpg" alt="PaicHyperion" />
+          <p class="site-author-name">PaicHyperion</p>
+        </div>
+        <p class="site-description motion-element"></p>
+        <div class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">3</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          <div class="site-state-item site-state-categories">
+            
+              <span class="site-state-item-count">1</span>
+              <span class="site-state-item-name">分类</span>
+              
+          </div>
+
+          <div class="site-state-item site-state-tags">
+            <a href="/tags">
+              <span class="site-state-item-count">1</span>
+              <span class="site-state-item-name">标签</span>
+              </a>
+          </div>
+
+        </div>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+      </div>
+
+      
+
+    </div>
+  </div>
+
+
+    </div>
+
+    <div id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">
+  
+  &copy; &nbsp; 
+  2015
+  <span class="with-love">
+    <i class="icon-heart"></i>
+  </span>
+  <span class="author">PaicHyperion</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT
+  </a>
+</div>
+
+
+
+      </div>
+    </div>
+
+    <div class="back-to-top"></div>
+  </div>
+
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
+  <script type="text/javascript" src="/js/fancy-box.js?v=0.4.3"></script>
+
+
+  <script type="text/javascript" src="/js/helpers.js?v=0.4.3"></script>
+  
+
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js"></script>
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js"></script>
+
+  <script type="text/javascript" src="/js/motion_global.js?v=0.4.3" id="motion.global"></script>
+
+
+
+  <script type="text/javascript" src="/js/search-toggle.js"></script>
+
+  
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      if (CONFIG.sidebar === 'always') {
+        displaySidebar();
+      }
+    });
+  </script>
+
+  
+
+  
+  
+  
+
+  
+
+
+
+
+  
+  
+
+</body>
+</html>
