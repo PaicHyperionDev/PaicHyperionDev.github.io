@@ -4,9 +4,9 @@
   <title><![CDATA[PaicHyperionDev]]></title>
   
   <link href="/atom.xml" rel="self"/>
-  <link href="http://PaicHyperionDev.github.io//"/>
+  <link href="http://PaicHyperion.gitcafe.io//"/>
   <updated>2015-11-21T08:44:29.000Z</updated>
-  <id>http://PaicHyperionDev.github.io//</id>
+  <id>http://PaicHyperion.gitcafe.io//</id>
   
   <author>
     <name><![CDATA[PaicHyperion]]></name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title><![CDATA[平安科技移动开发二队技术周报 第二十七期]]></title>
-    <link href="http://PaicHyperionDev.github.io/2015/11/27/027/"/>
-    <id>http://PaicHyperionDev.github.io/2015/11/27/027/</id>
+    <link href="http://PaicHyperion.gitcafe.io/2015/11/27/027/"/>
+    <id>http://PaicHyperion.gitcafe.io/2015/11/27/027/</id>
     <published>2015-11-27T00:00:00.000Z</published>
     <updated>2015-11-21T08:44:29.000Z</updated>
     <content type="html"><![CDATA[<h2 id="Android开发">Android开发</h2><h4 id="1）Android_App_线上热修复方案">1）<a href="http://lirenlong.github.io/hotfix/" target="_blank" rel="external">Android App 线上热修复方案</a></h4><p>本文主要介绍天猫淘宝的Android App 线上热修复方案。在业界中，热修复方案，棘手且重要。有时它可以避免发新版，避免无谓时间的浪费，稳住迭代节奏；有时它可以救项目于水深火热之中；有时它也可以带给用户展现上的惊喜。其技术较深且要抵抗更深技术的侵入。</p>
@@ -57,14 +57,14 @@
     <![CDATA[<h2 id="Android开发">Android开发</h2><h4 id="1）Android_App_线上热修复方案">1）<a href="http://lirenlong.github.io/hotfix/" target="_blank" rel="external]]>
     </summary>
     
-      <category term="weekly" scheme="http://PaicHyperionDev.github.io/categories/weekly/"/>
+      <category term="weekly" scheme="http://PaicHyperion.gitcafe.io/categories/weekly/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[平安科技移动开发二队技术周报 第二十六期]]></title>
-    <link href="http://PaicHyperionDev.github.io/2015/11/11/026/"/>
-    <id>http://PaicHyperionDev.github.io/2015/11/11/026/</id>
+    <link href="http://PaicHyperion.gitcafe.io/2015/11/11/026/"/>
+    <id>http://PaicHyperion.gitcafe.io/2015/11/11/026/</id>
     <published>2015-11-11T00:00:00.000Z</published>
     <updated>2015-11-21T08:33:10.000Z</updated>
     <content type="html"><![CDATA[<h2 id="业界新闻">业界新闻</h2><h4 id="1）如何评价蜻蜓_FM_伪造用户活跃度等数据？">1）<a href="http://www.zhihu.com/question/37248269" target="_blank" rel="external">如何评价蜻蜓 FM 伪造用户活跃度等数据？</a></h4><p>神一般的产品经理和程序员～</p>
@@ -90,14 +90,14 @@
     <![CDATA[<h2 id="业界新闻">业界新闻</h2><h4 id="1）如何评价蜻蜓_FM_伪造用户活跃度等数据？">1）<a href="http://www.zhihu.com/question/37248269" target="_blank" rel="external">如何]]>
     </summary>
     
-      <category term="weekly" scheme="http://PaicHyperionDev.github.io/categories/weekly/"/>
+      <category term="weekly" scheme="http://PaicHyperion.gitcafe.io/categories/weekly/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[平安科技移动开发二队技术周报（特别版のReact Native专题）]]></title>
-    <link href="http://PaicHyperionDev.github.io/2015/10/28/025/"/>
-    <id>http://PaicHyperionDev.github.io/2015/10/28/025/</id>
+    <link href="http://PaicHyperion.gitcafe.io/2015/10/28/025/"/>
+    <id>http://PaicHyperion.gitcafe.io/2015/10/28/025/</id>
     <published>2015-10-28T00:00:00.000Z</published>
     <updated>2015-11-21T08:31:24.000Z</updated>
     <content type="html"><![CDATA[<h2 id="业界新闻">业界新闻</h2><h4 id="1）苹果开源三个加密库">1）<a href="http://www.infoq.com/cn/news/2015/11/apple-crypto-open-source" target="_blank" rel="external">苹果开源三个加密库</a></h4><p>苹果宣布开源其操作系统的安全子系统中三个主要组件，其中一个库使用的具有限制性约束的许可证引发了争议，此次声明也对该争议作出相应解释。</p>
@@ -129,14 +129,14 @@
     <![CDATA[<h2 id="业界新闻">业界新闻</h2><h4 id="1）苹果开源三个加密库">1）<a href="http://www.infoq.com/cn/news/2015/11/apple-crypto-open-source" target="_blank" rel="e]]>
     </summary>
     
-      <category term="weekly" scheme="http://PaicHyperionDev.github.io/categories/weekly/"/>
+      <category term="weekly" scheme="http://PaicHyperion.gitcafe.io/categories/weekly/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[平安科技移动开发二队技术周报 第二十四期]]></title>
-    <link href="http://PaicHyperionDev.github.io/2015/10/21/024/"/>
-    <id>http://PaicHyperionDev.github.io/2015/10/21/024/</id>
+    <link href="http://PaicHyperion.gitcafe.io/2015/10/21/024/"/>
+    <id>http://PaicHyperion.gitcafe.io/2015/10/21/024/</id>
     <published>2015-10-21T00:00:00.000Z</published>
     <updated>2015-11-21T08:30:32.000Z</updated>
     <content type="html"><![CDATA[<h2 id="业界新闻">业界新闻</h2><h4 id="1）Android“棉花糖”正式发布">1）<a href="http://www.infoq.com/cn/news/2015/10/android-marshmallow-rollout?" target="_blank" rel="external">Android“棉花糖”正式发布</a></h4><p>Google宣布在其Nexus设备上发布代号为”棉花糖”的Android 6.0系统，预计该版本操作系统将在更多设备上应用。</p>
@@ -166,14 +166,14 @@
     <![CDATA[<h2 id="业界新闻">业界新闻</h2><h4 id="1）Android“棉花糖”正式发布">1）<a href="http://www.infoq.com/cn/news/2015/10/android-marshmallow-rollout?" target="_bl]]>
     </summary>
     
-      <category term="weekly" scheme="http://PaicHyperionDev.github.io/categories/weekly/"/>
+      <category term="weekly" scheme="http://PaicHyperion.gitcafe.io/categories/weekly/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[平安科技移动开发二队技术周报 第二十三期]]></title>
-    <link href="http://PaicHyperionDev.github.io/2015/10/14/023/"/>
-    <id>http://PaicHyperionDev.github.io/2015/10/14/023/</id>
+    <link href="http://PaicHyperion.gitcafe.io/2015/10/14/023/"/>
+    <id>http://PaicHyperion.gitcafe.io/2015/10/14/023/</id>
     <published>2015-10-14T00:00:00.000Z</published>
     <updated>2015-11-21T08:33:03.000Z</updated>
     <content type="html"><![CDATA[<h2 id="业界新闻">业界新闻</h2><h4 id="1）Google开源Brotli压缩算法">1）<a href="http://www.infoq.com/cn/news/2015/10/Google-Brotli-Zotfli?utm_source=tuicool" target="_blank" rel="external">Google开源Brotli压缩算法</a></h4><p>谷歌非常重视互联网用户的体验，而提升网页加载速度是提升用户体验的一种重要方式。两年前，他们发布了Zotfli压缩算法。该算法在默认设置下的输出比zlib的最大压缩比输出还要小3-8%。PNG优化器、Web内容预处理等许多压缩方案中都集成了该算法。基于该算法的应用情况，结合其它现代压缩需求，谷歌开发并开源了一个新的算法——Brotli压缩算法。</p>
@@ -210,14 +210,14 @@
     <![CDATA[<h2 id="业界新闻">业界新闻</h2><h4 id="1）Google开源Brotli压缩算法">1）<a href="http://www.infoq.com/cn/news/2015/10/Google-Brotli-Zotfli?utm_source=tuicool]]>
     </summary>
     
-      <category term="weekly" scheme="http://PaicHyperionDev.github.io/categories/weekly/"/>
+      <category term="weekly" scheme="http://PaicHyperion.gitcafe.io/categories/weekly/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[平安科技移动开发二队技术周报 第二十二期]]></title>
-    <link href="http://PaicHyperionDev.github.io/2015/09/30/022/"/>
-    <id>http://PaicHyperionDev.github.io/2015/09/30/022/</id>
+    <link href="http://PaicHyperion.gitcafe.io/2015/09/30/022/"/>
+    <id>http://PaicHyperion.gitcafe.io/2015/09/30/022/</id>
     <published>2015-09-30T00:00:00.000Z</published>
     <updated>2015-11-21T08:29:40.000Z</updated>
     <content type="html"><![CDATA[<h2 id="业界新闻">业界新闻</h2><h4 id="1）Google_Nexus_2015发布会总结：五款新品齐登场">1）<a href="http://www.leiphone.com/news/201509/z3ki6sYjKwUC16wR.html" target="_blank" rel="external">Google Nexus 2015发布会总结：五款新品齐登场</a></h4><p>2015年09月30日凌晨00:00，Google 如期在旧金山开了一场 Nexus 新品发布会，Google 一口气发布了手机、平板、Chromecast 这3大类产品的5个新品：两部手机、一台平板、两个 Chromecast。</p>
@@ -244,14 +244,14 @@
     <![CDATA[<h2 id="业界新闻">业界新闻</h2><h4 id="1）Google_Nexus_2015发布会总结：五款新品齐登场">1）<a href="http://www.leiphone.com/news/201509/z3ki6sYjKwUC16wR.html" targe]]>
     </summary>
     
-      <category term="weekly" scheme="http://PaicHyperionDev.github.io/categories/weekly/"/>
+      <category term="weekly" scheme="http://PaicHyperion.gitcafe.io/categories/weekly/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[平安科技移动开发二队技术周报 第二十一期]]></title>
-    <link href="http://PaicHyperionDev.github.io/2015/09/23/021/"/>
-    <id>http://PaicHyperionDev.github.io/2015/09/23/021/</id>
+    <link href="http://PaicHyperion.gitcafe.io/2015/09/23/021/"/>
+    <id>http://PaicHyperion.gitcafe.io/2015/09/23/021/</id>
     <published>2015-09-23T00:00:00.000Z</published>
     <updated>2015-11-21T08:29:33.000Z</updated>
     <content type="html"><![CDATA[<h2 id="业界新闻">业界新闻</h2><h4 id="1）XcodeGhost：墙、感染、信任和欺骗">1）<a href="http://www.leiphone.com/news/201509/Q6MWlts9zKEyX0HV.html" target="_blank" rel="external">XcodeGhost：墙、感染、信任和欺骗</a></h4><p>有人在中国网盘和论坛上传播了一个修改过的Xcode，这个版本的Xcode会在编译出来的App上面加一些可以被远程控制的代码，并且发送数据到某个服务器上。这是iOS出现以来，未越狱系统遭遇的最大安全威胁，在此之前苹果的Sandbox模式几乎没遇到过挑战，iPhone用户甚至大量iOS开发者都认为系统固若金汤，不可能遇到问题。</p>
@@ -294,14 +294,14 @@
     <![CDATA[<h2 id="业界新闻">业界新闻</h2><h4 id="1）XcodeGhost：墙、感染、信任和欺骗">1）<a href="http://www.leiphone.com/news/201509/Q6MWlts9zKEyX0HV.html" target="_blank]]>
     </summary>
     
-      <category term="weekly" scheme="http://PaicHyperionDev.github.io/categories/weekly/"/>
+      <category term="weekly" scheme="http://PaicHyperion.gitcafe.io/categories/weekly/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[平安科技移动开发二队技术周报 第二十期]]></title>
-    <link href="http://PaicHyperionDev.github.io/2015/09/20/020/"/>
-    <id>http://PaicHyperionDev.github.io/2015/09/20/020/</id>
+    <link href="http://PaicHyperion.gitcafe.io/2015/09/20/020/"/>
+    <id>http://PaicHyperion.gitcafe.io/2015/09/20/020/</id>
     <published>2015-09-20T00:00:00.000Z</published>
     <updated>2015-09-22T07:43:33.000Z</updated>
     <content type="html"><![CDATA[<h2 id="业界新闻">业界新闻</h2><h4 id="1）React_Native_for_Android_发布">1）<a href="https://facebook.github.io/react-native/" target="_blank" rel="external">React Native for Android 发布</a></h4><p>今年早期，Facebook发布了React Native for iOS，并于昨日正式发布了React Native for Android。React Native将React on the Web带入了移动平台的开发，同时保留了速度、保真和原生应用的界面体验，引起国内外开发界的重视和关注。</p>
@@ -332,14 +332,14 @@
     <![CDATA[<h2 id="业界新闻">业界新闻</h2><h4 id="1）React_Native_for_Android_发布">1）<a href="https://facebook.github.io/react-native/" target="_blank" rel="exte]]>
     </summary>
     
-      <category term="weekly" scheme="http://PaicHyperionDev.github.io/categories/weekly/"/>
+      <category term="weekly" scheme="http://PaicHyperion.gitcafe.io/categories/weekly/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[平安科技移动开发二队技术周报 第十九期]]></title>
-    <link href="http://PaicHyperionDev.github.io/2015/09/09/019/"/>
-    <id>http://PaicHyperionDev.github.io/2015/09/09/019/</id>
+    <link href="http://PaicHyperion.gitcafe.io/2015/09/09/019/"/>
+    <id>http://PaicHyperion.gitcafe.io/2015/09/09/019/</id>
     <published>2015-09-09T00:00:00.000Z</published>
     <updated>2015-09-22T07:43:18.000Z</updated>
     <content type="html"><![CDATA[<h2 id="业界新闻">业界新闻</h2><h4 id="1）重磅!_Google_将于今年秋季重返中国市场,_预计_9_月末宣布">1）<a href="http://cn.technode.com/post/2015-09-05/google-china-return-play-app-store/" target="_blank" rel="external">重磅! Google 将于今年秋季重返中国市场, 预计 9 月末宣布</a></h4><p>据 The Information 消息 ，Google 最快将于今年秋季推出专为中国大陆定制的「妥协版 Google Play 商店」，当前正等待中国政府部门的审核。熟悉该计划的人士指出，Google 为建设和运营这个本土化应用商店做了全方位的规划，包括与一些中国公司建立合作伙伴关系来共推此事。</p>
@@ -367,14 +367,14 @@
     <![CDATA[<h2 id="业界新闻">业界新闻</h2><h4 id="1）重磅!_Google_将于今年秋季重返中国市场,_预计_9_月末宣布">1）<a href="http://cn.technode.com/post/2015-09-05/google-china-return-p]]>
     </summary>
     
-      <category term="weekly" scheme="http://PaicHyperionDev.github.io/categories/weekly/"/>
+      <category term="weekly" scheme="http://PaicHyperion.gitcafe.io/categories/weekly/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[平安科技移动开发二队技术周报 第十八期]]></title>
-    <link href="http://PaicHyperionDev.github.io/2015/09/02/018/"/>
-    <id>http://PaicHyperionDev.github.io/2015/09/02/018/</id>
+    <link href="http://PaicHyperion.gitcafe.io/2015/09/02/018/"/>
+    <id>http://PaicHyperion.gitcafe.io/2015/09/02/018/</id>
     <published>2015-09-02T00:00:00.000Z</published>
     <updated>2015-11-21T08:32:52.000Z</updated>
     <content type="html"><![CDATA[<h2 id="业界新闻">业界新闻</h2><h4 id="1）读完这个，你就清楚_Google_logo_的变迁史了">1）<a href="http://www.ifanr.com/557647" target="_blank" rel="external">读完这个，你就清楚 Google logo 的变迁史了</a></h4><p>冷不丁地，Google 的 Logo 今天又换新款了。</p>
@@ -404,14 +404,14 @@
     <![CDATA[<h2 id="业界新闻">业界新闻</h2><h4 id="1）读完这个，你就清楚_Google_logo_的变迁史了">1）<a href="http://www.ifanr.com/557647" target="_blank" rel="external">读完这个，你就]]>
     </summary>
     
-      <category term="weekly" scheme="http://PaicHyperionDev.github.io/categories/weekly/"/>
+      <category term="weekly" scheme="http://PaicHyperion.gitcafe.io/categories/weekly/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[平安科技移动开发二队技术周报 第十七期]]></title>
-    <link href="http://PaicHyperionDev.github.io/2015/08/27/017/"/>
-    <id>http://PaicHyperionDev.github.io/2015/08/27/017/</id>
+    <link href="http://PaicHyperion.gitcafe.io/2015/08/27/017/"/>
+    <id>http://PaicHyperion.gitcafe.io/2015/08/27/017/</id>
     <published>2015-08-27T00:00:00.000Z</published>
     <updated>2015-11-21T08:32:47.000Z</updated>
     <content type="html"><![CDATA[<h2 id="业界新闻">业界新闻</h2><h4 id="1）锤子科技2015夏季新品发布会">1）<a href="http://tech.sina.com.cn/mobile/chuizi2015jianguo/index.shtml" target="_blank" rel="external">锤子科技2015夏季新品发布会</a></h4><p>锤子科技于8月25日晚19:30在上海举办2015夏季手机新品发布会，发布了一款面向年轻人售价899元起的坚果手机，“漂亮的不像实力派”。</p>
@@ -438,14 +438,14 @@
     <![CDATA[<h2 id="业界新闻">业界新闻</h2><h4 id="1）锤子科技2015夏季新品发布会">1）<a href="http://tech.sina.com.cn/mobile/chuizi2015jianguo/index.shtml" target="_blank" r]]>
     </summary>
     
-      <category term="weekly" scheme="http://PaicHyperionDev.github.io/categories/weekly/"/>
+      <category term="weekly" scheme="http://PaicHyperion.gitcafe.io/categories/weekly/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[平安科技移动开发二队技术周报 第十六期]]></title>
-    <link href="http://PaicHyperionDev.github.io/2015/08/19/016/"/>
-    <id>http://PaicHyperionDev.github.io/2015/08/19/016/</id>
+    <link href="http://PaicHyperion.gitcafe.io/2015/08/19/016/"/>
+    <id>http://PaicHyperion.gitcafe.io/2015/08/19/016/</id>
     <published>2015-08-19T00:00:00.000Z</published>
     <updated>2015-08-19T05:59:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="业界新闻">业界新闻</h2><h4 id="1）iOS应用开发登陆Windows平台惹争议">1）<a href="http://www.infoq.com/cn/news/2015/08/ios-apps-windows" target="_blank" rel="external">iOS应用开发登陆Windows平台惹争议</a></h4><p>现在，开发者可以在Windows 10上用Visual Studio 2015来开发iOS应用了。这项技术之前曾在微软内部的Islandwood项目中被提及过，现在官方公布了正式名称：Windows Bridge for iOS。这个项目基于MIT开源许可证书，通过GitHub开源代码。</p>
@@ -500,14 +500,14 @@
     <![CDATA[<h2 id="业界新闻">业界新闻</h2><h4 id="1）iOS应用开发登陆Windows平台惹争议">1）<a href="http://www.infoq.com/cn/news/2015/08/ios-apps-windows" target="_blank" re]]>
     </summary>
     
-      <category term="weekly" scheme="http://PaicHyperionDev.github.io/categories/weekly/"/>
+      <category term="weekly" scheme="http://PaicHyperion.gitcafe.io/categories/weekly/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[平安科技移动开发二队技术周报 第十五期]]></title>
-    <link href="http://PaicHyperionDev.github.io/2015/08/12/015/"/>
-    <id>http://PaicHyperionDev.github.io/2015/08/12/015/</id>
+    <link href="http://PaicHyperion.gitcafe.io/2015/08/12/015/"/>
+    <id>http://PaicHyperion.gitcafe.io/2015/08/12/015/</id>
     <published>2015-08-12T00:00:00.000Z</published>
     <updated>2015-08-18T05:01:30.000Z</updated>
     <content type="html"><![CDATA[<h2 id="业界新闻">业界新闻</h2><h3 id="1）谷歌重组更名Alphabet">1）<a href="http://tech.sina.com.cn/z/google_restructuring/" target="_blank" rel="external">谷歌重组更名Alphabet</a></h3><p>谷歌8月11日宣布重组。拉里-佩奇将与谢尔盖-布林创办新的控股公司Alphabet，两人分别出任CEO与总裁职位。Alphabet将取代谷歌在纳斯达克上市，谷歌目前所有股份将自动转换为同等数量与权益的Alphabet股份。原先的谷歌将成为Alphabet的全资子公司。</p>
@@ -534,14 +534,14 @@
     <![CDATA[<h2 id="业界新闻">业界新闻</h2><h3 id="1）谷歌重组更名Alphabet">1）<a href="http://tech.sina.com.cn/z/google_restructuring/" target="_blank" rel="external">]]>
     </summary>
     
-      <category term="weekly" scheme="http://PaicHyperionDev.github.io/categories/weekly/"/>
+      <category term="weekly" scheme="http://PaicHyperion.gitcafe.io/categories/weekly/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[平安科技移动开发二队技术周报 第十四期]]></title>
-    <link href="http://PaicHyperionDev.github.io/2015/08/05/014/"/>
-    <id>http://PaicHyperionDev.github.io/2015/08/05/014/</id>
+    <link href="http://PaicHyperion.gitcafe.io/2015/08/05/014/"/>
+    <id>http://PaicHyperion.gitcafe.io/2015/08/05/014/</id>
     <published>2015-08-05T00:00:00.000Z</published>
     <updated>2015-08-18T05:02:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="业界新闻">业界新闻</h2><h3 id="1）Android_Studio_1-3_正式发布">1）<a href="http://chinagdg.org/2015/08/android-studio-1-3-%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83/" target="_blank" rel="external">Android Studio 1.3 正式发布</a></h3><p>Android Studio 1.3 正式进入稳定版，求稳的同学该升级了。作为今年改进最大的一个版本，Studio 1.3 包括新的 memory profiler ，改进的测试支持，并且包含了完整的 C++ 编辑和调试功能。</p>
@@ -586,14 +586,14 @@
     <![CDATA[<h2 id="业界新闻">业界新闻</h2><h3 id="1）Android_Studio_1-3_正式发布">1）<a href="http://chinagdg.org/2015/08/android-studio-1-3-%E6%AD%A3%E5%BC%8F%E5%8F]]>
     </summary>
     
-      <category term="weekly" scheme="http://PaicHyperionDev.github.io/categories/weekly/"/>
+      <category term="weekly" scheme="http://PaicHyperion.gitcafe.io/categories/weekly/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[平安科技移动开发二队技术周报 第十三期]]></title>
-    <link href="http://PaicHyperionDev.github.io/2015/07/29/013/"/>
-    <id>http://PaicHyperionDev.github.io/2015/07/29/013/</id>
+    <link href="http://PaicHyperion.gitcafe.io/2015/07/29/013/"/>
+    <id>http://PaicHyperion.gitcafe.io/2015/07/29/013/</id>
     <published>2015-07-29T00:00:00.000Z</published>
     <updated>2015-08-18T05:00:23.000Z</updated>
     <content type="html"><![CDATA[<h2 id="业界新闻">业界新闻</h2><h3 id="1）Android曝严重安全漏洞_95%设备受影响">1）<a href="http://tech.sina.com.cn/it/2015-07-27/doc-ifxfhxmr6490678.shtml" target="_blank" rel="external">Android曝严重安全漏洞 95%设备受影响</a></h3><p>网络安全公司Zimperium研究人员日前表示，他们在Android设备中发现了一处安全漏洞，允许黑客在用户全然不知的情况下远程访问Android设备。</p>
@@ -623,14 +623,14 @@
     <![CDATA[<h2 id="业界新闻">业界新闻</h2><h3 id="1）Android曝严重安全漏洞_95%设备受影响">1）<a href="http://tech.sina.com.cn/it/2015-07-27/doc-ifxfhxmr6490678.shtml" target]]>
     </summary>
     
-      <category term="weekly" scheme="http://PaicHyperionDev.github.io/categories/weekly/"/>
+      <category term="weekly" scheme="http://PaicHyperion.gitcafe.io/categories/weekly/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[平安科技移动开发二队技术周报 第十二期]]></title>
-    <link href="http://PaicHyperionDev.github.io/2015/07/22/012/"/>
-    <id>http://PaicHyperionDev.github.io/2015/07/22/012/</id>
+    <link href="http://PaicHyperion.gitcafe.io/2015/07/22/012/"/>
+    <id>http://PaicHyperion.gitcafe.io/2015/07/22/012/</id>
     <published>2015-07-22T00:00:00.000Z</published>
     <updated>2015-07-23T08:13:42.000Z</updated>
     <content type="html"><![CDATA[<h2 id="业界新闻">业界新闻</h2><h3 id="1）无人机将带领程序员进入一个新开发者时代">1）<a href="http://www.csdn.net/article/2015-07-20/2825251" target="_blank" rel="external">无人机将带领程序员进入一个新开发者时代</a></h3><p>将无人机和不同行业结合起来想象空间非常巨大。这种行业创新，只要能开发出不一样的产品体验，那么便有成功的可能。随着更多智能技术的加入，这种成功在消费领域更有前景。无人机的普及和爆发，翘首以待开发者引爆。</p>
@@ -673,14 +673,14 @@
     <![CDATA[<h2 id="业界新闻">业界新闻</h2><h3 id="1）无人机将带领程序员进入一个新开发者时代">1）<a href="http://www.csdn.net/article/2015-07-20/2825251" target="_blank" rel="extern]]>
     </summary>
     
-      <category term="weekly" scheme="http://PaicHyperionDev.github.io/categories/weekly/"/>
+      <category term="weekly" scheme="http://PaicHyperion.gitcafe.io/categories/weekly/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[平安科技移动开发二队技术周报 第十一期]]></title>
-    <link href="http://PaicHyperionDev.github.io/2015/07/15/011/"/>
-    <id>http://PaicHyperionDev.github.io/2015/07/15/011/</id>
+    <link href="http://PaicHyperion.gitcafe.io/2015/07/15/011/"/>
+    <id>http://PaicHyperion.gitcafe.io/2015/07/15/011/</id>
     <published>2015-07-15T00:00:00.000Z</published>
     <updated>2015-07-23T08:13:30.000Z</updated>
     <content type="html"><![CDATA[<h2 id="业界新闻">业界新闻</h2><h3 id="1）黑莓谷歌合作研发“企业版”安卓">1）<a href="http://tech.qq.com/a/20150711/006567.htm" target="_blank" rel="external">黑莓谷歌合作研发“企业版”安卓</a></h3><p>黑莓公司拥抱安卓生态的速度之快，令人吃惊。黑莓年内推出安卓手机基本是板上钉钉，而日前，黑莓公开宣布，已经和谷歌建立了伙伴关系，将为企业用户定制出更加安全的安卓版本。</p>
@@ -704,14 +704,14 @@
     <![CDATA[<h2 id="业界新闻">业界新闻</h2><h3 id="1）黑莓谷歌合作研发“企业版”安卓">1）<a href="http://tech.qq.com/a/20150711/006567.htm" target="_blank" rel="external">黑莓谷歌合作]]>
     </summary>
     
-      <category term="weekly" scheme="http://PaicHyperionDev.github.io/categories/weekly/"/>
+      <category term="weekly" scheme="http://PaicHyperion.gitcafe.io/categories/weekly/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[平安科技移动开发二队技术周报 第十期]]></title>
-    <link href="http://PaicHyperionDev.github.io/2015/07/09/010/"/>
-    <id>http://PaicHyperionDev.github.io/2015/07/09/010/</id>
+    <link href="http://PaicHyperion.gitcafe.io/2015/07/09/010/"/>
+    <id>http://PaicHyperion.gitcafe.io/2015/07/09/010/</id>
     <published>2015-07-09T00:00:00.000Z</published>
     <updated>2015-07-23T08:13:14.000Z</updated>
     <content type="html"><![CDATA[<h2 id="业界新闻">业界新闻</h2><h3 id="1）Java版权案谷歌上诉被驳回_甲骨文笑到最后">1）<a href="http://tech.qq.com/a/20150630/005928.htm" target="_blank" rel="external">Java版权案谷歌上诉被驳回 甲骨文笑到最后</a></h3><p>美国最高法院周一驳回了谷歌(微博)在一宗软件版权诉案中提出的上诉申请，维持原先的判决，即允许甲骨文向使用其Java编程语言的公司收取专利版税。</p>
@@ -736,14 +736,14 @@
     <![CDATA[<h2 id="业界新闻">业界新闻</h2><h3 id="1）Java版权案谷歌上诉被驳回_甲骨文笑到最后">1）<a href="http://tech.qq.com/a/20150630/005928.htm" target="_blank" rel="external"]]>
     </summary>
     
-      <category term="weekly" scheme="http://PaicHyperionDev.github.io/categories/weekly/"/>
+      <category term="weekly" scheme="http://PaicHyperion.gitcafe.io/categories/weekly/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[平安科技移动开发二队技术周报 第九期]]></title>
-    <link href="http://PaicHyperionDev.github.io/2015/07/01/009/"/>
-    <id>http://PaicHyperionDev.github.io/2015/07/01/009/</id>
+    <link href="http://PaicHyperion.gitcafe.io/2015/07/01/009/"/>
+    <id>http://PaicHyperion.gitcafe.io/2015/07/01/009/</id>
     <published>2015-07-01T00:00:00.000Z</published>
     <updated>2015-08-10T06:39:29.000Z</updated>
     <content type="html"><![CDATA[<h2 id="业界新闻">业界新闻</h2><h3 id="1）谷歌宣布Android_Studio将取代Eclipse编译环境_中止对后者支持">1）<a href="http://www.cnbeta.com/articles/406205.htm" target="_blank" rel="external">谷歌宣布Android Studio将取代Eclipse编译环境 中止对后者支持</a></h3><p>Google安卓产品经理Jamal Eason在声明中写道“谷歌将会全力专注于Android Studio编译工具的开发和技术支持，中止为Eclipse提供官方支持。包括中止对Eclipse ADT插件以及Android Ant编译系统的支持。”</p>
@@ -780,14 +780,14 @@
     <![CDATA[<h2 id="业界新闻">业界新闻</h2><h3 id="1）谷歌宣布Android_Studio将取代Eclipse编译环境_中止对后者支持">1）<a href="http://www.cnbeta.com/articles/406205.htm" target="_bl]]>
     </summary>
     
-      <category term="weekly" scheme="http://PaicHyperionDev.github.io/categories/weekly/"/>
+      <category term="weekly" scheme="http://PaicHyperion.gitcafe.io/categories/weekly/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[平安科技移动开发二队技术周报 第八期]]></title>
-    <link href="http://PaicHyperionDev.github.io/2015/06/25/008/"/>
-    <id>http://PaicHyperionDev.github.io/2015/06/25/008/</id>
+    <link href="http://PaicHyperion.gitcafe.io/2015/06/25/008/"/>
+    <id>http://PaicHyperion.gitcafe.io/2015/06/25/008/</id>
     <published>2015-06-25T00:00:00.000Z</published>
     <updated>2015-07-23T07:27:11.000Z</updated>
     <content type="html"><![CDATA[<h2 id="业界新闻">业界新闻</h2><h3 id="1）如何评价美团外卖商家版强杀竞争对手的商家版_App_进程？">1）<a href="http://www.zhihu.com/question/31413252" target="_blank" rel="external">如何评价美团外卖商家版强杀竞争对手的商家版 App 进程？</a></h3><p>一段代码引发的关于不正当竞争的讨论。</p>
@@ -819,7 +819,7 @@
     <![CDATA[<h2 id="业界新闻">业界新闻</h2><h3 id="1）如何评价美团外卖商家版强杀竞争对手的商家版_App_进程？">1）<a href="http://www.zhihu.com/question/31413252" target="_blank" rel="exte]]>
     </summary>
     
-      <category term="weekly" scheme="http://PaicHyperionDev.github.io/categories/weekly/"/>
+      <category term="weekly" scheme="http://PaicHyperion.gitcafe.io/categories/weekly/"/>
     
   </entry>
   
