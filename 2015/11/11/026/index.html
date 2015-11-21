@@ -1,0 +1,643 @@
+<!doctype html>
+<html class="theme-next use-motion ">
+<head>
+  
+
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+
+
+
+  <link rel="stylesheet" type="text/css" href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5"/>
+
+
+<link rel="stylesheet" type="text/css" href="/css/main.css?v=0.4.3"/>
+
+
+
+
+  <meta name="keywords" content="To be the best!" />
+
+
+
+  <link rel="alternate" href="/atom.xml" title="PaicHyperionDev" type="application/atom+xml" />
+
+
+
+  <link rel="shorticon icon" type="image/x-icon" href="/favicon.ico?v=0.4.3" />
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var CONFIG = {
+    scheme: '',
+    analytics: {
+      google: ''
+    },
+    sidebar: 'post'
+  };
+</script>
+
+
+
+
+  <title> 平安科技移动开发二队技术周报 第二十六期 // PaicHyperionDev </title>
+</head>
+
+<body>
+  <!--[if lte IE 8]>
+  <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;margin:0 auto;'>
+    <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+      <img src="http://7u2nvr.com1.z0.glb.clouddn.com/picouterie.jpg" border="0" height="42" width="820"
+           alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today or use other browser ,like chrome firefox safari."
+           style='margin-left:auto;margin-right:auto;display: block;'/>
+    </a>
+  </div>
+<![endif]-->
+
+  <div class="container one-column page-post-detail">
+    <div class="headband"></div>
+
+    <div id="header" class="header">
+      <div class="header-inner">
+        <h1 class="site-meta">
+  <span class="logo-line-before"><i></i></span>
+  <a href="/" class="brand">
+      <span class="logo">
+        <i class="icon-logo"></i>
+      </span>
+      <span class="site-title">PaicHyperionDev</span>
+  </a>
+  <span class="logo-line-after"><i></i></span>
+</h1>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<div class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu menu-left">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/">
+            <i class="menu-item-icon icon-home"></i> <br />
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives">
+            <i class="menu-item-icon icon-archives"></i> <br />
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories">
+            <i class="menu-item-icon icon-categories"></i> <br />
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags">
+            <i class="menu-item-icon icon-tags"></i> <br />
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about">
+            <i class="menu-item-icon icon-about"></i> <br />
+            关于
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  
+<form class="site-search-form">
+  <input type="text" id="st-search-input" class="st-search-input st-default-search-input" />
+</form>
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+  _st('install', 'Lscxh2nMTT2Rw9zqdfBT','2.0.0');
+</script>
+
+<div class="site-search-toggle"></div>
+    </div>
+  
+</div>
+
+
+      </div>
+    </div>
+
+    <div id="main" class="main">
+      <div class="main-inner">
+        <div id="content" class="content">
+          
+
+  <div id="posts" class="posts-expand">
+    
+
+  <div class="post post-type-normal ">
+    <div class="post-header">
+
+      
+      
+        <h1 class="post-title">
+          
+          
+            
+              平安科技移动开发二队技术周报 第二十六期
+            
+          
+        </h1>
+      
+
+      <div class="post-meta">
+        <span class="post-time">
+          发表于 2015-11-11
+        </span>
+
+        
+          <span class="post-category">
+            &nbsp; | &nbsp; 分类于
+            
+              <a href="/categories/weekly/">weekly</a>
+
+              
+              
+
+            
+          </span>
+        
+
+        
+          
+            <span class="post-comments-count">
+            &nbsp; | &nbsp;
+            <a href="/2015/11/11/026/#comments" >
+              <span class="post-comments-count ds-thread-count" data-thread-key="2015/11/11/026/"></span>
+            </a>
+          </span>
+          
+        
+      </div>
+    </div>
+
+    <div class="post-body">
+
+      
+      
+
+      
+        <h2 id="业界新闻">业界新闻</h2><h4 id="1）如何评价蜻蜓_FM_伪造用户活跃度等数据？">1）<a href="http://www.zhihu.com/question/37248269" target="_blank" rel="external">如何评价蜻蜓 FM 伪造用户活跃度等数据？</a></h4><p>神一般的产品经理和程序员～</p>
+<h4 id="2）如何评价Tensorflow和其它深度学习系统">2）<a href="http://weibo.com/p/1001603907610737775666" target="_blank" rel="external">如何评价Tensorflow和其它深度学习系统</a></h4><p>最近Google开源了新一代深度学习引擎TensorFlow。本文解释了一些TF里面我觉得可以从系统方面值得看的地方。</p>
+<h2 id="Android开发">Android开发</h2><h4 id="1）Android应用开发编译框架流程与IDE及Gradle概要">1）<a href="http://blog.csdn.net/yanbober/article/details/49408489" target="_blank" rel="external">Android应用开发编译框架流程与IDE及Gradle概要</a></h4><p>在我们开发App时大多数时候的编译流程都是直接通过IDE的按钮或者命令行一步到位apk的生成，直观上的感觉好像源码到Apk的生成只有一步，实质不是这样的。从我们点击按钮那一刻到生成apk的过程实际是非常复杂的，涉及到很多步骤</p>
+<h4 id="2）用MVP架构开发Android应用">2）<a href="http://www.kymjs.com/code/2015/11/09/01/" target="_blank" rel="external">用MVP架构开发Android应用</a></h4><p>在Android开发中，Activity并不是一个标准的MVC模式中的Controller，它的首要职责是加载应用的布局和初始化用户界面，并接受并处理来自用户的操作请求，进而作出响应。但是，随着界面及其逻辑的复杂度不断提升，Activity类的职责不断增加，以致很容易变得庞大而臃肿。使用MVP模式能够更方便的帮助Activity(或Fragment)职责分离，减小类体积，使项目结构更加清晰。</p>
+<h4 id="3）MVVM_Android-CleanArchitecture">3）<a href="http://rocko.xyz/2015/11/07/MVVM_Android-CleanArchitecture/" target="_blank" rel="external">MVVM_Android-CleanArchitecture</a></h4><p>MVVM 也仅仅是架构模式（Architectural pattern），其有一套自己的理论概念（pattern）而不是规定的具体实现（或 Frameworks）。早之前在知乎上相关问题的回答（android UI设计MVVM设计模式讨论？）中也简单提到过 MVVM 了，M-V-X 的关系如上图，那么这一次博主把 Fernando Cejas(android10) 的 Android-CleanArchitecture 项目中的 MVP 实现重构成了用 MVVM 来实现。</p>
+<h4 id="4）Android打包的那些事">4）<a href="http://www.jayfeng.com/2015/11/07/Android%E6%89%93%E5%8C%85%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%8B/" target="_blank" rel="external">Android打包的那些事</a></h4><p>使用gradle打包apk已经成为当前主流趋势，我也在这个过程中经历了各种需求，并不断结合gradle新的支持，一一改进。在此，把这些相关的东西记录，做一总结。</p>
+<h4 id="5）Android_开发中，有哪些坑需要注意？">5）<a href="http://www.zhihu.com/question/27818921/answer/70279930" target="_blank" rel="external">Android 开发中，有哪些坑需要注意？</a></h4><p>一线开发者经典总结。</p>
+<h2 id="iOS开发">iOS开发</h2><h4 id="1）微信iOS_9适配总结">1）<a href="http://www.infoq.com/cn/articles/wechat-ios9-adaptation" target="_blank" rel="external">微信iOS 9适配总结</a></h4><p>每年iOS升级，都会带来一些坑，这次iOS9也不例外。本文总结了微信在适配iOS9上遇到的问题和解决方案。</p>
+<h4 id="2）超实用的IOS_9人机界面指南（1）：UI设计基础">2）<a href="http://www.uisdc.com/ios9-interface-guideline-ui" target="_blank" rel="external">超实用的IOS 9人机界面指南（1）：UI设计基础</a></h4><p>让人激动到手发抖的苹果官方人机指南中文版来了！腾讯ISUX整个团队的心血译作，整篇近2万字，10月21号刚发布，今天就出稿了，而且质量奇高，用词精确，语句晓畅。看再多零散的设计技巧，都不如直接看官方设计指南有效。作为UI设计师的必读教科书，这篇千万要收藏！</p>
+<h4 id="3）关于_@synchronized，这儿比你想知道的还要多">3）<a href="http://yulingtianxia.com/blog/2015/11/01/More-than-you-want-to-know-about-synchronized/" target="_blank" rel="external">关于 @synchronized，这儿比你想知道的还要多</a></h4><p>如果你已经使用 Objective-C 编写过任何并发程序，那么想必是见过 @synchronized 这货了。@synchronized 结构所做的事情跟锁（lock）类似：它防止不同的线程同时执行同一段代码。但在某些情况下，相比于使用 NSLock 创建锁对象、加锁和解锁来说，@synchronized 用着更方便，可读性更高。</p>
+<h4 id="4）What_we_learned_from_rewriting_our_robotic_control_software_in_Swift">4）<a href="http://www.sunsetlakesoftware.com/2015/11/03/what-we-learned-rewriting-our-robotic-control-software-swift" target="_blank" rel="external">What we learned from rewriting our robotic control software in Swift</a></h4><p>At the beginning of this year we started a complete rewrite of our robotics software from Objective-C to Swift, for reasons described here. That rewrite was concluded two months ago, passed testing a month ago, and has been deployed to all of our customers. As a result, I wanted to do a final analysis of the rewrite and what we learned from it.</p>
+<h4 id="5）The_Swift_Reflection_API_and_what_you_can_do_with_it">5）<a href="http://appventure.me/2015/10/24/swift-reflection-api-what-you-can-do/" target="_blank" rel="external">The Swift Reflection API and what you can do with it</a></h4><p>Even though Swift stresses strong types, compile time safety, static dispatch it still offers a Reflection mechanism as part of the standard library. </p>
+<h2 id="技术纵横">技术纵横</h2><h4 id="1）架构设计最佳实践与必备素养">1）<a href="http://special.csdncms.csdn.net/architecture/" target="_blank" rel="external">架构设计最佳实践与必备素养</a></h4><p>架构或架构师的话题一直在被人们所谈论，对于什么是架构？如何设计前后端分离的架构？如何设计高可用的架构？如何设计可伸缩的架构？什么又是架构师？架构师需要哪些品质？程序员应该如何修炼为架构师？</p>
+<h4 id="2）使用Fetch_API和ES6生成器构建异步API">2）<a href="http://www.csdn.net/article/2015-10-28/2826063-asynchronous-apis-using-fetch-api-es6-generators" target="_blank" rel="external">使用Fetch API和ES6生成器构建异步API</a></h4><p>ECMAScript 6为JavaScript带来了大量的新特性，其中包括新增的Fetch API，它致力于取代作为当前远程资源通信基础的XMLHttpRequest。本文介绍了如何结合Fetch API和生成器来构建异步API。</p>
+<h4 id="3）浅谈Hybrid技术的设计与实现">3）<a href="http://www.cnblogs.com/yexiaochai/p/4921635.html" target="_blank" rel="external">浅谈Hybrid技术的设计与实现</a></h4><p>随着移动浪潮的兴起，各种APP层出不穷，极速的业务扩展提升了团队对开发效率的要求，这个时候使用IOS&amp;Andriod开发一个APP似乎成本有点过高了，而H5的低成本、高效率、跨平台等特性马上被利用起来形成了一种新的开发模式：Hybrid APP。作为一种混合开发的模式，Hybrid APP底层依赖于Native提供的容器（UIWebview），上层使用Html&amp;Css&amp;JS做业务开发，底层透明化、上层多多样化，这种场景非常有利于前端介入，非常适合业务快速迭代，于是Hybrid火啦。</p>
+<h4 id="4）给_JavaScript_初心者的_ES2015_实战">4）<a href="http://gank.io/post/564151c1f1df1210001c9161" target="_blank" rel="external">给 JavaScript 初心者的 ES2015 实战</a></h4><p>历时将近6年的时间来制定的新 ECMAScript 标准 ECMAScript 6（亦称 ECMAScript Harmony，简称 ES6）终于在 2015 年 6 月正式发布。自从上一个标准版本 ES5 在 2009 年发布以后，ES6 就一直以新语法、新特性的优越性吸引著众多 JavaScript 开发者，驱使他们积极尝鲜。</p>
+<h4 id="5）Java应用一般架构">5）<a href="http://bbear.me/ge-chong-jia-gou/" target="_blank" rel="external">Java应用一般架构</a></h4><p>当我们架设一个系统的时候通常需要考虑到如何与其他系统交互，所以我们首先需要知道各种系统之间是如何交互的，使用何种技术实现。</p>
+<h2 id="开源函数库与工具">开源函数库与工具</h2><h4 id="1）DoubanMovie-React-Native">1）<a href="https://github.com/fengjundev/DoubanMovie-React-Native" target="_blank" rel="external">DoubanMovie-React-Native</a></h4><p>React Native实现的豆瓣电影客户端。</p>
+
+      
+    </div>
+
+    <div class="post-footer">
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2015/11/27/027/">平安科技移动开发二队技术周报 第二十七期</a>
+            
+          </div>
+
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2015/10/28/025/">平安科技移动开发二队技术周报（特别版のReact Native专题）</a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </div>
+  </div>
+
+
+
+    
+
+    
+      <div class="comments" id="comments">
+        
+          <div class="ds-thread" data-thread-key="2015/11/11/026/"
+               data-title="平安科技移动开发二队技术周报 第二十六期" data-url="http://PaicHyperionDev.github.io/2015/11/11/026/">
+          </div>
+        
+      </div>
+    
+  </div>
+
+
+        </div>
+
+        
+      </div>
+
+
+      
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <div class="site-overview">
+        <div class="site-author motion-element">
+          <img class="site-author-image" src="/images/default_avatar.jpg" alt="PaicHyperion" />
+          <p class="site-author-name">PaicHyperion</p>
+        </div>
+        <p class="site-description motion-element"></p>
+        <div class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">27</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          <div class="site-state-item site-state-categories">
+            <a href="/categories">
+              <span class="site-state-item-count">2</span>
+              <span class="site-state-item-name">分类</span>
+              </a>
+          </div>
+
+          <div class="site-state-item site-state-tags">
+            <a href="/tags">
+              <span class="site-state-item-count">3</span>
+              <span class="site-state-item-name">标签</span>
+              </a>
+          </div>
+
+        </div>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml">
+              <i class="menu-item-icon icon-feed"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+              <a href="https://github.com/PaicHyperionDev" target="_blank">github</a>
+            </span>
+            
+          
+        </div>
+
+        
+        
+          <div class="cc-license motion-element">
+            <a href="http://creativecommons.org/licenses/by-nc-sa/4.0" class="cc-opacity" target="_blank">
+              <img src="/images/cc-by-nc-sa.svg" alt="Creative Commons" />
+            </a>
+          </div>
+        
+
+      </div>
+
+      
+        <div class="post-toc-wrap sidebar-panel-active">
+          <div class="post-toc-indicator-top post-toc-indicator"></div>
+          <div class="post-toc">
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#业界新闻"><span class="nav-number">1.</span> <span class="nav-text">业界新闻</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1）如何评价蜻蜓_FM_伪造用户活跃度等数据？"><span class="nav-number">1.0.1.</span> <span class="nav-text">1）如何评价蜻蜓 FM 伪造用户活跃度等数据？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2）如何评价Tensorflow和其它深度学习系统"><span class="nav-number">1.0.2.</span> <span class="nav-text">2）如何评价Tensorflow和其它深度学习系统</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Android开发"><span class="nav-number">2.</span> <span class="nav-text">Android开发</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1）Android应用开发编译框架流程与IDE及Gradle概要"><span class="nav-number">2.0.1.</span> <span class="nav-text">1）Android应用开发编译框架流程与IDE及Gradle概要</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2）用MVP架构开发Android应用"><span class="nav-number">2.0.2.</span> <span class="nav-text">2）用MVP架构开发Android应用</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3）MVVM_Android-CleanArchitecture"><span class="nav-number">2.0.3.</span> <span class="nav-text">3）MVVM_Android-CleanArchitecture</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4）Android打包的那些事"><span class="nav-number">2.0.4.</span> <span class="nav-text">4）Android打包的那些事</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5）Android_开发中，有哪些坑需要注意？"><span class="nav-number">2.0.5.</span> <span class="nav-text">5）Android 开发中，有哪些坑需要注意？</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#iOS开发"><span class="nav-number">3.</span> <span class="nav-text">iOS开发</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1）微信iOS_9适配总结"><span class="nav-number">3.0.1.</span> <span class="nav-text">1）微信iOS 9适配总结</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2）超实用的IOS_9人机界面指南（1）：UI设计基础"><span class="nav-number">3.0.2.</span> <span class="nav-text">2）超实用的IOS 9人机界面指南（1）：UI设计基础</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3）关于_@synchronized，这儿比你想知道的还要多"><span class="nav-number">3.0.3.</span> <span class="nav-text">3）关于 @synchronized，这儿比你想知道的还要多</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4）What_we_learned_from_rewriting_our_robotic_control_software_in_Swift"><span class="nav-number">3.0.4.</span> <span class="nav-text">4）What we learned from rewriting our robotic control software in Swift</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5）The_Swift_Reflection_API_and_what_you_can_do_with_it"><span class="nav-number">3.0.5.</span> <span class="nav-text">5）The Swift Reflection API and what you can do with it</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#技术纵横"><span class="nav-number">4.</span> <span class="nav-text">技术纵横</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1）架构设计最佳实践与必备素养"><span class="nav-number">4.0.1.</span> <span class="nav-text">1）架构设计最佳实践与必备素养</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2）使用Fetch_API和ES6生成器构建异步API"><span class="nav-number">4.0.2.</span> <span class="nav-text">2）使用Fetch API和ES6生成器构建异步API</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3）浅谈Hybrid技术的设计与实现"><span class="nav-number">4.0.3.</span> <span class="nav-text">3）浅谈Hybrid技术的设计与实现</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4）给_JavaScript_初心者的_ES2015_实战"><span class="nav-number">4.0.4.</span> <span class="nav-text">4）给 JavaScript 初心者的 ES2015 实战</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5）Java应用一般架构"><span class="nav-number">4.0.5.</span> <span class="nav-text">5）Java应用一般架构</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#开源函数库与工具"><span class="nav-number">5.</span> <span class="nav-text">开源函数库与工具</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1）DoubanMovie-React-Native"><span class="nav-number">5.0.1.</span> <span class="nav-text">1）DoubanMovie-React-Native</span></a></li></ol></li></ol></li></ol></div>
+            
+          </div>
+          <div class="post-toc-indicator-bottom post-toc-indicator"></div>
+        </div>
+      
+
+    </div>
+  </div>
+
+
+    </div>
+
+    <div id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">
+  
+  &copy; &nbsp; 
+  2015
+  <span class="with-love">
+    <i class="icon-heart"></i>
+  </span>
+  <span class="author">PaicHyperion</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT
+  </a>
+</div>
+
+
+
+      </div>
+    </div>
+
+    <div class="back-to-top"></div>
+  </div>
+
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
+  <script type="text/javascript" src="/js/fancy-box.js?v=0.4.3"></script>
+
+
+  <script type="text/javascript" src="/js/helpers.js?v=0.4.3"></script>
+  
+
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js"></script>
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js"></script>
+
+  <script type="text/javascript" src="/js/motion_global.js?v=0.4.3" id="motion.global"></script>
+
+
+
+  <script type="text/javascript" src="/js/search-toggle.js"></script>
+
+  
+  
+<script type="text/javascript" src="/js/bootstrap.scrollspy.js?v=0.4.3" id="bootstrap.scrollspy.custom"></script>
+
+
+<script type="text/javascript" id="sidebar.toc.highlight">
+  $(document).ready(function () {
+    var tocSelector = '.post-toc';
+    var $tocSelector = $(tocSelector);
+    var activeCurrentSelector = '.active-current';
+
+    $tocSelector
+      .on('activate.bs.scrollspy', function () {
+        var $currentActiveElement = $(tocSelector + ' .active').last();
+
+        removeCurrentActiveClass();
+        $currentActiveElement.addClass('active-current');
+
+        $tocSelector[0].scrollTop = $currentActiveElement.position().top;
+      })
+      .on('clear.bs.scrollspy', function () {
+        removeCurrentActiveClass();
+      });
+
+    function removeCurrentActiveClass () {
+      $(tocSelector + ' ' + activeCurrentSelector)
+        .removeClass(activeCurrentSelector.substring(1));
+    }
+
+    function processTOC () {
+      getTOCMaxHeight();
+      toggleTOCOverflowIndicators();
+    }
+
+    function getTOCMaxHeight () {
+      var $sidebarInner = $('.sidebar-inner');
+      var height = $('.sidebar').height() -
+                   $tocSelector.position().top -
+                   $('.post-toc-indicator-bottom').height();
+
+      $tocSelector.css('height', height);
+
+      return height;
+    }
+
+    function toggleTOCOverflowIndicators () {
+      tocOverflowIndicator(
+        '.post-toc-indicator-top',
+        $tocSelector.scrollTop() > 0 ? 'show' : 'hide'
+      );
+
+      tocOverflowIndicator(
+        '.post-toc-indicator-bottom',
+        $tocSelector.scrollTop() >= $tocSelector.find('ol').height() - $tocSelector.height() ? 'hide' : 'show'
+      )
+    }
+
+    $(document).on('sidebar.didShow', function () {
+      processTOC();
+    });
+
+    $('body').scrollspy({ target: tocSelector });
+    $(window).on('resize', function () {
+      if ( $('.sidebar').hasClass('sidebar-active') ) {
+        processTOC();
+      }
+    });
+
+    onScroll($tocSelector);
+
+    function onScroll (element) {
+      element.on('mousewheel DOMMouseScroll', function (event) {
+          var oe = event.originalEvent;
+          var delta = oe.wheelDelta || -oe.detail;
+          var self = this;
+
+          this.scrollTop += ( delta < 0 ? 1 : -1 ) * 30;
+          event.preventDefault();
+
+          toggleTOCOverflowIndicators();
+      });
+    }
+
+    function tocOverflowIndicator (indicator, action) {
+      $(indicator).velocity('stop').velocity({
+        opacity: action === 'show' ? 0.4 : 0
+      }, { duration: 100 });
+    }
+
+  });
+</script>
+
+
+  <script type="text/javascript" id="sidebar.nav">
+    $(document).ready(function () {
+      var html = $('html');
+
+      $('.sidebar-nav li').on('click', function () {
+        var item = $(this);
+        var activeTabClassName = 'sidebar-nav-active';
+        var activePanelClassName = 'sidebar-panel-active';
+        if (item.hasClass(activeTabClassName)) {
+          return;
+        }
+
+        var currentTarget = $('.' + activePanelClassName);
+        var target = $('.' + item.data('target'));
+
+        currentTarget.velocity('transition.slideUpOut', 200, function () {
+          target
+            .velocity('stop')
+            .velocity('transition.slideDownIn', 200)
+            .addClass(activePanelClassName);
+        });
+
+        item.siblings().removeClass(activeTabClassName);
+        item.addClass(activeTabClassName);
+      });
+
+      $('.post-toc a').on('click', function (e) {
+        e.preventDefault();
+        var offset = $(escapeSelector(this.getAttribute('href'))).offset().top;
+        html.velocity('stop').velocity('scroll', {
+          offset: offset  + 'px',
+          mobileHA: false
+        });
+      });
+
+      // Expand sidebar on post detail page by default, when post has a toc.
+      var $tocContent = $('.post-toc-content');
+      if (isDesktop() && CONFIG.sidebar === 'post') {
+        if ($tocContent.length > 0 && $tocContent.html().trim().length > 0) {
+          displaySidebar();
+        }
+      }
+    });
+  </script>
+
+
+
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      if (CONFIG.sidebar === 'always') {
+        displaySidebar();
+      }
+    });
+  </script>
+
+  
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+      processEscapes: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for (i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+  
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"hyperion"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+
+  
+
+
+  
+  
+
+  
+</body>
+</html>

@@ -1,0 +1,654 @@
+<!doctype html>
+<html class="theme-next use-motion ">
+<head>
+  
+
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+
+
+
+  <link rel="stylesheet" type="text/css" href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5"/>
+
+
+<link rel="stylesheet" type="text/css" href="/css/main.css?v=0.4.3"/>
+
+
+
+
+  <meta name="keywords" content="To be the best!" />
+
+
+
+  <link rel="alternate" href="/atom.xml" title="PaicHyperionDev" type="application/atom+xml" />
+
+
+
+  <link rel="shorticon icon" type="image/x-icon" href="/favicon.ico?v=0.4.3" />
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var CONFIG = {
+    scheme: '',
+    analytics: {
+      google: ''
+    },
+    sidebar: 'post'
+  };
+</script>
+
+
+
+
+  <title> 平安科技移动开发二队技术周报 第二十七期 // PaicHyperionDev </title>
+</head>
+
+<body>
+  <!--[if lte IE 8]>
+  <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;margin:0 auto;'>
+    <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+      <img src="http://7u2nvr.com1.z0.glb.clouddn.com/picouterie.jpg" border="0" height="42" width="820"
+           alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today or use other browser ,like chrome firefox safari."
+           style='margin-left:auto;margin-right:auto;display: block;'/>
+    </a>
+  </div>
+<![endif]-->
+
+  <div class="container one-column page-post-detail">
+    <div class="headband"></div>
+
+    <div id="header" class="header">
+      <div class="header-inner">
+        <h1 class="site-meta">
+  <span class="logo-line-before"><i></i></span>
+  <a href="/" class="brand">
+      <span class="logo">
+        <i class="icon-logo"></i>
+      </span>
+      <span class="site-title">PaicHyperionDev</span>
+  </a>
+  <span class="logo-line-after"><i></i></span>
+</h1>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<div class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu menu-left">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/">
+            <i class="menu-item-icon icon-home"></i> <br />
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives">
+            <i class="menu-item-icon icon-archives"></i> <br />
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories">
+            <i class="menu-item-icon icon-categories"></i> <br />
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags">
+            <i class="menu-item-icon icon-tags"></i> <br />
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about">
+            <i class="menu-item-icon icon-about"></i> <br />
+            关于
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  
+<form class="site-search-form">
+  <input type="text" id="st-search-input" class="st-search-input st-default-search-input" />
+</form>
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+
+  _st('install', 'Lscxh2nMTT2Rw9zqdfBT','2.0.0');
+</script>
+
+<div class="site-search-toggle"></div>
+    </div>
+  
+</div>
+
+
+      </div>
+    </div>
+
+    <div id="main" class="main">
+      <div class="main-inner">
+        <div id="content" class="content">
+          
+
+  <div id="posts" class="posts-expand">
+    
+
+  <div class="post post-type-normal ">
+    <div class="post-header">
+
+      
+      
+        <h1 class="post-title">
+          
+          
+            
+              平安科技移动开发二队技术周报 第二十七期
+            
+          
+        </h1>
+      
+
+      <div class="post-meta">
+        <span class="post-time">
+          发表于 2015-11-27
+        </span>
+
+        
+          <span class="post-category">
+            &nbsp; | &nbsp; 分类于
+            
+              <a href="/categories/weekly/">weekly</a>
+
+              
+              
+
+            
+          </span>
+        
+
+        
+          
+            <span class="post-comments-count">
+            &nbsp; | &nbsp;
+            <a href="/2015/11/27/027/#comments" >
+              <span class="post-comments-count ds-thread-count" data-thread-key="2015/11/27/027/"></span>
+            </a>
+          </span>
+          
+        
+      </div>
+    </div>
+
+    <div class="post-body">
+
+      
+      
+
+      
+        <h2 id="Android开发">Android开发</h2><h4 id="1）Android_App_线上热修复方案">1）<a href="http://lirenlong.github.io/hotfix/" target="_blank" rel="external">Android App 线上热修复方案</a></h4><p>本文主要介绍天猫淘宝的Android App 线上热修复方案。在业界中，热修复方案，棘手且重要。有时它可以避免发新版，避免无谓时间的浪费，稳住迭代节奏；有时它可以救项目于水深火热之中；有时它也可以带给用户展现上的惊喜。其技术较深且要抵抗更深技术的侵入。</p>
+<h4 id="2）React_Native_For_Android_の_修改React_Native为本地依赖">2）<a href="http://www.jianshu.com/p/cca40c19faa0" target="_blank" rel="external">React Native For Android の 修改React Native为本地依赖</a></h4><p>公司的网络可能由于防火墙等原因，使用Gradle在线依赖去下载React Native（以下简称RN）的aar包可能一天都下载不下来，而在使用家中的Wi-Fi就几分钟的事😓，当然目前还没法实现家中办公，而且如果让团队内其他同事也都每次等一天才下载下来，效率将是极其低下的。因此，只能将RN的aar包下载下来，并设置为本地依赖模式，同时引入RN依赖的第三方开源库。</p>
+<h4 id="3）Android快捷方式解密">3）<a href="http://www.jianshu.com/p/dc3d04337d00" target="_blank" rel="external">Android快捷方式解密</a></h4><p>Android快捷方式作为Android设备的杀手锏技能，一直都是非常重要的一个功能，也正是如此，各种流氓App也不断通过快捷方式霸占着这样一个用户入口。<br>同时，各大国产ROM和Luncher的崛起，让这个桌面之争变的更加激烈。毕竟大家都只想用户用自己的App资源，所以，现在各大App不仅仅是要抢占入口，同时还要和各大ROM斗智斗勇。本文将对这个快捷方式进行深度解密，同时给出App适配各种ROM的整合方案。</p>
+<h4 id="4）Android_热补丁动态修复框架小结">4）<a href="http://blog.csdn.net/lmj623565791/article/details/49883661" target="_blank" rel="external">Android 热补丁动态修复框架小结</a></h4><p>最新github上开源了很多热补丁动态修复框架，大致有：</p>
+<ul>
+<li><a href="https://github.com/dodola/HotFix" target="_blank" rel="external">HotFix</a></li>
+<li><a href="https://github.com/jasonross/Nuwa" target="_blank" rel="external">Nuwa</a></li>
+<li><a href="https://github.com/bunnyblue/DroidFix" target="_blank" rel="external">DroidFix</a></li>
+</ul>
+<p>本文是对相关原理的介绍。</p>
+<h4 id="5）关于Android中图片大小、内存占用与drawable文件夹关系的研究与分析">5）<a href="http://blog.csdn.net/zhaokaiqiang1992/article/details/49787117" target="_blank" rel="external">关于Android中图片大小、内存占用与drawable文件夹关系的研究与分析</a></h4><p>从上一篇文章<a href="http://blog.csdn.net/zhaokaiqiang1992/article/details/45419023" target="_blank" rel="external">《Android屏幕适配全攻略》</a>写完之后，经常会有朋友问我这个问题：“能不能一个App只提供一套切图适应所有的分辨率呢？”我觉得有必要写一篇文章来研究一下这个问题，所以就有了这篇文章。</p>
+<h2 id="iOS开发">iOS开发</h2><h4 id="1）iOS/OS_X内存管理(二)：借助工具解决内存问题">1）<a href="http://www.jianshu.com/p/09c5141d4531" target="_blank" rel="external">iOS/OS X内存管理(二)：借助工具解决内存问题</a></h4><p>上一篇博客<a href="http://www.jianshu.com/p/1928b54e1253" target="_blank" rel="external">iOS/OS X内存管理(一)：基本概念与原理</a>主要讲了iOS/OSX 内存管理中引用计数和内存管理规则，以及引入ARC新的内存管理机制之后如何选择ownership qualifiers(<strong>strong、</strong>weak、<strong>unsafe_unretained和</strong>autoreleasing)来管理内存。这篇我们主要关注在实际开发中会遇到哪些内存管理问题，以及如何使用工具来调试和解决。</p>
+<h4 id="2）iOS_中的_promise_模式">2）<a href="http://nathanli.cn/2015/11/15/ios-%E4%B8%AD%E7%9A%84-promise-%E6%A8%A1%E5%BC%8F/" target="_blank" rel="external">iOS 中的 promise 模式</a></h4><p>异步编程 App 开发中用得非常频繁，但异步请求后的操作却比较麻烦。Promise 就是解决这一问题的编程模型。其适用于 延迟(deferred) 计算和 异步(asynchronous) 计算。一个 Promise 对象代表着一个还未完成，但预期将来会完成的操作。它并非要替代 GCD 和 NSOperation，而是与它们一起合作。</p>
+<h4 id="3）Facebook_如何降低应用中的_FOOMs">3）<a href="http://ios.jobbole.com/82881/" target="_blank" rel="external">Facebook 如何降低应用中的 FOOMs</a></h4><p>在 Facebook，我们一直致力于让应用稳定、快速、可靠。在 Facebook 的 iOS 应用上，我们已经做了很多工作去减少应用的崩溃率以及全面提高应用的稳定性。此前，大多数的崩溃都是由于常规性错误，一般都会伴随着相应代码行的栈回溯信息，并且提供了可能导致问题所在的提示信息。</p>
+<h4 id="4）专访ThoughtWorks傅若愚：Swift足够成熟了吗？">4）<a href="http://www.infoq.com/cn/news/2015/11/furuoyu-interview#0-tsina-1-51889-397232819ff9a47a7b7e80a40613cfe1" target="_blank" rel="external">专访ThoughtWorks傅若愚：Swift足够成熟了吗？</a></h4><p>ThoughtWorks的工程师、SwiftyJSON开源项目作者傅若愚将在2016年1月10日举行的Swift开发者大会上分享《越过Objective-C与Swift的鸿沟》话题，据了解，他们已经使用Swift开发商业应用近一年时间，InfoQ记者对他进行了专访，探讨Swift是否已经足够成熟的问题。</p>
+<h4 id="5）iOS_保持界面流畅的技巧">5）<a href="http://blog.ibireme.com/2015/11/12/smooth_user_interfaces_for_ios/" target="_blank" rel="external">iOS 保持界面流畅的技巧</a></h4><p>这篇文章会非常详细的分析 iOS 界面构建中的各种性能问题以及对应的解决思路，同时给出一个开源的微博列表实现，通过实际的代码展示如何构建流畅的交互。</p>
+<h2 id="技术纵横">技术纵横</h2><h4 id="1）阿里无线总监南天硅谷谈手淘技术架构演进细节">1）<a href="http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=400995270&amp;idx=1&amp;sn=5b090490896f95b061a3ccd86baa3274&amp;scene=0#wechat_redirect" target="_blank" rel="external">阿里无线总监南天硅谷谈手淘技术架构演进细节</a></h4><p>阿里无线事业部资深技术总监庄卓然（花名：南天）、阿里无线高级技术专家徐昭（花名：长恭） 在QCon全球软件开发大会旧金山站发表演讲《ALIBABA MOBILE INFRASTRUCTURE AT “CHINA SCALE”》，揭秘手机淘宝这个超级App的技术架构演进，向世界的技术同行分享中国互联网在无线领域的技术发展。</p>
+<h4 id="2）React_源码剖析系列_－_不可思议的_react_diff">2）<a href="http://zhuanlan.zhihu.com/purerender/20346379" target="_blank" rel="external">React 源码剖析系列 － 不可思议的 react diff</a></h4><p>React diff 作为 Virtual DOM 的加速器，其算法上的改进优化是 React 整个界面渲染的基础，以及性能提高的保障，同时也是 React 源码中最神秘、最不可思议的部分，本文从源码入手，深入剖析 React diff 的不可思议之处。</p>
+<h4 id="3）你为什么应该试一试Reflux？">3）<a href="http://icodeit.org/2015/11/get-started-with-reflux/" target="_blank" rel="external">你为什么应该试一试Reflux？</a></h4><p>React在设计之初就只关注在View本身上，其余部分如数据的获取，事件处理等，全然不在考虑之内。不过构建大型的Web前端应用，这些点又实在不可避免。所以Facebook的工程师提出了前端的Flux架构，这个架构的最大特点是单向数据流（后面详述）。但是Flux本身的实现有很多不合理的地方，比如单例的Dispatcher会在系统中有多种事件时导致臃肿的switch-cases等。</p>
+<h4 id="4）走进前端开发系列">4）走进前端开发系列</h4><ul>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzAwMjMxNzQ0MQ==&amp;mid=400374759&amp;idx=1&amp;sn=78830f8b92d7ae4f0f6d40aeee1ecd16&amp;scene=21#wechat_redirect" target="_blank" rel="external">框架的演变</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzAwMjMxNzQ0MQ==&amp;mid=400251821&amp;idx=1&amp;sn=fd15531f423fc5004f121e7724cacac4&amp;scene=21#wechat_redirect" target="_blank" rel="external">Bootstrap</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzAwMjMxNzQ0MQ==&amp;mid=400512217&amp;idx=1&amp;sn=ccd10f10315e29a22cd2b0f79f849cb2#rd" target="_blank" rel="external">Vue.js</a></li>
+</ul>
+<h4 id="5）阿里Hybrid框架Weex相关介绍">5）阿里Hybrid框架Weex相关介绍</h4><ul>
+<li><a href="https://github.com/amfe/article/issues/13#issuecomment-157405564" target="_blank" rel="external">对无线电商动态化方案的思考（一）</a></li>
+<li><a href="https://github.com/amfe/article/issues/14" target="_blank" rel="external">对无线电商动态化方案的思考（二）</a></li>
+<li><a href="https://github.com/amfe/article/issues/15" target="_blank" rel="external">对无线电商动态化方案的思考（三）</a></li>
+</ul>
+<h2 id="开源函数库与工具">开源函数库与工具</h2><h4 id="1）AndroidChangeSkin">1）<a href="https://github.com/hongyangAndroid/AndroidChangeSkin" target="_blank" rel="external">AndroidChangeSkin</a></h4><p>一种完全无侵入的换肤方式，支持插件式和应用内，无需重启Activity.</p>
+<h4 id="2）Treasure">2）<a href="https://github.com/baoyongzhang/Treasure" target="_blank" rel="external">Treasure</a></h4><p>Treasure是一个Android平台上基于SharePreferences的偏好存储库，只需要定义接口，无需编写实现。运行时0反射，不仅使用方便而且性能和原生写法几乎无差别。</p>
+
+      
+    </div>
+
+    <div class="post-footer">
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2015/11/11/026/">平安科技移动开发二队技术周报 第二十六期</a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </div>
+  </div>
+
+
+
+    
+
+    
+      <div class="comments" id="comments">
+        
+          <div class="ds-thread" data-thread-key="2015/11/27/027/"
+               data-title="平安科技移动开发二队技术周报 第二十七期" data-url="http://PaicHyperionDev.github.io/2015/11/27/027/">
+          </div>
+        
+      </div>
+    
+  </div>
+
+
+        </div>
+
+        
+      </div>
+
+
+      
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <div class="site-overview">
+        <div class="site-author motion-element">
+          <img class="site-author-image" src="/images/default_avatar.jpg" alt="PaicHyperion" />
+          <p class="site-author-name">PaicHyperion</p>
+        </div>
+        <p class="site-description motion-element"></p>
+        <div class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">27</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          <div class="site-state-item site-state-categories">
+            <a href="/categories">
+              <span class="site-state-item-count">2</span>
+              <span class="site-state-item-name">分类</span>
+              </a>
+          </div>
+
+          <div class="site-state-item site-state-tags">
+            <a href="/tags">
+              <span class="site-state-item-count">3</span>
+              <span class="site-state-item-name">标签</span>
+              </a>
+          </div>
+
+        </div>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml">
+              <i class="menu-item-icon icon-feed"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+              <a href="https://github.com/PaicHyperionDev" target="_blank">github</a>
+            </span>
+            
+          
+        </div>
+
+        
+        
+          <div class="cc-license motion-element">
+            <a href="http://creativecommons.org/licenses/by-nc-sa/4.0" class="cc-opacity" target="_blank">
+              <img src="/images/cc-by-nc-sa.svg" alt="Creative Commons" />
+            </a>
+          </div>
+        
+
+      </div>
+
+      
+        <div class="post-toc-wrap sidebar-panel-active">
+          <div class="post-toc-indicator-top post-toc-indicator"></div>
+          <div class="post-toc">
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Android开发"><span class="nav-number">1.</span> <span class="nav-text">Android开发</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1）Android_App_线上热修复方案"><span class="nav-number">1.0.1.</span> <span class="nav-text">1）Android App 线上热修复方案</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2）React_Native_For_Android_の_修改React_Native为本地依赖"><span class="nav-number">1.0.2.</span> <span class="nav-text">2）React Native For Android の 修改React Native为本地依赖</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3）Android快捷方式解密"><span class="nav-number">1.0.3.</span> <span class="nav-text">3）Android快捷方式解密</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4）Android_热补丁动态修复框架小结"><span class="nav-number">1.0.4.</span> <span class="nav-text">4）Android 热补丁动态修复框架小结</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5）关于Android中图片大小、内存占用与drawable文件夹关系的研究与分析"><span class="nav-number">1.0.5.</span> <span class="nav-text">5）关于Android中图片大小、内存占用与drawable文件夹关系的研究与分析</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#iOS开发"><span class="nav-number">2.</span> <span class="nav-text">iOS开发</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1）iOS/OS_X内存管理(二)：借助工具解决内存问题"><span class="nav-number">2.0.1.</span> <span class="nav-text">1）iOS/OS X内存管理(二)：借助工具解决内存问题</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2）iOS_中的_promise_模式"><span class="nav-number">2.0.2.</span> <span class="nav-text">2）iOS 中的 promise 模式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3）Facebook_如何降低应用中的_FOOMs"><span class="nav-number">2.0.3.</span> <span class="nav-text">3）Facebook 如何降低应用中的 FOOMs</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4）专访ThoughtWorks傅若愚：Swift足够成熟了吗？"><span class="nav-number">2.0.4.</span> <span class="nav-text">4）专访ThoughtWorks傅若愚：Swift足够成熟了吗？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5）iOS_保持界面流畅的技巧"><span class="nav-number">2.0.5.</span> <span class="nav-text">5）iOS 保持界面流畅的技巧</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#技术纵横"><span class="nav-number">3.</span> <span class="nav-text">技术纵横</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1）阿里无线总监南天硅谷谈手淘技术架构演进细节"><span class="nav-number">3.0.1.</span> <span class="nav-text">1）阿里无线总监南天硅谷谈手淘技术架构演进细节</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2）React_源码剖析系列_－_不可思议的_react_diff"><span class="nav-number">3.0.2.</span> <span class="nav-text">2）React 源码剖析系列 － 不可思议的 react diff</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3）你为什么应该试一试Reflux？"><span class="nav-number">3.0.3.</span> <span class="nav-text">3）你为什么应该试一试Reflux？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4）走进前端开发系列"><span class="nav-number">3.0.4.</span> <span class="nav-text">4）走进前端开发系列</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5）阿里Hybrid框架Weex相关介绍"><span class="nav-number">3.0.5.</span> <span class="nav-text">5）阿里Hybrid框架Weex相关介绍</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#开源函数库与工具"><span class="nav-number">4.</span> <span class="nav-text">开源函数库与工具</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1）AndroidChangeSkin"><span class="nav-number">4.0.1.</span> <span class="nav-text">1）AndroidChangeSkin</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2）Treasure"><span class="nav-number">4.0.2.</span> <span class="nav-text">2）Treasure</span></a></li></ol></li></ol></li></ol></div>
+            
+          </div>
+          <div class="post-toc-indicator-bottom post-toc-indicator"></div>
+        </div>
+      
+
+    </div>
+  </div>
+
+
+    </div>
+
+    <div id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">
+  
+  &copy; &nbsp; 
+  2015
+  <span class="with-love">
+    <i class="icon-heart"></i>
+  </span>
+  <span class="author">PaicHyperion</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT
+  </a>
+</div>
+
+
+
+      </div>
+    </div>
+
+    <div class="back-to-top"></div>
+  </div>
+
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
+  <script type="text/javascript" src="/js/fancy-box.js?v=0.4.3"></script>
+
+
+  <script type="text/javascript" src="/js/helpers.js?v=0.4.3"></script>
+  
+
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js"></script>
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js"></script>
+
+  <script type="text/javascript" src="/js/motion_global.js?v=0.4.3" id="motion.global"></script>
+
+
+
+  <script type="text/javascript" src="/js/search-toggle.js"></script>
+
+  
+  
+<script type="text/javascript" src="/js/bootstrap.scrollspy.js?v=0.4.3" id="bootstrap.scrollspy.custom"></script>
+
+
+<script type="text/javascript" id="sidebar.toc.highlight">
+  $(document).ready(function () {
+    var tocSelector = '.post-toc';
+    var $tocSelector = $(tocSelector);
+    var activeCurrentSelector = '.active-current';
+
+    $tocSelector
+      .on('activate.bs.scrollspy', function () {
+        var $currentActiveElement = $(tocSelector + ' .active').last();
+
+        removeCurrentActiveClass();
+        $currentActiveElement.addClass('active-current');
+
+        $tocSelector[0].scrollTop = $currentActiveElement.position().top;
+      })
+      .on('clear.bs.scrollspy', function () {
+        removeCurrentActiveClass();
+      });
+
+    function removeCurrentActiveClass () {
+      $(tocSelector + ' ' + activeCurrentSelector)
+        .removeClass(activeCurrentSelector.substring(1));
+    }
+
+    function processTOC () {
+      getTOCMaxHeight();
+      toggleTOCOverflowIndicators();
+    }
+
+    function getTOCMaxHeight () {
+      var $sidebarInner = $('.sidebar-inner');
+      var height = $('.sidebar').height() -
+                   $tocSelector.position().top -
+                   $('.post-toc-indicator-bottom').height();
+
+      $tocSelector.css('height', height);
+
+      return height;
+    }
+
+    function toggleTOCOverflowIndicators () {
+      tocOverflowIndicator(
+        '.post-toc-indicator-top',
+        $tocSelector.scrollTop() > 0 ? 'show' : 'hide'
+      );
+
+      tocOverflowIndicator(
+        '.post-toc-indicator-bottom',
+        $tocSelector.scrollTop() >= $tocSelector.find('ol').height() - $tocSelector.height() ? 'hide' : 'show'
+      )
+    }
+
+    $(document).on('sidebar.didShow', function () {
+      processTOC();
+    });
+
+    $('body').scrollspy({ target: tocSelector });
+    $(window).on('resize', function () {
+      if ( $('.sidebar').hasClass('sidebar-active') ) {
+        processTOC();
+      }
+    });
+
+    onScroll($tocSelector);
+
+    function onScroll (element) {
+      element.on('mousewheel DOMMouseScroll', function (event) {
+          var oe = event.originalEvent;
+          var delta = oe.wheelDelta || -oe.detail;
+          var self = this;
+
+          this.scrollTop += ( delta < 0 ? 1 : -1 ) * 30;
+          event.preventDefault();
+
+          toggleTOCOverflowIndicators();
+      });
+    }
+
+    function tocOverflowIndicator (indicator, action) {
+      $(indicator).velocity('stop').velocity({
+        opacity: action === 'show' ? 0.4 : 0
+      }, { duration: 100 });
+    }
+
+  });
+</script>
+
+
+  <script type="text/javascript" id="sidebar.nav">
+    $(document).ready(function () {
+      var html = $('html');
+
+      $('.sidebar-nav li').on('click', function () {
+        var item = $(this);
+        var activeTabClassName = 'sidebar-nav-active';
+        var activePanelClassName = 'sidebar-panel-active';
+        if (item.hasClass(activeTabClassName)) {
+          return;
+        }
+
+        var currentTarget = $('.' + activePanelClassName);
+        var target = $('.' + item.data('target'));
+
+        currentTarget.velocity('transition.slideUpOut', 200, function () {
+          target
+            .velocity('stop')
+            .velocity('transition.slideDownIn', 200)
+            .addClass(activePanelClassName);
+        });
+
+        item.siblings().removeClass(activeTabClassName);
+        item.addClass(activeTabClassName);
+      });
+
+      $('.post-toc a').on('click', function (e) {
+        e.preventDefault();
+        var offset = $(escapeSelector(this.getAttribute('href'))).offset().top;
+        html.velocity('stop').velocity('scroll', {
+          offset: offset  + 'px',
+          mobileHA: false
+        });
+      });
+
+      // Expand sidebar on post detail page by default, when post has a toc.
+      var $tocContent = $('.post-toc-content');
+      if (isDesktop() && CONFIG.sidebar === 'post') {
+        if ($tocContent.length > 0 && $tocContent.html().trim().length > 0) {
+          displaySidebar();
+        }
+      }
+    });
+  </script>
+
+
+
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      if (CONFIG.sidebar === 'always') {
+        displaySidebar();
+      }
+    });
+  </script>
+
+  
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+      processEscapes: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for (i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+  
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"hyperion"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+
+  
+
+
+  
+  
+
+  
+</body>
+</html>
