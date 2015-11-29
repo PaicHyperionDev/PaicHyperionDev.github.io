@@ -62,6 +62,40 @@
   </entry>
   
   <entry>
+    <title><![CDATA[平安科技移动开发二队技术周报 第二十八期]]></title>
+    <link href="http://PaicHyperionDev.github.io/2015/11/25/028/"/>
+    <id>http://PaicHyperionDev.github.io/2015/11/25/028/</id>
+    <published>2015-11-25T00:00:00.000Z</published>
+    <updated>2015-11-29T10:57:52.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="业界新闻">业界新闻</h2><h4 id="1）Android_Studio_2-0：速度提升，极大提高开发效率">1）<a href="http://android.jobbole.com/82127/" target="_blank" rel="external">Android Studio 2.0：速度提升，极大提高开发效率</a></h4><p>11月24日，在 Android Developer Summit 大会上，谷歌员工透露 Android Studio 2.0 版中的一些重大特性。</p>
+<h2 id="Android开发">Android开发</h2><h4 id="1）各大热补丁方案分析和比较">1）<a href="http://blog.zhaiyifan.cn/2015/11/20/HotPatchCompare/" target="_blank" rel="external">各大热补丁方案分析和比较</a></h4><p>最近开源界涌现了很多热补丁项目，但从方案上来说，主要包括Dexposed、AndFix、ClassLoader（来源是原QZone，现淘宝的工程师陈钟，在15年年初就已经开始实现）三种。前两个都是阿里巴巴内部的不同团队做的（淘宝和支付宝），后者则来自腾讯的QQ空间团队。</p>
+<h4 id="2）使用_JS_构建跨平台的原生应用（二）：React_Native_for_Android_调试技术剖析">2）<a href="http://taobaofed.org/blog/2015/11/25/react-native-android-debug/" target="_blank" rel="external">使用 JS 构建跨平台的原生应用（二）：React Native for Android 调试技术剖析</a></h4><p>本篇文章跟大家一起深入了解了 react-native run-android 背后的执行逻辑，通过对此的学习，我们基本了解了：</p>
+<ul>
+<li>RN JS 层面的打包流程</li>
+<li>RN android 应用的打包流程和技术背景</li>
+</ul>
+<h4 id="3）Android_AutoLayout全新的适配方式_堪称适配终结者">3）<a href="http://blog.csdn.net/lmj623565791/article/details/49990941" target="_blank" rel="external">Android AutoLayout全新的适配方式 堪称适配终结者</a></h4><p>相信Android的开发者对于设配问题都比较苦恼，Google官方虽然给出了一系列的建议，但是想要单纯使用这些建议将设备很轻松的做好，还是相当困难的。</p>
+<h4 id="4）使用React-Native实现app热更新的一次实践">4）<a href="https://github.com/fengjundev/React-Native-Remote-Update" target="_blank" rel="external">使用React-Native实现app热更新的一次实践</a></h4><p>使用React Native进行热部署是可行的，只要远程提供打包好的bundle，app下载后重新加载即可。但是，这样的方案也具有一定的局限性：React Native在使用View的时候，这些View是要经过本地定制的，并且将相关方法通过RCT_EXPORT_METHOD暴露给js，js端才能正常使用。</p>
+<h4 id="5）10_条提升_Android_性能的建议">5）<a href="https://realm.io/cn/news/droidcon-farber-improving-android-app-performance/" target="_blank" rel="external">10 条提升 Android 性能的建议</a></h4><p>每个人都知道一个 App 的成功，与这个 App 的性能体验有着很密切的关系。但是如何让你的 App 拥有极致性能体验呢？在 DroidCon NYC 2015 的这个分享里，Boris Farber 带来了他关于 Android Api 以及如何避免一些常见坑的经验。带你了解如何缩短启动时间，优化滑动效果，创建更加顺滑的用户体验。</p>
+<h2 id="iOS开发">iOS开发</h2><h4 id="1）iOS_事件处理机制与图像渲染过程&amp;version=11020201&amp;pass_ticket=GQjakWfsPfmCQE4YRsEbyNVInXB%2FKQEryN0cbYiet3IaE0%2B0qtwYNXAs7Mv2ZyHX)">1）<a href="https://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ==&amp;mid=400417748&amp;idx=1&amp;sn=0c5f6747dd192c5a0eea32bb4650c160&amp;scene=0&amp;key=d72a47206eca0ea91e5270477b19d687630d00a257f6bda4058e0f62ddefc7929973595cc40cfa01cb80ae794bed499d&amp;ascene=0&amp;uin=NTk4MzU3OTAw&amp;devicetype=iMac+MacBookPro12%2C1+OSX+OSX+10.11.1+build(15B42" target="_blank" rel="external">iOS 事件处理机制与图像渲染过程</a>&amp;version=11020201&amp;pass_ticket=GQjakWfsPfmCQE4YRsEbyNVInXB%2FKQEryN0cbYiet3IaE0%2B0qtwYNXAs7Mv2ZyHX)</h4><p>微信前端团队出品。</p>
+<h4 id="2）Swift_中枚举高级用法及实践">2）<a href="http://segmentfault.com/a/1190000004023852" target="_blank" rel="external">Swift 中枚举高级用法及实践</a></h4><p>和switch语句类似，Swift中的枚举乍看之下更像是C语言中枚举的进阶版本，即允许你定义一种类型，用于表示普通事情中某种用例。不过深入挖掘之后，凭借Swift背后特别的设计理念，相比较C语言枚举来说其在实际场景中的应用更为广泛。特别是作为强大的工具，Swift中的枚举能够清晰表达代码的意图。</p>
+<h2 id="技术纵横">技术纵横</h2><h4 id="1）前端工程师必读的10篇精选技术文章">1）<a href="http://www.infoq.com/cn/news/2015/11/front-end-welfare" target="_blank" rel="external">前端工程师必读的10篇精选技术文章</a></h4><p>过去一两年，前端的发展非常迅猛，Node.js、HTML5、Angular、React 等技术更迭速度非常快。这些技术背后的驱动力，都是这些年业务形态的快速变化。移动互联网的兴起、企业平台系统的愈加重要，对前端技术提出了非常高的要求。</p>
+<h4 id="2）读懂_ECMAScript_规格">2）<a href="http://www.ruanyifeng.com/blog/2015/11/ecmascript-specification.html" target="_blank" rel="external">读懂 ECMAScript 规格</a></h4><p>规格文件（specification）是计算机语言的官方标准，详细描述语法规则和实现方法。一般来说，没有必要阅读规格，除非你要写编译器。因为规格写得非常抽象和精炼，又缺乏实例，不容易理解，而且对于解决实际的应用问题，帮助不大。但是，如果你遇到疑难的语法问题，实在找不到答案，这时可以去查看规格文件，了解语言标准是怎么说的。规格是解决问题的”最后一招”。</p>
+<h4 id="3）React_Mixin_的前世今生">3）<a href="http://zhuanlan.zhihu.com/purerender/20361937" target="_blank" rel="external">React Mixin 的前世今生</a></h4><p>在 React component 构建过程中，常常有这样的场景，有一类功能要被不同的 Component 公用，然后看得到文档经常提到 Mixin（混入） 这个术语。此文就从 Mixin 的来源、含义、在 React 中的使用说起。</p>
+<h4 id="4）「大概可能也许是」目前最好的_JavaScript_异步方案_async/await">4）<a href="https://blog.leancloud.cn/3910/" target="_blank" rel="external">「大概可能也许是」目前最好的 JavaScript 异步方案 async/await</a></h4><p>构建一个应用程序总是会面对异步调用，不论是在 Web 前端界面，还是 Node.js 服务端都是如此，JavaScript 里面处理异步调用一直是非常恶心的一件事情。以前只能通过回调函数，后来渐渐又演化出来很多方案，最后 Promise 以简单、易用、兼容性好取胜，但是仍然有非常多的问题。其实 JavaScript 一直想在语言层面彻底解决这个问题，在 ES6 中就已经支持原生的 Promise，还引入了 Generator 函数，终于在 ES7 中决定支持 async 和 await。</p>
+<h4 id="5）打造最舒适的webview调试环境">5）<a href="http://div.io/topic/1449" target="_blank" rel="external">打造最舒适的webview调试环境</a></h4><p>你在做移动web开发的时候是不是只是在Chrome下开启移动模式，然后就啪啪啪闷头敲代码了？如果你平时只是做做宣传页，Chrome的移动模式可能就能满足你。但是现在越来越多的应用采用Hybrid的开发方式，这样的话就可能在web页面上调用webview注入的函数，那么，这个页面在Chrome上只会报错，因为我们不在webview里，根本没有注入的那些函数。</p>
+<h4 id="6）致我们终将组件化的Web">6）<a href="http://www.alloyteam.com/2015/11/we-will-be-componentized-web-long-text/" target="_blank" rel="external">致我们终将组件化的Web</a></h4><p>模块一般指能够独立拆分且通用的代码单元。由于JavaScript语言本身没有内置的模块机制（ES6有了！！），我们一般会使用CMD或ADM建立起模块机制。现在大部分稍微大型一点的项目，都会使用requirejs或者seajs来实现JS的模块化。多人分工合作开发，其各自定义依赖和暴露接口，维护功能模块间独立性，对于项目的开发效率和项目后期扩展和维护，都是是有很大的帮助作用。</p>
+<h2 id="开源函数库与工具">开源函数库与工具</h2><h4 id="1）推荐_11_款_React_Native_开源移动_UI_组件">1）<a href="http://www.imooc.com/article/2223" target="_blank" rel="external">推荐 11 款 React Native 开源移动 UI 组件</a></h4><p>本文推荐 11 个非常棒的 React Native 开源组件，希望能给移动应用开发者提供帮助。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="业界新闻">业界新闻</h2><h4 id="1）Android_Studio_2-0：速度提升，极大提高开发效率">1）<a href="http://android.jobbole.com/82127/" target="_blank" rel="extern]]>
+    </summary>
+    
+      <category term="weekly" scheme="http://PaicHyperionDev.github.io/categories/weekly/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[平安科技移动开发二队技术周报 第二十六期]]></title>
     <link href="http://PaicHyperionDev.github.io/2015/11/11/026/"/>
     <id>http://PaicHyperionDev.github.io/2015/11/11/026/</id>
@@ -778,45 +812,6 @@
 ]]></content>
     <summary type="html">
     <![CDATA[<h2 id="业界新闻">业界新闻</h2><h3 id="1）谷歌宣布Android_Studio将取代Eclipse编译环境_中止对后者支持">1）<a href="http://www.cnbeta.com/articles/406205.htm" target="_bl]]>
-    </summary>
-    
-      <category term="weekly" scheme="http://PaicHyperionDev.github.io/categories/weekly/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[平安科技移动开发二队技术周报 第八期]]></title>
-    <link href="http://PaicHyperionDev.github.io/2015/06/25/008/"/>
-    <id>http://PaicHyperionDev.github.io/2015/06/25/008/</id>
-    <published>2015-06-25T00:00:00.000Z</published>
-    <updated>2015-07-23T07:27:11.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="业界新闻">业界新闻</h2><h3 id="1）如何评价美团外卖商家版强杀竞争对手的商家版_App_进程？">1）<a href="http://www.zhihu.com/question/31413252" target="_blank" rel="external">如何评价美团外卖商家版强杀竞争对手的商家版 App 进程？</a></h3><p>一段代码引发的关于不正当竞争的讨论。</p>
-<h3 id="2）Swift正在蚕食Objective-C的市场">2）<a href="http://www.infoq.com/cn/news/2015/06/Swift-Objective-C?utm_source=tuicool" target="_blank" rel="external">Swift正在蚕食Objective-C的市场</a></h3><p>关于Objective-C市场份额萎缩的更详尽的报道。</p>
-<h3 id="3）苹果真贴心，更新iOS_9不用担心空间不够">3）<a href="http://www.leiphone.com/news/201506/ZUAynBqMivJ2b6O2.html" target="_blank" rel="external">苹果真贴心，更新iOS 9不用担心空间不够</a></h3><p>尽管iOS 9的升级空间从4.6GB降至现在的1.3GB，依然有不少低存储空间的设备会有安装空间不够的问题。<br>有开发者发现，在升级iOS 9 Beta2时，小存储版本iPhone/iPad在安装过程中，如果出现系统空间不够时，苹果会自动为你解决。</p>
-<h3 id="4）这10点让你认清苹果新系统El_Capitan">4）<a href="http://tech2ipo.com/100146" target="_blank" rel="external">这10点让你认清苹果新系统El Capitan</a></h3><p>苹果的新系统 El Capitan 带来了不少新鲜玩意，但更多的是对已有功能的优化升级，新的字体，全新的分屏功能，以及更加智能的 Spotlight 功能，以及不再鸡肋的地图和备忘录……虽然不是颠覆性的创新，但细细体验，真的是用户最想要，最能提高用户体验的改进！</p>
-<h2 id="Android开发">Android开发</h2><h3 id="1）Android应用程序UI硬件加速渲染的动画执行过程分析">1）<a href="http://blog.csdn.net/luoshengyang/article/details/46449677" target="_blank" rel="external">Android应用程序UI硬件加速渲染的动画执行过程分析</a></h3><p>通常我们说一个系统不如另一个系统流畅，说的就是前者动画显示不如后者流畅，因此动画显示流畅程度是衡量一个系统流畅性的关键指标。为什么这样说呢？这是因为流畅的动画显示需要60fps的UI刷新速度，然而这却不是一个容易达到的速度。Android 5.0通过引入Render Thread尽最大努力提升动画显示流畅性。本文就分析Render Thread显示动画的过程，以便了解它是如何提高动画显示流畅性的。</p>
-<h3 id="2）详解Android开发中常用的_DPI_/_DP_/_SP">2）<a href="http://www.jianshu.com/p/913943d25829" target="_blank" rel="external">详解Android开发中常用的 DPI / DP / SP</a></h3><p>Android的碎片化已经被喷了好多年，随着国内手机厂商的崛起，碎片化也越来越严重，根据OpenSignal的最新调查，2014年市面上有18796种不同的Android设备，作为开发者，一个无法回避的难题就是需要适配各种各样奇奇怪怪的机型。</p>
-<h3 id="3）Android_Studio分模块自动化构建实战">3）<a href="http://www.jianshu.com/p/fec2818f2f20" target="_blank" rel="external">Android Studio分模块自动化构建实战</a></h3><p>众所周知，AndroidStudio中应该尽量使用Module来进行模块的划分，既能达到模块解耦的目的，也能在必要的时候轻松实现分模块打包，特别是在SDK项目中。那么什么是分模块打包呢？就是我们可以根据第三方使用者的需求，自动化的提供SDK的全量版本，部分功能版本以及最小功能版本等等。</p>
-<h3 id="4）Android应用分析进阶教程之一-_初识JEBAPI">4）<a href="http://drops.wooyun.org/mobile/6665" target="_blank" rel="external">Android应用分析进阶教程之一- 初识JEBAPI</a></h3><p>JEB是Android应用静态分析的de facto standard,除去准确的反编译结果、高容错性之外,JEB提供的API也方便了我们编写插件对源文件进行处理,实施反混淆甚至一些更高级的应用分析来方便后续的人工分析。</p>
-<h3 id="5）如何使用Android_Studio把自己的Android_library分享到jCenter和Maven_Central">5）<a href="http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0623/3097.html" target="_blank" rel="external">如何使用Android Studio把自己的Android library分享到jCenter和Maven Central</a></h3><p>关于通过Android Studio发布Android library的文章很多，但这一篇应该说是目前最为详尽的。</p>
-<h2 id="iOS开发">iOS开发</h2><h3 id="1）iOS应用程序的生命周期">1）<a href="http://www.jianshu.com/p/aa50e5350852" target="_blank" rel="external">iOS应用程序的生命周期</a></h3><p>iOS应用程序一般都是由自己编写的代码和系统框架(system frameworks)组成，系统框架提供一些基本infrastructure给所有app来运行，而你提供自己编写的代码来定制app的外观和行为。因此，了解iOS infrastructure和它们如何工作对编写app是很有帮助的。</p>
-<h3 id="2）iOS_9:_UIStackView入门">2）<a href="http://www.cocoachina.com/ios/20150623/12233.html" target="_blank" rel="external">iOS 9: UIStackView入门</a></h3><p>同iOS以往每个迭代一样，iOS 9带来了很多新特性。UIKit框架每个版本都在改变，而在iOS 9比较特别的是UIStackView，它将从根本上改变开发者在iOS上创建用户界面的方式。本文将带你学习怎样使用UIStackView创建用户界面。</p>
-<h3 id="3）使用Jenkins搭建iOS开发的CI服务器">3）<a href="http://blog.nswebfrog.com/2013/12/31/jenkins-ios-ci/#541841-tsina-1-70988-d0fc3b3b40d03e6b36d60be81253e42e" target="_blank" rel="external">使用Jenkins搭建iOS开发的CI服务器</a></h3><p>持续集成CI（continuous integration）是一种可以增加项目可见性，降低项目失败风险的开发实践。iOS开发中CI的选择有很多，比如可以使用Apple提供的Bots来完成自动化构建和单元测试，其优点就是和Xcode深度集成，只需几步配置就可以完成，缺点就是不够灵活，可定制化程度不高。这篇文章主要讲解如何使用开源社区的一个CI工具Jenkins来搭建iOS开发的CI环境。如果是搭建单独CI服务器的话，就需要一台单独的mac机器了。</p>
-<h3 id="4）iOS9适配系列教程">4）<a href="https://github.com/ChenYilong/iOS9AdaptationTips" target="_blank" rel="external">iOS9适配系列教程</a></h3><p>iOS9适配问题的总结。</p>
-<h2 id="技术纵横">技术纵横</h2><h3 id="1）Go_1-5新特性：支持Android，实验性支持iOS（演讲幻灯）">1）<a href="http://www.tuicool.com/articles/vamIfej" target="_blank" rel="external">Go 1.5新特性：支持Android，实验性支持iOS（演讲幻灯）</a></h3><p>Go语言开发团队成员Andrew Gerrand在2015年2月份FOSDEM上的演讲幻灯。幻灯中介绍说，Go 1.5计划在2015年8月份发布，目前已经进入功能冻结阶段。其他主要内容：</p>
-<ul>
-<li>Go 1.5会将GC工具链从C切换到Go；Go 1.5的工具链或运行时中都不会有C代码了；</li>
-<li>Go 1.5支持一些新的GOOS/GOARCH组合；不再支持Apple OS X 10.6；</li>
-<li>Go 1.5可以制作Go可用的Go共享库（shared libraries)；</li>
-<li>Go 1.5会支持Android，并试验性支持iOS。</li>
-</ul>
-<h3 id="2）NGINX引入线程池_性能提升9倍">2）<a href="http://www.infoq.com/cn/articles/thread-pools-boost-performance-9x" target="_blank" rel="external">NGINX引入线程池 性能提升9倍</a></h3><p>NGINX采用了异步、事件驱动的方法来处理连接。这种处理方式无需（像使用传统架构的服务器一样）为每个请求创建额外的专用进程或者线程，而是在一个工作进程中处理多个连接和请求。为此，NGINX工作在非阻塞的socket模式下，并使用了epoll 和 kqueue这样有效的方法。</p>
-<h3 id="3）如何设计一个比较完备的、有用户黏性的用户激励体系？">3）<a href="http://www.zhihu.com/question/19575650" target="_blank" rel="external">如何设计一个比较完备的、有用户黏性的用户激励体系？</a></h3><p>像百科、论坛这样没有实际物质利益激励的社区或者app，如何通过完善的精神层面激励，提高用户黏性？常用的手段有哪些？设计用户成长体系的时候需要注意哪些问题？ </p>
-<h2 id="开源函数库与工具">开源函数库与工具</h2><h3 id="1）GuillotineMenu-Android">1）<a href="https://github.com/Yalantis/GuillotineMenu-Android" target="_blank" rel="external">GuillotineMenu-Android</a></h3><p>Yalantis出品的一个开源函数库，实现炫酷的菜单效果。</p>
-<p><img src="https://camo.githubusercontent.com/f044b38de3fed4496b98dff747b3bf6555ec67e4/68747470733a2f2f6431337961637572716a676172612e636c6f756466726f6e742e6e65742f75736572732f3439353739322f73637265656e73686f74732f323131333331342f64726166742d30332e676966" alt=""></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<h2 id="业界新闻">业界新闻</h2><h3 id="1）如何评价美团外卖商家版强杀竞争对手的商家版_App_进程？">1）<a href="http://www.zhihu.com/question/31413252" target="_blank" rel="exte]]>
     </summary>
     
       <category term="weekly" scheme="http://PaicHyperionDev.github.io/categories/weekly/"/>
