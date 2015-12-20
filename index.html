@@ -1,228 +1,276 @@
-<!doctype html>
-<html class="theme-next use-motion ">
+<!DOCTYPE HTML>
+<html>
 <head>
+  <meta charset="utf-8">
+  
+  <title>平安科技移动开发二队技术周报</title>
+  <meta name="author" content="PaicHyperion">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  
+  <meta property="og:site_name" content="平安科技移动开发二队技术周报"/>
+
+  
+    <meta property="og:image" content="undefined"/>
   
 
-<meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
 
 
 
-
-
-
-  <link rel="stylesheet" type="text/css" href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5"/>
-
-
-<link rel="stylesheet" type="text/css" href="/css/main.css?v=0.4.3"/>
-
-
-
-
-  <meta name="keywords" content="To be the best!" />
-
-
-
-  <link rel="alternate" href="/atom.xml" title="PaicHyperionDev" type="application/atom+xml" />
-
-
-
-  <link rel="shorticon icon" type="image/x-icon" href="/favicon.ico?v=0.4.3" />
-
-
-
-<script type="text/javascript" id="hexo.configuration">
-  var CONFIG = {
-    scheme: '',
-    analytics: {
-      google: ''
-    },
-    sidebar: 'post'
-  };
-</script>
-
-
-
-
-  <title> PaicHyperionDev </title>
 </head>
 
-<body>
-  <!--[if lte IE 8]>
-  <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;margin:0 auto;'>
-    <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-      <img src="http://7u2nvr.com1.z0.glb.clouddn.com/picouterie.jpg" border="0" height="42" width="820"
-           alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today or use other browser ,like chrome firefox safari."
-           style='margin-left:auto;margin-right:auto;display: block;'/>
-    </a>
-  </div>
-<![endif]-->
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">平安科技移动开发二队技术周报</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="所有文章集合">
+			  <i class="fa fa-archive"></i>归档
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/atom.xml" title="订阅本站点">
+			  <i class="fa fa-rss"></i>订阅
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
 
-  <div class="container one-column 
-   page-home 
-">
-    <div class="headband"></div>
-
-    <div id="header" class="header">
-      <div class="header-inner">
-        <h1 class="site-meta">
-  <span class="logo-line-before"><i></i></span>
-  <a href="/" class="brand">
-      <span class="logo">
-        <i class="icon-logo"></i>
-      </span>
-      <span class="site-title">PaicHyperionDev</span>
-  </a>
-  <span class="logo-line-after"><i></i></span>
-</h1>
-
-<div class="site-nav-toggle">
-  <button>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-  </button>
+  <div class="container">
+  	<div class="content">
+    	 <div class="page-header">
+  <h1>平安科技移动开发二队技术周报</h1>
 </div>
 
-<div class="site-nav">
-  
+<div class="row page">
 
-  
-    <ul id="menu" class="menu menu-left">
-      
-        
-        <li class="menu-item menu-item-home">
-          <a href="/">
-            <i class="menu-item-icon icon-home"></i> <br />
-            首页
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives">
-            <i class="menu-item-icon icon-archives"></i> <br />
-            归档
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-categories">
-          <a href="/categories">
-            <i class="menu-item-icon icon-categories"></i> <br />
-            分类
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/tags">
-            <i class="menu-item-icon icon-tags"></i> <br />
-            标签
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-about">
-          <a href="/about">
-            <i class="menu-item-icon icon-about"></i> <br />
-            关于
-          </a>
-        </li>
-      
-    </ul>
-  
+	
+	<div class="col-md-9">
+	
 
-  
-    <div class="site-search">
-      
-  
-<form class="site-search-form">
-  <input type="text" id="st-search-input" class="st-search-input st-default-search-input" />
-</form>
-<script type="text/javascript">
-  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
-    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
-    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
-  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+		<div class="slogan">
+      <i class="fa fa-heart"></i>
+      让科技，让靠近
+</div>    
+		<div id="top_search"></div>
+		<div class="mypage">
+		
+		<!-- title and entry -->
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-12-17 </div>
+			<div class="article-title"><a href="/2015/12/17/031/" >第三十一期</a></div>						
+		</h3>
+	
 
-  _st('install', 'Lscxh2nMTT2Rw9zqdfBT','2.0.0');
-</script>
 
-<div class="site-search-toggle"></div>
-    </div>
-  
+			<div class="entry">
+  <div class="row">
+	
+	
+		<h2 id="Android开发">Android开发</h2><h4 id="1）Android应用架构">1）<a href="http://www.jianshu.com/p/8ca27934c6e6" target="_blank" rel="external">Android应用架构</a></h4><p>Android开发生态圈的节奏非常之快。每周都会有新的工具诞生，类库的更新，博客的发表以及技术探讨。如果你外出度假一个月，当你回来的时候可能已经发布了新版本的Support Library或者Play Services。</p>
+<h4 id="2）EventBus源码研读_（上）_（中）_（下）">2）EventBus源码研读  <a href="http://kymjs.com/code/2015/12/12/01/" target="_blank" rel="external">（上）</a> <a href="http://kymjs.com/code/2015/12/13/01/" target="_blank" rel="external">（中）</a> <a href="http://kymjs.com/code/2015/12/16/01/" target="_blank" rel="external">（下）</a></h4><p>EventBus 是一款针对Android优化的发布/订阅事件总线。主要功能是替代Intent, Handler, BroadCast 在 Fragment，Activity，Service，线程之间传递消息.优点是开销小，使用方便,可以很大程度上降低它们之间的耦合，使得我们的代码更加简洁，耦合性更低，提升我们的代码质量。类似的库还有 Otto ,今天就带大家一起研读 EventBus 的源码.</p>
+<h4 id="3）Android内存优化杂谈">3）<a href="http://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ==&amp;mid=400656149&amp;idx=1&amp;sn=122b4f4965fafebf78ec0b4fce2ef62a&amp;scene=0#wechat_redirect" target="_blank" rel="external">Android内存优化杂谈</a></h4><p>Android内存优化是我们性能优化工作中比较重要的一环，这里其实主要包括两方面的工作：</p>
+<ul>
+<li>优化RAM，即降低运行时内存。这里的目的是防止程序发生OOM异常，以及降低程序由于内存过大被LMK机制杀死的概率。另一方面，不合理的内存使用会使GC大大增多，从而导致程序变卡。</li>
+<li>优化ROM，即降低程序占ROM的体积。这里主要是为了降低程序占用的空间，防止由于ROM空间不足导致程序无法安装。</li>
+</ul>
+<h4 id="4）React-native_Android_热更新">4）<a href="http://richard-cao.github.io/2015/12/03/React-native-Android-%E7%83%AD%E6%9B%B4%E6%96%B0/" target="_blank" rel="external">React-native Android 热更新</a></h4><p>继上次React-native Android 初次踩坑之旅的分享之后，这次分享的内容是React-native Android 热更新实现。本文目录：</p>
+<ul>
+<li>网上已知方案</li>
+<li>分析与发现</li>
+<li>新的热更新方案</li>
+</ul>
+<h4 id="5）面试时，问哪些问题能试出一个Android应用开发者真正的水平？">5）<a href="http://www.jianshu.com/p/74565bd741ab" target="_blank" rel="external">面试时，问哪些问题能试出一个Android应用开发者真正的水平？</a></h4><p>一般面试时间短则30分钟，多则1个小时，这么点时间要全面考察一个人难度很大，需要一些技巧，这里我不局限于回答题主的问题，而是分享一下我个人关于如何做好Android技术面试的一些经验。</p>
+<h4 id="6）React_Native_for_Android_热部署图片解决方案">6）<a href="http://blog.csdn.net/kid1986513/article/details/50337083" target="_blank" rel="external">React Native for Android 热部署图片解决方案</a></h4><p>热部署时，我们期望升级包中包含js代码与图片资源。bundle的热部署网上已经有两种方案了，一种是用反射，一种是利用RN自带函数，将bundle初始化时直接放到指定目录下，之后通过替换bundle文件实现代码热部署。我们希望图片也可以实现热部署，下面是一个比较简单的解决方案。</p>
+<h2 id="iOS开发">iOS开发</h2><h4 id="1）漫谈iOS程序的证书和签名机制">1）<a href="http://www.pchou.info/ios/2015/12/14/ios-certification-and-code-sign.html" target="_blank" rel="external">漫谈iOS程序的证书和签名机制</a></h4><p>接触iOS开发半年，曾经也被这个主题坑的摸不着头脑，也在淘宝上买过企业证书签名这些服务，有大神都做了一个全自动的发布打包（不过此大神现在不卖企业证书了），甚是羡慕和崇拜。于是，花了一点时间去研究了一下iOS这套证书和签名机制，并撰文分享给需要的朋友。</p>
+<h4 id="2）iOS开发-KVO的奥秘">2）<a href="http://www.jianshu.com/p/742b4b248da9" target="_blank" rel="external">iOS开发-KVO的奥秘</a></h4><p>在iOS开发中，苹果提供了许多机制给我们进行回调。KVO(key-value-observing)是一种十分有趣的回调机制，在某个对象注册监听者后，在被监听的对象发生改变时，对象会发送一个通知给监听者，以便监听者执行回调操作。最常见的KVO运用是监听scrollView的contentOffset属性，来完成用户滚动时动态改变某些控件的属性实现效果，包括渐变导航栏、下拉刷新控件等效果。</p>
+<h4 id="3）Objective-C_自动生成分类属性方法">3）<a href="http://nathanli.cn/2015/12/14/objective-c-%E5%85%83%E7%BC%96%E7%A8%8B%E5%AE%9E%E8%B7%B5-%E5%88%86%E7%B1%BB%E5%8A%A8%E6%80%81%E5%B1%9E%E6%80%A7/" target="_blank" rel="external">Objective-C 自动生成分类属性方法</a></h4><p>分类，在 iOS 开发中，是常常需要用到的。在分类里添加属性也是常有的事，但分类中无法添加实例变量，编译器也无法为提供分类中属性的 getter 和 setter 方法了。一般而言，需要手动来实现这两个方法，如果只是用来存储变量的话，关联对象很容易做到这一点。</p>
+<h4 id="4）Auto_Layout的最佳实践">4）<a href="http://www.calios.gq/2015/12/14/%EF%BC%BB%E8%AF%91%EF%BC%BDAuto-Layout%E7%9A%84%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-%E2%80%94%E2%80%94-%E6%AD%A2%E7%96%BC%E7%89%87/" target="_blank" rel="external">Auto Layout的最佳实践</a></h4><p>Auto Layout是个很棒的工具，作为开发者，它可以让我们保持神志清醒，还能让我们这些懒人们在设置frame的时候远离“神奇数字”。</p>
+<p>但是任何技术都不是完美无缺的，我必须得说我花了太多的时间来debug那些缺失的约束条件，或者对于一些藏在层级结构深处的视图，添加一个冲突的约束条件就会把整个布局毁掉，当这些事情发生的时候简直是天崩地裂！</p>
+<h4 id="5）Swift_2_throws_全解析_-_从原理到实践">5）<a href="http://www.ibm.com/developerworks/cn/mobile/mo-cn-swift/index.html" target="_blank" rel="external">Swift 2 throws 全解析 - 从原理到实践</a></h4><p>本文从 Swift 2 中新加入的 throws 关键字的用法入手，通过在 SIL 和汇编层面的分析，深入剖析了 Swift 中异常机制这一新特性的背后机理。在此基础上，本文进一步对异常处理相关的 ErrorType 接口进行了一些研究。结合 Swift 2 中错误处理方式的特点，作者对 throws 这一关键字在实际使用时的场景和适用范围进行了示例和说明，并给出了一些建议。</p>
+<h2 id="技术纵横">技术纵横</h2><h4 id="1）我眼里的架构师">1）<a href="http://mp.weixin.qq.com/s?__biz=MzI4MjA4ODU0Ng==&amp;mid=401373742&amp;idx=1&amp;sn=e27102eda726a2a56ee097013c2754ac#rd" target="_blank" rel="external">我眼里的架构师</a></h4><p>几年前，我对架构师的印象，停留在：画漂亮的设计图，研究高性能，技术攻关一把手。反正就是各种技术高手的标签都可以贴上去。最近两三年，和自己做的事情、职责多少有一点点关系，思路发生了一些变化，总结下来，我觉得架构师的关注点应该是：</p>
+<ul>
+<li>架构团队</li>
+<li>架构技术</li>
+<li>架构流程规范</li>
+<li>架构产品</li>
+<li>架构客户</li>
+</ul>
+<h4 id="2）作为一个程序员，进步完全取决于自己">2）<a href="http://mp.weixin.qq.com/s?__biz=MjM5NzMyMjAwMA==&amp;mid=401268306&amp;idx=1&amp;sn=3eb48ec9f939478f5955a55872145aae" target="_blank" rel="external">作为一个程序员，进步完全取决于自己</a></h4><p>我做程序员已经32年了，而且我一直努力让自己学习各种技术来保持进步。我知道很多像我这个年纪的人自从拿到计算机学士学位以后就再也没有学习过任何新知识，因此他们最终会被淘汰。我花了6年的时间学习化学，但是一旦当我成为一名程序员，我发现我需要了解在我工作之外发生了些什么，而且我有不断学习的欲望并一直在尝试各种各样的编程。</p>
+<h4 id="3）手机淘宝_521_性能优化项目揭秘">3）<a href="http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=401554928&amp;idx=1&amp;sn=abde4233ad87b6c7fb2e797b1902f5b6&amp;scene=2&amp;srcid=1206I2q9x0pFaJTh0gjOv9P5" target="_blank" rel="external">手机淘宝 521 性能优化项目揭秘</a></h4><p>为了让用户更顺畅更方便地实现这一切，做到“如丝般顺滑”，双十一前夕手机淘宝成立了“521”(我爱你)性能优化项目，在日常优化基础之上进行三个方面的专项优化攻关，分别是1)H5页面的一秒法则；2)启动时间和页面帧率提升20%；3)Android内存占用降低50%。优化过程中遇到的困难，思考后找寻的方案，实施后提取的经验都会在下面详细地介绍给读者。</p>
+<h4 id="4）为什么有些大公司技术弱爆了？">4）<a href="https://www.zhihu.com/question/32039226" target="_blank" rel="external">为什么有些大公司技术弱爆了？</a></h4><p>今年年初，到一家互联网公司实习，该公司是国内行业龙头。不过技术和管理方面，却弱爆了。那里的程序员，每天都在看邮件，查问题工单。这些问题，多半是他们设计不当，造成的。</p>
+<h4 id="5）实际经历告诉你，写一本技术书能赚多少钱">5）<a href="http://www.cocoachina.com/programmer/20151208/14580.html" target="_blank" rel="external">实际经历告诉你，写一本技术书能赚多少钱</a></h4><p>我的书出版后，经常有朋友问我赚了多少钱。我有时说没多少钱，有时说按付出回报比来看那点版税对不住付出的辛苦。有的朋友微微一笑很倾城，表示理解；有的朋友笑着撇撇嘴，那意思是我没有实话实说。</p>
+
+	
+	</div>
+  <a type="button" href="/2015/12/17/031/#more" class="btn btn-default more">阅读此文</a>
 </div>
 
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-12-11 </div>
+			<div class="article-title"><a href="/2015/12/11/030/" >第三十期</a></div>						
+		</h3>
+	
 
-      </div>
-    </div>
 
-    <div id="main" class="main">
-      <div class="main-inner">
-        <div id="content" class="content">
-          
-  <div id="posts" class="posts-expand">
-    
-      
+			<div class="entry">
+  <div class="row">
+	
+	
+		<h2 id="业界新闻">业界新闻</h2><h4 id="1）Swift_已经是_Github_上第一_Star_编程语言">1）<a href="https://github.com/showcases/programming-languages" target="_blank" rel="external">Swift 已经是 Github 上第一 Star 编程语言</a></h4><p><img src="http://g.picphotos.baidu.com/album/w%3D1458%3Bq%3D90/sign=a7ff976952fbb2fb342b5c167a721bd5/18d8bc3eb13533fa7c9a0c1aafd3fd1f41345bd2.jpg" alt=""></p>
+<h2 id="Android开发">Android开发</h2><h4 id="1）Android_开发必备知识：我和_Gradle_有个约会">1）<a href="http://bugly.qq.com/bbs/forum.php?mod=viewthread&amp;tid=235" target="_blank" rel="external">Android 开发必备知识：我和 Gradle 有个约会</a></h4><p>关于Android中使用Gradle构建的一篇浅显易懂的介绍。</p>
+<h4 id="2）加快Android编译速度">2）<a href="http://timeszoro.xyz/2015/11/25/%E5%8A%A0%E5%BF%ABandroid%E7%BC%96%E8%AF%91%E9%80%9F%E5%BA%A6/" target="_blank" rel="external">加快Android编译速度</a></h4><p>对于Android开发者而言，随着工程不断的壮大，Android项目的编译时间也逐渐变长，即便是有时候添加一行代码也需要等待好久才能看见期待的效果。之前加快Android编译的工具相对较少，其中最具有代表性的开源项目当属FaceBook的Buck和 mmin18的LayoutCast，除此之外还有JRebel 和 Jimulabs。不过前两天google宣布推出Instant Run加快Android 编译速度，相信对其他的工具来说都是一次冲击，这也是写这篇文章的动机。</p>
+<h4 id="3）《Android开发艺术探索》读书笔记_系列">3）<a href="http://hujiaweibujidao.github.io/blog/2015/12/05/Art-of-Android-Development-Reading-Notes/" target="_blank" rel="external">《Android开发艺术探索》读书笔记 系列</a></h4><p>这系列读书比较可以让你快速了解Android开发的一些关键知识点。</p>
+<h4 id="4）15个必知的Android开发者选项">4）<a href="http://mp.weixin.qq.com/s?__biz=MzA4MjU5NTY0NA==&amp;mid=401101455&amp;idx=1&amp;sn=dffc19631e2356ed0aea581f5d7769d7&amp;scene=1&amp;srcid=1210EPYGYqP0b7LOZzqywvmS&amp;from=groupmessage&amp;isappinstalled=0#wechat_redirect" target="_blank" rel="external">15个必知的Android开发者选项</a></h4><p>Android开发者选项，看起来很简单的事情，其实很多同学对它了解得不够，Google用心良苦得为我们设计了这么多小开关都是有它的作用的，今天也花了点时间，过了一遍全部的30多个开关，从中整理出15个对日常Android开发比较有帮助的选项。</p>
+<h4 id="5）一款APP，从设计稿到切图(Android篇)">5）<a href="http://blog.jobbole.com/95577/" target="_blank" rel="external">一款APP，从设计稿到切图(Android篇)</a></h4><p>设计就是解决问题，所以不要一味的追求视觉效果，设计不是搞艺术。很多人会发现工作好多年的设计师工作做的东西不炫也不酷，就认为他们的设计水平很烂，但其实他们可以做出炫彩屌炸天的作品，可是工作不是炫技，设计不是绘画，解决问题才是目的。</p>
+<h2 id="iOS开发">iOS开发</h2><h4 id="1）94个iOS开发资源推荐，帮你加速应用开发">1）<a href="http://www.cocoachina.com/ios/20151210/14635.html" target="_blank" rel="external">94个iOS开发资源推荐，帮你加速应用开发</a></h4><p>资源总结类文章总是开发者们所喜欢的，网上已经有各种weekly、头条以及期刊类资源总结，今天这篇来自于开发者Viswateja Reddy的总结。原文对各个项目的介绍非常简单，为了更便于阅读，编辑在原有的基础上进行了丰富和完善。</p>
+<h4 id="2）一款APP从设计稿到切图过程全方位揭秘">2）<a href="http://blog.jobbole.com/91994/" target="_blank" rel="external">一款APP从设计稿到切图过程全方位揭秘</a></h4><p>我本身是一名GUI设计师，所以我只站在GUI设计师的角度去把APP从项目启动到切片输出的过程写一写，相当于工作流程的介绍吧；公司不同，流程不尽相同，但是终究还是能有些帮助。</p>
+<h4 id="3）谈谈闭包——以Swift为例">3）<a href="http://www.infoq.com/cn/articles/talk-about-closure-taking-swift-as-example" target="_blank" rel="external">谈谈闭包——以Swift为例</a></h4><p>本文讨论闭包的相关概念，大部分代码使用Swift编写。Swift对闭包有着良好的支持。这是因为，Swift被设计成一门一定程度上支持函数式编程范式的编程语言。而函数式编程和闭包有着紧密的联系。本文着重讨论的也是函数式编程和闭包之间的关系。</p>
+<h2 id="技术纵横">技术纵横</h2><h4 id="1）H5_缓存机制浅析_移动端_Web_加载性能优化">1）<a href="http://bugly.qq.com/bbs/forum.php?mod=viewthread&amp;tid=267&amp;extra=page%3D1" target="_blank" rel="external">H5 缓存机制浅析 移动端 Web 加载性能优化</a></h4><p>H5 应用程序缓存为应用带来三个优势：</p>
+<ul>
+<li>离线浏览 用户可在应用离线时使用它们</li>
+<li>速度 已缓存资源加载得更快</li>
+<li>减少服务器负载 浏览器将只从服务器下载更新过或更改过的资源。</li>
+</ul>
+<h4 id="2）是时候开始招募移动架构师了">2）<a href="http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=401591012&amp;idx=1&amp;sn=3743c1b958139eb5fc3744166f4c7dbe&amp;scene=0#wechat_redirect" target="_blank" rel="external">是时候开始招募移动架构师了</a></h4><p>短短几年时间，我们已经走进了一个“移动应用决定一切”的时代。移动应用的创意、功能、质量的好坏，决定着用户口碑、留存率等关键指标，能够左右创业公司的成败，也对行业竞争和营销效果有着重大影响。</p>
+<h4 id="3）Redux_核心概念">3）<a href="http://www.jianshu.com/p/3334467e4b32?" target="_blank" rel="external">Redux 核心概念</a></h4><p>本文重点介绍Redux的核心知识点，并提供很多有用的链接，通过本文开始Redux的学习吧！</p>
+<h4 id="4）使用_JS_构建跨平台的原生应用：ListView_组件介绍">4）<a href="http://taobaofed.org/blog/2015/12/09/using-js-to-build-an-crossplatform-native-app-an-introduction-to-listview/" target="_blank" rel="external">使用 JS 构建跨平台的原生应用：ListView 组件介绍</a></h4><p>滚动列表 几乎是移动开发中用途最广的 UI 组件，其重要性不言而喻。由于平台差异性，React Native 中的滚动列表组件 ListView 并没有直接映射为 Android 中的 ListView 或 iOS 中的 UITableView，而是在 ScrollView 的基础上使用 JS 做了一次封装。这样，滚动体验部分由 Native 负责，而 React 部分则专注于组件何时渲染、如何渲染等问题。</p>
+<h4 id="5）性能优化模式">5）<a href="http://tech.meituan.com/performance_tuning_pattern.html" target="_blank" rel="external">性能优化模式</a></h4><p>性能优化涉及面很广。一般而言，性能优化指降低响应时间和提高系统吞吐量两个方面，但在流量高峰时候，性能问题往往会表现为服务可用性下降，所以性能优化也可以包括提高服务可用性。在某些情况下，降低响应时间、提高系统吞吐量和提高服务可用性三者相互矛盾，不可兼得。例如：增加缓存可以降低平均响应时间，但是处理线程数量会因为缓存过大而有所限制，从而降低系统吞吐量；为了提高服务可用性，对异常请求重复调用是一个常用的做法，但是这会提高响应时间并降低系统吞吐量。</p>
+<h2 id="开源函数库与工具">开源函数库与工具</h2><h4 id="1）FinestWebView-Android">1）<a href="https://github.com/TheFinestArtist/FinestWebView-Android" target="_blank" rel="external">FinestWebView-Android</a></h4><p>Beautiful and customizable Android Activity that shows web pages within an app.</p>
+<p><img src="https://raw.githubusercontent.com/TheFinestArtist/FinestWebView-Android/master/art/screenshots.png" alt=""></p>
+<h4 id="2）let">2）<a href="https://github.com/canelmas/let" target="_blank" rel="external">let</a></h4><p>基于注解调用简单的AP来处理新的Android运行权限模型</p>
+<h4 id="3）tailor">3）<a href="https://github.com/sleekbyte/tailor" target="_blank" rel="external">tailor</a></h4><p>Swift静态代码分析工具。</p>
 
-  <div class="post post-type-normal ">
-    <div class="post-header">
+	
+	</div>
+  <a type="button" href="/2015/12/11/030/#more" class="btn btn-default more">阅读此文</a>
+</div>
 
-      
-      
-        <h1 class="post-title">
-          
-          
-            
-              <a class="post-title-link" href="/2015/11/27/027/">
-                平安科技移动开发二队技术周报 第二十七期
-              </a>
-            
-          
-        </h1>
-      
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-12-01 </div>
+			<div class="article-title"><a href="/2015/12/01/029/" >第二十九期</a></div>						
+		</h3>
+	
 
-      <div class="post-meta">
-        <span class="post-time">
-          发表于 2015-11-27
-        </span>
 
-        
-          <span class="post-category">
-            &nbsp; | &nbsp; 分类于
-            
-              <a href="/categories/weekly/">weekly</a>
+			<div class="entry">
+  <div class="row">
+	
+	
+		<p>标签（空格分隔）： 技术周报</p>
+<hr>
+<blockquote>
+<p>@author ASCE1885的 <a href="https://github.com/ASCE1885" target="_blank" rel="external">Github</a>  <a href="http://www.jianshu.com/users/4ef984470da8/latest_articles" target="_blank" rel="external">简书</a> <a href="http://weibo.com/asce885/profile?rightmod=1&amp;wvr=6&amp;mod=personinfo" target="_blank" rel="external">微博</a> <a href="http://blog.csdn.net/asce1885" target="_blank" rel="external">CSDN</a></p>
+</blockquote>
+<h2 id="Android开发">Android开发</h2><h4 id="1）Android_动态加载技术系列">1）Android 动态加载技术系列</h4><ul>
+<li><a href="http://segmentfault.com/a/1190000004062866" target="_blank" rel="external">简单易懂的介绍方式</a></li>
+<li><a href="http://segmentfault.com/a/1190000004062880" target="_blank" rel="external">ClassLoader工作机制</a></li>
+<li><a href="http://segmentfault.com/a/1190000004062899" target="_blank" rel="external">加载SD卡中的SO库</a></li>
+<li><a href="http://segmentfault.com/a/1190000004062952" target="_blank" rel="external">简单加载模式</a></li>
+<li><a href="http://segmentfault.com/a/1190000004062972" target="_blank" rel="external">代理Activity模式</a></li>
+<li><a href="http://segmentfault.com/a/1190000004077469" target="_blank" rel="external">动态创建Activity模式</a></li>
+</ul>
+<h4 id="2）Speeding_up_Gradle_builds">2）<a href="http://kevinpelgrims.com/blog/2015/06/11/speeding-up-your-gradle-builds/" target="_blank" rel="external">Speeding up Gradle builds</a></h4><p>A common complaint among Android developers that switch to Gradle is that the build time for their projects increases significantly. Gradle provides a lot of flexibility, but this power comes at the cost of a slower build process. Luckily there are several ways to speed things up.</p>
+<h4 id="3）dex分包变形记">3）<a href="http://bugly.qq.com/bbs/forum.php?mod=viewthread&amp;tid=193" target="_blank" rel="external">dex分包变形记</a></h4><p>就在项目灰度测试前不久，爆出了在 Android 3.0以下手机上安装时出现 INSTALL <em> FAILED_DEXOPT，导致安装失败。INSTALL </em> FAILED_DEXOPT导致无法安装的问题，从根本上来说，可能是两个原因造成的：</p>
+<ul>
+<li>单个 dex 文件方法总数65K 的限制。</li>
+<li>Dexopt 的 LinearAlloc 限制。</li>
+</ul>
+<h4 id="4）Android应用启动优化:一种DelayLoad的实现和原理">4）<a href="http://www.androidperformance.com/2015/11/18/Android-app-lunch-optimize-delay-load.html" target="_blank" rel="external">Android应用启动优化:一种DelayLoad的实现和原理</a></h4><p>在 Android 开发中,应用启动速度是一个非常重要的点,应用启动优化也是一个非常重要的过程.对于应用启动优化,其实核心思想就是在启动过程中少做事情,具体实践的时候无非就是下面几种：</p>
+<ul>
+<li>异步加载</li>
+<li>延时加载</li>
+<li>懒加载</li>
+</ul>
+<h4 id="5）如何开发一个App（Android）">5）<a href="http://blog.csdn.net/wwj_748/article/details/50088959" target="_blank" rel="external">如何开发一个App（Android）</a></h4><p>本篇博客从开发的角度来介绍如何开发一个Android App，需要说明一点是，这里只是提供一个如何开发一个app的思路，并不会介绍很多技术上的细节，从整个大局去把握如何去构思一个app的开发，让你对独立开发一款app的时候有个理解。</p>
+<h2 id="iOS开发">iOS开发</h2><h4 id="1）如何让iOS_保持界面流畅？这些技巧你知道吗">1）<a href="http://www.cocoachina.com/ios/20151130/14477.html" target="_blank" rel="external">如何让iOS 保持界面流畅？这些技巧你知道吗</a></h4><p>这篇文章会非常详细的分析 iOS 界面构建中的各种性能问题以及对应的解决思路，同时给出一个开源的微博列表实现，通过实际的代码展示如何构建流畅的交互。</p>
+<h4 id="2）如何实现iOS图书动画：第1部分_第2部分">2）如何实现iOS图书动画：<a href="http://www.devtf.cn/?p=1127" target="_blank" rel="external">第1部分</a>  <a href="http://www.devtf.cn/?p=1129" target="_blank" rel="external">第2部分</a></h4><p>本教程分为2个部分，教你开发一个漂亮的iOS图书打开和翻页动画。<br>在第1部分，你将学习到如何定制化Collection View Layout，并通过使用深度和阴影使App看起来更真实。在第2部分，你将学习如何以一种合理的方法在两个不同的控制器之间创建自定义的过渡特效，以及利用手势在两个视图间创建自然的、直观的过渡效果。</p>
+<h4 id="3）解析_iOS_动画原理与实现">3）<a href="http://www.jianshu.com/p/13c231b76594" target="_blank" rel="external">解析 iOS 动画原理与实现</a></h4><p>这篇文章不会教大家如何实现一个具体的动画效果，我会从动画的本质出发，来说说 iOS 动画的原理与实现方式。</p>
+<h4 id="4）在_iOS_模拟器中调试_Web_页面">4）<a href="http://www.cocoachina.com/webapp/20151126/14448.html" target="_blank" rel="external">在 iOS 模拟器中调试 Web 页面</a></h4><p>虽然 Chrome DevTools 可以模拟手机的环境，但与真实环境差别还是比较大的，另外 Chrome 模拟的环境对 App 内 Webview 场景也无能为力（手机淘宝上的无线 Web 页面有非常多的功能需要调用 Webview 提供的 JSBridge 接口实现）。所以真机调试和模拟器调试是无线 Web 开发必备技能。</p>
+<h4 id="5）知其然亦知其所以然-NSOperation并发编程">5）<a href="http://www.jianshu.com/p/ebb3e42049fd" target="_blank" rel="external">知其然亦知其所以然-NSOperation并发编程</a></h4><p>对于iOS的并发编程, 用的最普遍的就是GCD了, GCD结合Block可以so easy的实现多线程并发编程. 但如果你看一些诸如AFNetworking, SDWebImage的源码, 你会发现它们使用的都是NSOperation, 纳尼? 难道NSOperation这货更屌? YES, 它确实更屌! Okay, 那我们就先来简单PK下GCD和NSOperation(当然这里也包括NSOperationQueue).</p>
+<h2 id="技术纵横">技术纵横</h2><h4 id="1）ReactNative_For_Android_10个最常见问题">1）<a href="https://github.com/yipengmu/ReactNative_Android_QA" target="_blank" rel="external">ReactNative For Android 10个最常见问题</a></h4><p>这里逐条记录下最容易遇到的React native android 相关case。</p>
+<h4 id="2）我所亲见的前端技术变革">2）<a href="http://zhuanlan.zhihu.com/fangtalk/20359442" target="_blank" rel="external">我所亲见的前端技术变革</a></h4><p>可能每个人对前端的发展变化的理解都不一样，本文仅以我的视角，回顾了我所理解的变化。这么多年带了很多团队，交付了很多的项目，但同时我也有自知之明，也许我只是井底之蛙，看到了我能看到的世界，但是没有关系，重要的是，每个人都需要找到自己对这个世界的认识，找到拥抱这个变化的世界的方法，独一无二的方法。</p>
+<h4 id="3）深入理解_react-router_路由系统">3）<a href="http://zhuanlan.zhihu.com/purerender/20381597" target="_blank" rel="external">深入理解 react-router 路由系统</a></h4><p>在 web 应用开发中，路由系统是不可或缺的一部分。在浏览器当前的 URL 发生变化时，路由系统会做出一些响应，用来保证用户界面与 URL 的同步。随着单页应用时代的到来，为之服务的前端路由系统也相继出现了。有一些独立的第三方路由系统，比如 director，代码库也比较轻量。</p>
+<h4 id="4）ES2015_&amp;_babel_实战：开发NPM模块">4）<a href="http://morning.work/page/2015-11/es6-es7-develop-npm-module-using-babel.html" target="_blank" rel="external">ES2015 &amp; babel 实战：开发NPM模块</a></h4><p>本文的重点是介绍借助babel开发Node.js项目的基本方法，同时会简略介绍文中出现的ES2015新语法，本文内容将分为以下几部分：</p>
+<ul>
+<li>配置babel编译环境</li>
+<li>编写模块</li>
+<li>单元测试</li>
+<li>发布模块</li>
+</ul>
+<h4 id="5）Webpack傻瓜式指南（一）">5）<a href="http://zhuanlan.zhihu.com/FrontendMagazine/20367175" target="_blank" rel="external">Webpack傻瓜式指南（一）</a></h4><p>Webpack最近很热，我一开始是想翻译一篇国外关于webpack的佳作，但是找来找去也没有一篇让我感觉到很满意的，好多都是一步到位，满屏幕都是React＋Webpack，官方文档写的不太好，好多点都没有解释的详细，所以我参考了几篇文章，写一篇傻瓜式指南。本文适合第一次接触webpack的朋友，如果是老鸟，就不用看了。这是系列的第一篇，主要讲他最基本的用法。</p>
+<h2 id="开源函数库与工具">开源函数库与工具</h2><h4 id="1）ARAnimation">1）<a href="https://github.com/AugustRush/ARAnimation" target="_blank" rel="external">ARAnimation</a></h4><p>ARAnimation 是对 Core Animation 进行了封装, 帮助 iOS 开发者能更加便捷的在项目中使用动画。</p>
+<h4 id="2）KLog">2）<a href="https://github.com/ZhaoKaiQiang/KLog" target="_blank" rel="external">KLog</a></h4><p>这是一个Android专用的LogCat工具，主要功能为打印行号、函数调用、Json解析、XML解析、点击跳转、Log信息保存等功能。灵感来自Logger。</p>
+<h4 id="3）ElasticProgressBar">3）<a href="https://github.com/michelelacorte/ElasticProgressBar" target="_blank" rel="external">ElasticProgressBar</a></h4><p>ElasticProgressBar 是一款有弹性的 Android 加载进度条。</p>
+<p><img src="https://raw.githubusercontent.com/Tibolte/ElasticDownload/master/success.gif" alt=""></p>
+<h4 id="4）packer-ng-plugin">4）<a href="https://github.com/mcxiaoke/packer-ng-plugin" target="_blank" rel="external">packer-ng-plugin</a></h4><p>下一代Android渠道打包工具。</p>
 
-              
-              
+	
+	</div>
+  <a type="button" href="/2015/12/01/029/#more" class="btn btn-default more">阅读此文</a>
+</div>
 
-            
-          </span>
-        
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-11-27 </div>
+			<div class="article-title"><a href="/2015/11/27/027/" >第二十七期</a></div>						
+		</h3>
+	
 
-        
-          
-            <span class="post-comments-count">
-            &nbsp; | &nbsp;
-            <a href="/2015/11/27/027/#comments" >
-              <span class="post-comments-count ds-thread-count" data-thread-key="2015/11/27/027/"></span>
-            </a>
-          </span>
-          
-        
-      </div>
-    </div>
 
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <h2 id="Android开发">Android开发</h2><h4 id="1）Android_App_线上热修复方案">1）<a href="http://lirenlong.github.io/hotfix/" target="_blank" rel="external">Android App 线上热修复方案</a></h4><p>本文主要介绍天猫淘宝的Android App 线上热修复方案。在业界中，热修复方案，棘手且重要。有时它可以避免发新版，避免无谓时间的浪费，稳住迭代节奏；有时它可以救项目于水深火热之中；有时它也可以带给用户展现上的惊喜。其技术较深且要抵抗更深技术的侵入。</p>
+			<div class="entry">
+  <div class="row">
+	
+	
+		<h2 id="Android开发">Android开发</h2><h4 id="1）Android_App_线上热修复方案">1）<a href="http://lirenlong.github.io/hotfix/" target="_blank" rel="external">Android App 线上热修复方案</a></h4><p>本文主要介绍天猫淘宝的Android App 线上热修复方案。在业界中，热修复方案，棘手且重要。有时它可以避免发新版，避免无谓时间的浪费，稳住迭代节奏；有时它可以救项目于水深火热之中；有时它也可以带给用户展现上的惊喜。其技术较深且要抵抗更深技术的侵入。</p>
 <h4 id="2）React_Native_For_Android_の_修改React_Native为本地依赖">2）<a href="http://www.jianshu.com/p/cca40c19faa0" target="_blank" rel="external">React Native For Android の 修改React Native为本地依赖</a></h4><p>公司的网络可能由于防火墙等原因，使用Gradle在线依赖去下载React Native（以下简称RN）的aar包可能一天都下载不下来，而在使用家中的Wi-Fi就几分钟的事😓，当然目前还没法实现家中办公，而且如果让团队内其他同事也都每次等一天才下载下来，效率将是极其低下的。因此，只能将RN的aar包下载下来，并设置为本地依赖模式，同时引入RN依赖的第三方开源库。</p>
 <h4 id="3）Android快捷方式解密">3）<a href="http://www.jianshu.com/p/dc3d04337d00" target="_blank" rel="external">Android快捷方式解密</a></h4><p>Android快捷方式作为Android设备的杀手锏技能，一直都是非常重要的一个功能，也正是如此，各种流氓App也不断通过快捷方式霸占着这样一个用户入口。<br>同时，各大国产ROM和Luncher的崛起，让这个桌面之争变的更加激烈。毕竟大家都只想用户用自己的App资源，所以，现在各大App不仅仅是要抢占入口，同时还要和各大ROM斗智斗勇。本文将对这个快捷方式进行深度解密，同时给出App适配各种ROM的整合方案。</p>
 <h4 id="4）Android_热补丁动态修复框架小结">4）<a href="http://blog.csdn.net/lmj623565791/article/details/49883661" target="_blank" rel="external">Android 热补丁动态修复框架小结</a></h4><p>最新github上开源了很多热补丁动态修复框架，大致有：</p>
@@ -254,82 +302,27 @@
 <h2 id="开源函数库与工具">开源函数库与工具</h2><h4 id="1）AndroidChangeSkin">1）<a href="https://github.com/hongyangAndroid/AndroidChangeSkin" target="_blank" rel="external">AndroidChangeSkin</a></h4><p>一种完全无侵入的换肤方式，支持插件式和应用内，无需重启Activity.</p>
 <h4 id="2）Treasure">2）<a href="https://github.com/baoyongzhang/Treasure" target="_blank" rel="external">Treasure</a></h4><p>Treasure是一个Android平台上基于SharePreferences的偏好存储库，只需要定义接口，无需编写实现。运行时0反射，不仅使用方便而且性能和原生写法几乎无差别。</p>
 
-        
-      
-    </div>
+	
+	</div>
+  <a type="button" href="/2015/11/27/027/#more" class="btn btn-default more">阅读此文</a>
+</div>
 
-    <div class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </div>
-  </div>
+		
+			
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2015-11-25 </div>
+			<div class="article-title"><a href="/2015/11/25/028/" >第二十八期</a></div>						
+		</h3>
+	
 
 
-    
-      
-
-  <div class="post post-type-normal ">
-    <div class="post-header">
-
-      
-      
-        <h1 class="post-title">
-          
-          
-            
-              <a class="post-title-link" href="/2015/11/25/028/">
-                平安科技移动开发二队技术周报 第二十八期
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          发表于 2015-11-25
-        </span>
-
-        
-          <span class="post-category">
-            &nbsp; | &nbsp; 分类于
-            
-              <a href="/categories/weekly/">weekly</a>
-
-              
-              
-
-            
-          </span>
-        
-
-        
-          
-            <span class="post-comments-count">
-            &nbsp; | &nbsp;
-            <a href="/2015/11/25/028/#comments" >
-              <span class="post-comments-count ds-thread-count" data-thread-key="2015/11/25/028/"></span>
-            </a>
-          </span>
-          
-        
-      </div>
-    </div>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <h2 id="业界新闻">业界新闻</h2><h4 id="1）Android_Studio_2-0：速度提升，极大提高开发效率">1）<a href="http://android.jobbole.com/82127/" target="_blank" rel="external">Android Studio 2.0：速度提升，极大提高开发效率</a></h4><p>11月24日，在 Android Developer Summit 大会上，谷歌员工透露 Android Studio 2.0 版中的一些重大特性。</p>
+			<div class="entry">
+  <div class="row">
+	
+	
+		<h2 id="业界新闻">业界新闻</h2><h4 id="1）Android_Studio_2-0：速度提升，极大提高开发效率">1）<a href="http://android.jobbole.com/82127/" target="_blank" rel="external">Android Studio 2.0：速度提升，极大提高开发效率</a></h4><p>11月24日，在 Android Developer Summit 大会上，谷歌员工透露 Android Studio 2.0 版中的一些重大特性。</p>
 <h2 id="Android开发">Android开发</h2><h4 id="1）各大热补丁方案分析和比较">1）<a href="http://blog.zhaiyifan.cn/2015/11/20/HotPatchCompare/" target="_blank" rel="external">各大热补丁方案分析和比较</a></h4><p>最近开源界涌现了很多热补丁项目，但从方案上来说，主要包括Dexposed、AndFix、ClassLoader（来源是原QZone，现淘宝的工程师陈钟，在15年年初就已经开始实现）三种。前两个都是阿里巴巴内部的不同团队做的（淘宝和支付宝），后者则来自腾讯的QQ空间团队。</p>
 <h4 id="2）使用_JS_构建跨平台的原生应用（二）：React_Native_for_Android_调试技术剖析">2）<a href="http://taobaofed.org/blog/2015/11/25/react-native-android-debug/" target="_blank" rel="external">使用 JS 构建跨平台的原生应用（二）：React Native for Android 调试技术剖析</a></h4><p>本篇文章跟大家一起深入了解了 react-native run-android 背后的执行逻辑，通过对此的学习，我们基本了解了：</p>
 <ul>
@@ -349,1030 +342,162 @@
 <h4 id="6）致我们终将组件化的Web">6）<a href="http://www.alloyteam.com/2015/11/we-will-be-componentized-web-long-text/" target="_blank" rel="external">致我们终将组件化的Web</a></h4><p>模块一般指能够独立拆分且通用的代码单元。由于JavaScript语言本身没有内置的模块机制（ES6有了！！），我们一般会使用CMD或ADM建立起模块机制。现在大部分稍微大型一点的项目，都会使用requirejs或者seajs来实现JS的模块化。多人分工合作开发，其各自定义依赖和暴露接口，维护功能模块间独立性，对于项目的开发效率和项目后期扩展和维护，都是是有很大的帮助作用。</p>
 <h2 id="开源函数库与工具">开源函数库与工具</h2><h4 id="1）推荐_11_款_React_Native_开源移动_UI_组件">1）<a href="http://www.imooc.com/article/2223" target="_blank" rel="external">推荐 11 款 React Native 开源移动 UI 组件</a></h4><p>本文推荐 11 个非常棒的 React Native 开源组件，希望能给移动应用开发者提供帮助。</p>
 
-        
-      
-    </div>
-
-    <div class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </div>
-  </div>
-
-
-    
-      
-
-  <div class="post post-type-normal ">
-    <div class="post-header">
-
-      
-      
-        <h1 class="post-title">
-          
-          
-            
-              <a class="post-title-link" href="/2015/11/11/026/">
-                平安科技移动开发二队技术周报 第二十六期
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          发表于 2015-11-11
-        </span>
-
-        
-          <span class="post-category">
-            &nbsp; | &nbsp; 分类于
-            
-              <a href="/categories/weekly/">weekly</a>
-
-              
-              
-
-            
-          </span>
-        
-
-        
-          
-            <span class="post-comments-count">
-            &nbsp; | &nbsp;
-            <a href="/2015/11/11/026/#comments" >
-              <span class="post-comments-count ds-thread-count" data-thread-key="2015/11/11/026/"></span>
-            </a>
-          </span>
-          
-        
-      </div>
-    </div>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <h2 id="业界新闻">业界新闻</h2><h4 id="1）如何评价蜻蜓_FM_伪造用户活跃度等数据？">1）<a href="http://www.zhihu.com/question/37248269" target="_blank" rel="external">如何评价蜻蜓 FM 伪造用户活跃度等数据？</a></h4><p>神一般的产品经理和程序员～</p>
-<h4 id="2）如何评价Tensorflow和其它深度学习系统">2）<a href="http://weibo.com/p/1001603907610737775666" target="_blank" rel="external">如何评价Tensorflow和其它深度学习系统</a></h4><p>最近Google开源了新一代深度学习引擎TensorFlow。本文解释了一些TF里面我觉得可以从系统方面值得看的地方。</p>
-<h2 id="Android开发">Android开发</h2><h4 id="1）Android应用开发编译框架流程与IDE及Gradle概要">1）<a href="http://blog.csdn.net/yanbober/article/details/49408489" target="_blank" rel="external">Android应用开发编译框架流程与IDE及Gradle概要</a></h4><p>在我们开发App时大多数时候的编译流程都是直接通过IDE的按钮或者命令行一步到位apk的生成，直观上的感觉好像源码到Apk的生成只有一步，实质不是这样的。从我们点击按钮那一刻到生成apk的过程实际是非常复杂的，涉及到很多步骤</p>
-<h4 id="2）用MVP架构开发Android应用">2）<a href="http://www.kymjs.com/code/2015/11/09/01/" target="_blank" rel="external">用MVP架构开发Android应用</a></h4><p>在Android开发中，Activity并不是一个标准的MVC模式中的Controller，它的首要职责是加载应用的布局和初始化用户界面，并接受并处理来自用户的操作请求，进而作出响应。但是，随着界面及其逻辑的复杂度不断提升，Activity类的职责不断增加，以致很容易变得庞大而臃肿。使用MVP模式能够更方便的帮助Activity(或Fragment)职责分离，减小类体积，使项目结构更加清晰。</p>
-<h4 id="3）MVVM_Android-CleanArchitecture">3）<a href="http://rocko.xyz/2015/11/07/MVVM_Android-CleanArchitecture/" target="_blank" rel="external">MVVM_Android-CleanArchitecture</a></h4><p>MVVM 也仅仅是架构模式（Architectural pattern），其有一套自己的理论概念（pattern）而不是规定的具体实现（或 Frameworks）。早之前在知乎上相关问题的回答（android UI设计MVVM设计模式讨论？）中也简单提到过 MVVM 了，M-V-X 的关系如上图，那么这一次博主把 Fernando Cejas(android10) 的 Android-CleanArchitecture 项目中的 MVP 实现重构成了用 MVVM 来实现。</p>
-<h4 id="4）Android打包的那些事">4）<a href="http://www.jayfeng.com/2015/11/07/Android%E6%89%93%E5%8C%85%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%8B/" target="_blank" rel="external">Android打包的那些事</a></h4><p>使用gradle打包apk已经成为当前主流趋势，我也在这个过程中经历了各种需求，并不断结合gradle新的支持，一一改进。在此，把这些相关的东西记录，做一总结。</p>
-<h4 id="5）Android_开发中，有哪些坑需要注意？">5）<a href="http://www.zhihu.com/question/27818921/answer/70279930" target="_blank" rel="external">Android 开发中，有哪些坑需要注意？</a></h4><p>一线开发者经典总结。</p>
-<h2 id="iOS开发">iOS开发</h2><h4 id="1）微信iOS_9适配总结">1）<a href="http://www.infoq.com/cn/articles/wechat-ios9-adaptation" target="_blank" rel="external">微信iOS 9适配总结</a></h4><p>每年iOS升级，都会带来一些坑，这次iOS9也不例外。本文总结了微信在适配iOS9上遇到的问题和解决方案。</p>
-<h4 id="2）超实用的IOS_9人机界面指南（1）：UI设计基础">2）<a href="http://www.uisdc.com/ios9-interface-guideline-ui" target="_blank" rel="external">超实用的IOS 9人机界面指南（1）：UI设计基础</a></h4><p>让人激动到手发抖的苹果官方人机指南中文版来了！腾讯ISUX整个团队的心血译作，整篇近2万字，10月21号刚发布，今天就出稿了，而且质量奇高，用词精确，语句晓畅。看再多零散的设计技巧，都不如直接看官方设计指南有效。作为UI设计师的必读教科书，这篇千万要收藏！</p>
-<h4 id="3）关于_@synchronized，这儿比你想知道的还要多">3）<a href="http://yulingtianxia.com/blog/2015/11/01/More-than-you-want-to-know-about-synchronized/" target="_blank" rel="external">关于 @synchronized，这儿比你想知道的还要多</a></h4><p>如果你已经使用 Objective-C 编写过任何并发程序，那么想必是见过 @synchronized 这货了。@synchronized 结构所做的事情跟锁（lock）类似：它防止不同的线程同时执行同一段代码。但在某些情况下，相比于使用 NSLock 创建锁对象、加锁和解锁来说，@synchronized 用着更方便，可读性更高。</p>
-<h4 id="4）What_we_learned_from_rewriting_our_robotic_control_software_in_Swift">4）<a href="http://www.sunsetlakesoftware.com/2015/11/03/what-we-learned-rewriting-our-robotic-control-software-swift" target="_blank" rel="external">What we learned from rewriting our robotic control software in Swift</a></h4><p>At the beginning of this year we started a complete rewrite of our robotics software from Objective-C to Swift, for reasons described here. That rewrite was concluded two months ago, passed testing a month ago, and has been deployed to all of our customers. As a result, I wanted to do a final analysis of the rewrite and what we learned from it.</p>
-<h4 id="5）The_Swift_Reflection_API_and_what_you_can_do_with_it">5）<a href="http://appventure.me/2015/10/24/swift-reflection-api-what-you-can-do/" target="_blank" rel="external">The Swift Reflection API and what you can do with it</a></h4><p>Even though Swift stresses strong types, compile time safety, static dispatch it still offers a Reflection mechanism as part of the standard library. </p>
-<h2 id="技术纵横">技术纵横</h2><h4 id="1）架构设计最佳实践与必备素养">1）<a href="http://special.csdncms.csdn.net/architecture/" target="_blank" rel="external">架构设计最佳实践与必备素养</a></h4><p>架构或架构师的话题一直在被人们所谈论，对于什么是架构？如何设计前后端分离的架构？如何设计高可用的架构？如何设计可伸缩的架构？什么又是架构师？架构师需要哪些品质？程序员应该如何修炼为架构师？</p>
-<h4 id="2）使用Fetch_API和ES6生成器构建异步API">2）<a href="http://www.csdn.net/article/2015-10-28/2826063-asynchronous-apis-using-fetch-api-es6-generators" target="_blank" rel="external">使用Fetch API和ES6生成器构建异步API</a></h4><p>ECMAScript 6为JavaScript带来了大量的新特性，其中包括新增的Fetch API，它致力于取代作为当前远程资源通信基础的XMLHttpRequest。本文介绍了如何结合Fetch API和生成器来构建异步API。</p>
-<h4 id="3）浅谈Hybrid技术的设计与实现">3）<a href="http://www.cnblogs.com/yexiaochai/p/4921635.html" target="_blank" rel="external">浅谈Hybrid技术的设计与实现</a></h4><p>随着移动浪潮的兴起，各种APP层出不穷，极速的业务扩展提升了团队对开发效率的要求，这个时候使用IOS&amp;Andriod开发一个APP似乎成本有点过高了，而H5的低成本、高效率、跨平台等特性马上被利用起来形成了一种新的开发模式：Hybrid APP。作为一种混合开发的模式，Hybrid APP底层依赖于Native提供的容器（UIWebview），上层使用Html&amp;Css&amp;JS做业务开发，底层透明化、上层多多样化，这种场景非常有利于前端介入，非常适合业务快速迭代，于是Hybrid火啦。</p>
-<h4 id="4）给_JavaScript_初心者的_ES2015_实战">4）<a href="http://gank.io/post/564151c1f1df1210001c9161" target="_blank" rel="external">给 JavaScript 初心者的 ES2015 实战</a></h4><p>历时将近6年的时间来制定的新 ECMAScript 标准 ECMAScript 6（亦称 ECMAScript Harmony，简称 ES6）终于在 2015 年 6 月正式发布。自从上一个标准版本 ES5 在 2009 年发布以后，ES6 就一直以新语法、新特性的优越性吸引著众多 JavaScript 开发者，驱使他们积极尝鲜。</p>
-<h4 id="5）Java应用一般架构">5）<a href="http://bbear.me/ge-chong-jia-gou/" target="_blank" rel="external">Java应用一般架构</a></h4><p>当我们架设一个系统的时候通常需要考虑到如何与其他系统交互，所以我们首先需要知道各种系统之间是如何交互的，使用何种技术实现。</p>
-<h2 id="开源函数库与工具">开源函数库与工具</h2><h4 id="1）DoubanMovie-React-Native">1）<a href="https://github.com/fengjundev/DoubanMovie-React-Native" target="_blank" rel="external">DoubanMovie-React-Native</a></h4><p>React Native实现的豆瓣电影客户端。</p>
-
-        
-      
-    </div>
-
-    <div class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </div>
-  </div>
-
-
-    
-      
-
-  <div class="post post-type-normal ">
-    <div class="post-header">
-
-      
-      
-        <h1 class="post-title">
-          
-          
-            
-              <a class="post-title-link" href="/2015/10/28/025/">
-                平安科技移动开发二队技术周报（特别版のReact Native专题）
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          发表于 2015-10-28
-        </span>
-
-        
-          <span class="post-category">
-            &nbsp; | &nbsp; 分类于
-            
-              <a href="/categories/weekly/">weekly</a>
-
-              
-              
-
-            
-          </span>
-        
-
-        
-          
-            <span class="post-comments-count">
-            &nbsp; | &nbsp;
-            <a href="/2015/10/28/025/#comments" >
-              <span class="post-comments-count ds-thread-count" data-thread-key="2015/10/28/025/"></span>
-            </a>
-          </span>
-          
-        
-      </div>
-    </div>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <h2 id="业界新闻">业界新闻</h2><h4 id="1）苹果开源三个加密库">1）<a href="http://www.infoq.com/cn/news/2015/11/apple-crypto-open-source" target="_blank" rel="external">苹果开源三个加密库</a></h4><p>苹果宣布开源其操作系统的安全子系统中三个主要组件，其中一个库使用的具有限制性约束的许可证引发了争议，此次声明也对该争议作出相应解释。</p>
-<h4 id="2）如何评价百度在SDK中嵌入后门？">2）<a href="http://www.zhihu.com/question/37124478" target="_blank" rel="external">如何评价百度在SDK中嵌入后门？</a></h4><p>关于百度系应用WormHole漏洞的一个讨论。</p>
-<h2 id="Android开发">Android开发</h2><h4 id="1）移动端图片格式调研">1）<a href="http://blog.ibireme.com/2015/11/02/mobile_image_benchmark/" target="_blank" rel="external">移动端图片格式调研</a></h4><p>图片通常是移动端流量耗费最多的部分，并且占据着重要的视觉空间。合理的图片格式选用和优化可以为你节省带宽、提升视觉效果。在这篇文章作者分析了目前主流和新兴的几种图片格式的特点、性能分析、参数调优，以及相关开源库的选择。</p>
-<h4 id="2）Android项目重构之路">2）Android项目重构之路</h4><ul>
-<li><a href="http://keeganlee.me/post/android/20150605" target="_blank" rel="external">架构篇</a></li>
-<li><a href="http://keeganlee.me/post/android/20150619" target="_blank" rel="external">界面篇</a></li>
-<li><a href="http://keeganlee.me/post/android/20150629" target="_blank" rel="external">实现篇</a></li>
-</ul>
-<h4 id="3）React_Native_中组件的生命周期">3）<a href="http://www.race604.com/react-native-component-lifecycle/" target="_blank" rel="external">React Native 中组件的生命周期</a></h4><p>就像 Android 开发中的 View 一样，React Native（RN） 中的组件也有生命周期（Lifecycle）。所谓生命周期，就是一个对象从开始生成到最后消亡所经历的状态，理解生命周期，是合理开发的关键。</p>
-<h4 id="4）安卓App热补丁动态修复技术介绍&amp;version=11020201&amp;lang=en&amp;pass_ticket=1zsiC5hQfwATA4R3ndq32UtcvN%2B5kATcavEv4xN2HMY%3D)">4）<a href="http://mp.weixin.qq.com/s?__biz=MzI1MTA1MzM2Nw==&amp;mid=400118620&amp;idx=1&amp;sn=b4fdd5055731290eef12ad0d17f39d4a&amp;scene=0&amp;uin=MTYzMjY2MTE1&amp;key=04dce534b3b035ef49d8b47c3f8dc1399d737e94c7a40b1a38561c6fcf48d000a1f40ec4bf530d2534dd865875c0c8c7&amp;devicetype=iMac+MacBookPro10%2C1+OSX+OSX+10.11.1+build(15B42" target="_blank" rel="external">安卓App热补丁动态修复技术介绍</a>&amp;version=11020201&amp;lang=en&amp;pass_ticket=1zsiC5hQfwATA4R3ndq32UtcvN%2B5kATcavEv4xN2HMY%3D)</h4><p>当一个App发布之后，突然发现了一个严重bug需要进行紧急修复，这时候公司各方就会忙得焦头烂额：重新打包App、测试、向各个应用市场和渠道换包、提示用户升级、用户下载、覆盖安装。有时候仅仅是为了修改了一行代码，也要付出巨大的成本进行换包和重新发布。</p>
-<h4 id="5）关于Android_Log的一些思考">5）<a href="http://droidyue.com/blog/2015/11/01/thinking-about-android-log/" target="_blank" rel="external">关于Android Log的一些思考</a></h4><p>在日常的Android开发中，日志打印是一项必不可少的操作，我们通过分析打印的日志可以分析程序的运行数据和情况。然而使用日志打印的正确姿势又是怎样呢，如何屏蔽日志信息输出呢？</p>
-<h2 id="iOS开发">iOS开发</h2><h4 id="1）被误解的_MVC_和被神化的_MVVM">1）<a href="http://blog.devtang.com/blog/2015/11/02/mvc-and-mvvm/" target="_blank" rel="external">被误解的 MVC 和被神化的 MVVM</a></h4><p>MVC，全称是 Model View Controller，是模型 (model)－视图 (view)－控制器 (controller) 的缩写。它表示的是一种常见的客户端软件开发框架。</p>
-<p>相对于 MVC 的历史来说，MVVM 是一个相当新的架构，MVVM 最早于 2005 年被微软的 WPF 和 Silverlight 的架构师 John Gossman 提出，并且应用在微软的软件开发中。当时 MVC 已经被提出了 20 多年了，可见两者出现的年代差别有多大。</p>
-<h4 id="2）Parse源码浅析系列（一）—-Parse的底层多线程处理思路：GCD高级用法">2）<a href="https://github.com/ChenYilong/ParseSourceCodeStudy/blob/master/01_Parse%E7%9A%84%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%A4%84%E7%90%86%E6%80%9D%E8%B7%AF/Parse%E7%9A%84%E5%BA%95%E5%B1%82%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%A4%84%E7%90%86%E6%80%9D%E8%B7%AF.md" target="_blank" rel="external">Parse源码浅析系列（一）—-Parse的底层多线程处理思路：GCD高级用法</a></h4><p>从iOS7升到iOS8后，GCD 出现了一个重大的变化：在 iOS7 时，使用 GCD 的并行队列， dispatch_async 最大开启的线程一直能控制在6、7条，线程数都是个位数，然而 iOS8后，最大线程数一度可以达到40条、50条。然而在文档上并没有对这一做法的目的进行介绍。</p>
-<h4 id="3）iOS_比_Android_还不安全?_-_记一次和阿里资深安全工程师蒸米的交流">3）<a href="http://blog.devtang.com/blog/2015/10/22/talk-with-zm-about-ios-security/" target="_blank" rel="external">iOS 比 Android 还不安全? - 记一次和阿里资深安全工程师蒸米的交流</a></h4><p>蒸米是最早在乌云上公开 XcodeGhost 的工作原理的人。在后续 XcodeGhost 的服务器关闭后，蒸米也介绍了通过 DNS 污染来接管 XcodeGhost 木马的技术。让大家对于 iOS 平台的安全有了新的认识。</p>
-<h4 id="4）细说ReactiveCocoa的冷信号与热信号（三）：怎么处理冷信号与热信号">4）<a href="http://tech.meituan.com/talk-about-reactivecocoas-cold-signal-and-hot-signal-part-3.html?hmsr=toutiao.io&amp;utm_medium=toutiao.io&amp;utm_source=toutiao.io" target="_blank" rel="external">细说ReactiveCocoa的冷信号与热信号（三）：怎么处理冷信号与热信号</a></h4><p>在ReactiveCocoa中，究竟什么才是热信号呢？冷信号是比较常见的，map一下就会得到一个冷信号。但在RAC中，好像并没有“hot signal”这个单独的说法。原来在RAC的世界中，所有的热信号都属于一个类——RACSubject。接下来我们来看看究竟它为什么这么“神奇”。</p>
-<h4 id="5）深入剖析Auto_Layout，分析iOS各版本新增特性">5）<a href="http://www.starming.com/index.php?v=index&amp;view=84" target="_blank" rel="external">深入剖析Auto Layout，分析iOS各版本新增特性</a></h4><p>这篇对Auto Layout知识要点进行详细的分析和整理。</p>
-<h2 id="技术纵横">技术纵横</h2><h4 id="1）学习_React_Native_for_Android：React_基础">1）<a href="http://hahack.com/codes/learn-react-native-for-android-02/" target="_blank" rel="external">学习 React Native for Android：React 基础</a></h4><p>React Native 主张用 React 的开发思维来编写 UI 层。因此在学习 React-Native 之前，了解基本的 React 的语法和存在的坑会对今后 React Native 的开发大有裨益。</p>
-<h4 id="2）React-js生态系统概览">2）<a href="http://www.inkpaper.io/blog/post/2015/10/18/navigating-the-react-ecosystem.html" target="_blank" rel="external">React.js生态系统概览</a></h4><p>JavaScript领域发展速度很快，甚至有人认为这已经引起了负效应。一个前端库从早期开发的小玩具，到流行，再到过时，可能也就几个月时间。判断一个工具能否在几年内依然保持活力都快成了一门艺术了。</p>
-<h4 id="3）React源码剖析系列_－_生命周期的管理艺术">3）<a href="http://zhuanlan.zhihu.com/purerender/20312691" target="_blank" rel="external">React源码剖析系列 － 生命周期的管理艺术</a></h4><p>目前，前端领域中 React 势头正盛，很少能够深入剖析内部实现机制和原理。本系列文章希望通过剖析 React 源码，理解其内部的实现原理，知其然更要知其所以然。对于 React，其组件生命周期（Component Lifecycle）是它的核心概念，本文从源码入手，来剖析 React 生命周期的管理艺术。</p>
-<h4 id="4）React虚拟DOM浅析">4）<a href="http://www.alloyteam.com/2015/10/react-virtual-analysis-of-the-dom/" target="_blank" rel="external">React虚拟DOM浅析</a></h4><p>在Web开发中，需要将数据的变化实时反映到UI上，这时就需要对DOM进行操作，但是复杂或频繁的DOM操作通常是性能瓶颈产生的原因，为此，React引入了虚拟DOM（Virtual DOM）的机制。</p>
-<h4 id="5）从自我驱动到带领10人团队">5）<a href="http://www.linkedme.in/2015/09/10/how-to-be-a-professional-team-lead" target="_blank" rel="external">从自我驱动到带领10人团队</a></h4><p>虽然仅仅是10人团队的管理，但是其中所蕴含的基本道理却是与管理100人1000人有共通之处。而从自我管理到管理他人的转变却是质的飞越，这个过渡中的思维和工作方式转换对该阶段的人来说，至关重要，希望各位能够好好把握个中关键成功转型。</p>
-<h2 id="开源函数库与工具">开源函数库与工具</h2><h4 id="1）ViewInspector">1）<a href="https://github.com/xfumihiro/ViewInspector" target="_blank" rel="external">ViewInspector</a></h4><p>Android View分析插件</p>
-<p><img src="http://d.picphotos.baidu.com/album/w%3D1458%3Bq%3D90/sign=072ded64cdef76093c0b9d9b1be598bd/c995d143ad4bd11378295ecb5cafa40f4afb0566.jpg" alt=""></p>
-
-        
-      
-    </div>
-
-    <div class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </div>
-  </div>
-
-
-    
-      
-
-  <div class="post post-type-normal ">
-    <div class="post-header">
-
-      
-      
-        <h1 class="post-title">
-          
-          
-            
-              <a class="post-title-link" href="/2015/10/21/024/">
-                平安科技移动开发二队技术周报 第二十四期
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          发表于 2015-10-21
-        </span>
-
-        
-          <span class="post-category">
-            &nbsp; | &nbsp; 分类于
-            
-              <a href="/categories/weekly/">weekly</a>
-
-              
-              
-
-            
-          </span>
-        
-
-        
-          
-            <span class="post-comments-count">
-            &nbsp; | &nbsp;
-            <a href="/2015/10/21/024/#comments" >
-              <span class="post-comments-count ds-thread-count" data-thread-key="2015/10/21/024/"></span>
-            </a>
-          </span>
-          
-        
-      </div>
-    </div>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <h2 id="业界新闻">业界新闻</h2><h4 id="1）Android“棉花糖”正式发布">1）<a href="http://www.infoq.com/cn/news/2015/10/android-marshmallow-rollout?" target="_blank" rel="external">Android“棉花糖”正式发布</a></h4><p>Google宣布在其Nexus设备上发布代号为”棉花糖”的Android 6.0系统，预计该版本操作系统将在更多设备上应用。</p>
-<h4 id="2）从网易邮箱被爆看企业的网络安全">2）<a href="http://mp.weixin.qq.com/s?__biz=MzA4NzA2NjcyMg%3D%3D&amp;from=timeline&amp;hmsr=toutiao.io&amp;idx=1&amp;isappinstalled=0&amp;mid=400051549&amp;scene=2&amp;sn=816efa29b95cf6b686408a068e624e37&amp;srcid=1020IxMBSVUmfnXg2qpx5PMO&amp;utm_medium=toutiao.io&amp;utm_source=toutiao.io" target="_blank" rel="external">从网易邮箱被爆看企业的网络安全</a></h4><p>昨天下午(10月19日)网易”亮“了，乌云报告网易邮箱存在漏洞，涉及数亿网易邮箱账号和密码(MD5加密)的泄露。</p>
-<h4 id="3）App使用有米SDK遭下架事件分析：使用私有API就代表隐私侵犯？">3）<a href="http://www.leiphone.com/news/201510/sh9qFDktkYtr4KgM.html" target="_blank" rel="external">App使用有米SDK遭下架事件分析：使用私有API就代表隐私侵犯？</a></h4><p>10月19日晚首先由国外媒体报道的一起安全事件——研究机构SourceDNA发现众多使用有米SDK的App在收集用户个人数据，因而遭苹果下架。今天这一事件也得到国内媒体的广泛报道，许多用户不明觉厉。</p>
-<h2 id="Android开发">Android开发</h2><h4 id="1）天猫技术团队使用React_Native代替H5实现产品化落地">1）<a href="http://mp.weixin.qq.com/s?__biz=MzA3Mjk1MjA4Nw%3D%3D&amp;hmsr=toutiao.io&amp;idx=1&amp;mid=209278158&amp;sn=0a6a12eeab5ed87973de055196eac5b8&amp;utm_medium=toutiao.io&amp;utm_source=toutiao.io" target="_blank" rel="external">天猫技术团队使用React Native代替H5实现产品化落地</a></h4><p>React-Native 是Android端实现实现动态部署的另一种思路，绕过dexLoad【一些现有的Android插件框架】，同时实现了前端人员和客户端人员资源的共享，总之是非常值得期待和尝试。</p>
-<h4 id="2）Android_GC_那点事">2）<a href="http://mp.weixin.qq.com/s?__biz=MzI1MTA1MzM2Nw%3D%3D&amp;hmsr=toutiao.io&amp;idx=1&amp;mid=400021278&amp;scene=0&amp;sn=0e971807eb0e9dcc1a81853189a092f3&amp;utm_medium=toutiao.io&amp;utm_source=toutiao.io" target="_blank" rel="external">Android GC 那点事</a></h4><p>想写一篇关于Android GC的想法来源于追查一个魅族手机图片滑动卡顿问题，由于不断的GC导致的丢帧卡顿的问题让我们想了很多方案去解决，所以就打算详细的看看内存分配和GC的原理，为什么会不断的GC, GC ALLOC和GC COCURRENT有什么区别，能不能想办法扩大堆内存减少GC的频次等等。</p>
-<h4 id="3）Kotlin:_Java_6_废土中的一线希望">3）<a href="https://realm.io/cn/news/droidcon-michael-pardo-kotlin/" target="_blank" rel="external">Kotlin: Java 6 废土中的一线希望</a></h4><p>去年，Java8 发布了，增加了很多新特性和提升，比如lambda，stream。Java 9 的标准也已经在制定了。但是超过半数的 Android 设备仍在运行着 Java 6，我们要怎么才能用上新的现代化语言呢？<br>在 DroidCon NYC 2015 的这个分享里，Michael Pardo 介绍了 Kotlin: 由 JetBrains 开发出的 JVM 静态语言。Kotlin 由很多新的特性，比如 lambdas，类扩展（class extensions），和 null 安全（null-safty）。它简洁明了，同时由很高的互操作性（interoperable）。</p>
-<h4 id="4）开源选型之_Android_三大图片缓存原理、特性对比&amp;version=11020201&amp;pass_ticket=thTUpPLsZ0gvLJW41vViq6P5IbWMpcK2j%2FTZ0msEtpWe%2BtVdwKhwR80PZ9ZpOiqj)">4）<a href="http://mp.weixin.qq.com/s?__biz=MzAxNjI3MDkzOQ==&amp;mid=400056342&amp;idx=1&amp;sn=894325d70f16a28bfe8d6a4da31ec304&amp;scene=0&amp;key=b410d3164f5f798eda36644a0f67c2008e6594a65627177d8b52c17cad4502dcd5092ab6b2f9ded318b37bb80dd8da36&amp;ascene=0&amp;uin=NTk4MzU3OTAw&amp;devicetype=iMac+MacBookPro12%2C1+OSX+OSX+10.11+build(15A284" target="_blank" rel="external">开源选型之 Android 三大图片缓存原理、特性对比</a>&amp;version=11020201&amp;pass_ticket=thTUpPLsZ0gvLJW41vViq6P5IbWMpcK2j%2FTZ0msEtpWe%2BtVdwKhwR80PZ9ZpOiqj)</h4><p>本文主要对比分析了三款主流图片缓存函数库的，它们分别是Universal ImageLoader，Picasso和Glide。开发者在做技术选型时可以zuo w</p>
-<h4 id="5）Android动态加载技术三个关键问题详解">5）<a href="http://www.infoq.com/cn/articles/android-dynamic-loading" target="_blank" rel="external">Android动态加载技术三个关键问题详解</a></h4><p>动态加载技术（也叫插件化技术）在技术驱动型的公司中扮演着相当重要的角色，当项目越来越庞大的时候，需要通过插件化来减轻应用的内存和CPU占用，还可以实现热插拔，即在不发布新版本的情况下更新某些模块。动态加载是一项很复杂的技术，这里主要介绍动态加载技术中的三个基础性问题。</p>
-<h2 id="iOS开发">iOS开发</h2><h4 id="1）iOS高性能图片架构与设计">1）<a href="http://mp.weixin.qq.com/s?__biz=MzI1MTA1MzM2Nw%3D%3D&amp;hmsr=toutiao.io&amp;idx=1&amp;mid=207840007&amp;scene=0&amp;sn=ce09553e5774f5581c696b5e28f0c7e8&amp;utm_medium=toutiao.io&amp;utm_source=toutiao.io" target="_blank" rel="external">iOS高性能图片架构与设计</a></h4><p>一个优秀的图片组件应该具有这些特性：集并发控制，请求合并，下载，缓存，缓存自动淘汰，图片处理，动画的从数据源到图片显示的一站式解决方案。做到图片加载展示如丝般顺滑。支持autolayout和代码布局，提供了对网络图片、系统相册图片、本地图片的加载与现实的支持。经过实际项目检验，性能优秀、运行稳定。高度可定制性：可以和现有的任何下载组件和图片处理组件协同工作。</p>
-<h4 id="2）Realm_核心数据库引擎探秘">2）<a href="https://realm.io/cn/news/jp-simard-realm-core-database-engine/" target="_blank" rel="external">Realm 核心数据库引擎探秘</a></h4><p>Realm 大部分代码都是开源的，但是其强大功能取决于隐藏在平台内部的一个核心数据库引擎，这个引擎完全由 C++ 编写而成。在这次讲座当中，来自 Realm 的工程师 JP Simard 将带领大家一探 Realm 的核心！JP 将阐述 Realm 设计背后的准则，包括 Realm 是如何保证快速高效运行的，以及为什么我们要自己撰写数据库引擎，而不是像包括 Core Data 在内的移动端数据库解决方案那样，采用 SQLite 作为内部核心。</p>
-<h4 id="3）iOS_应用架构谈_动态部署方案">3）<a href="http://www.cocoachina.com/ios/20151019/13761.html" target="_blank" rel="external">iOS 应用架构谈 动态部署方案</a></h4><p>这里讨论的动态部署方案，就是指通过不发版的方式，将新的内容、新的业务流程部署进已发布的App。因为苹果的审核周期比较长，而且苹果的限制比较多，业界在这里也没有特别多的手段来达到动态部署方案的目的。这篇文章主要的目的就是给大家列举一下目前业界做动态部署的手段，以及其对应的优缺点。然后给出一套我比较倾向于使用的方案。</p>
-<h4 id="4）AFNetworking_3-0迁移指南">4）<a href="http://www.jianshu.com/p/047463a7ce9b" target="_blank" rel="external">AFNetworking 3.0迁移指南</a></h4><p>AFNetworking是一款在OS X和iOS下都令人喜爱的网络库。为了迎合iOS新版本的升级, AFNetworking在3.0版本中删除了基于 NSURLConnection API的所有支持。如果你的项目以前使用过这些API，建议您立即升级到基于 NSURLSession 的API的AFNetworking的版本。本指南将引导您完成这个过程。</p>
-<h4 id="5）JSPatch_实现原理详解">5）<a href="http://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ%3D%3D&amp;hmsr=toutiao.io&amp;idx=1&amp;mid=400011053&amp;scene=0&amp;sn=81ed095f6fb9f7a4345ff50285264be1&amp;utm_medium=toutiao.io&amp;utm_source=toutiao.io" target="_blank" rel="external">JSPatch 实现原理详解</a></h4><p>JSPatch 是一个 iOS 动态更新框架，只需在项目中引入极小的引擎，就可以使用就可以使用 JavaScript 调用任何 Objective-C 原生接口，获得脚本语言的优势：为项目动态添加模块，或替换项目原生代码动态修复 bug，目前在 github 上开源。<br>微信 iOS 客户端使用了 JSPatch，本篇文章详细阐述 JSPatch 的实现原理和一些细节，以帮助使用者更好地了解和使用 JSPatch。</p>
-<h2 id="技术纵横">技术纵横</h2><h4 id="1）构建混合移动应用的流行框架优缺点对比">1）<a href="http://www.oschina.net/translate/comparing-the-top-frameworks-for-building-hybrid-mobile-apps-1" target="_blank" rel="external">构建混合移动应用的流行框架优缺点对比</a></h4><p>仅仅几年前，使用 JavaScript 开发移动应用程序还只是古怪的实验，无需使用 Java 和 Object C 就可创建 iOS 和 Android 应用程序的想法似乎吸引着很多 web 开发者。现在出现了大量的框架，使我们只使用 web 技术就可以创建移动应用，并且用户体验和以往用原生语言开发的应用差不多。</p>
-<h4 id="2）RESTFUL_API_安全设计指南">2）<a href="http://drops.wooyun.org/web/9737?hmsr=toutiao.io&amp;utm_medium=toutiao.io&amp;utm_source=toutiao.io" target="_blank" rel="external">RESTFUL API 安全设计指南</a></h4><p>REST的全称是REpresentational State Transfer，表示表述性无状态传输，无需session，所以每次请求都得带上身份认证信息。rest是基于http协议的，也是无状态的。只是一种架构方式，所以它的安全特性都需我们自己实现，没有现成的。建议所有的请求都通过https协议发送。</p>
-<h4 id="3）Web开发的未来：React、Falcor和ES6">3）<a href="http://www.infoq.com/cn/news/2015/10/React-Falcor-ES6" target="_blank" rel="external">Web开发的未来：React、Falcor和ES6</a></h4><p>Widen是一家数字资产管理解决方案提供商。目前，其技术栈还非常传统，包括服务器端的Java、浏览器端的AngularJS、提供REST API支持的Jersey以及jQuery、 Underscore、lodash、jQuery UI和Bootstrap等各种库。近日，该公司的首席开发人员Ray Nicholus在一篇文章中提出了一个面向未来的Web开发技术栈，用于取代现有的工具。</p>
-<h4 id="4）微软在Edge预览版中支持Async/Await特性">4）<a href="http://www.infoq.com/cn/news/2015/10/async-await-javascript-edge" target="_blank" rel="external">微软在Edge预览版中支持Async/Await特性</a></h4><p>即将到来的ES 2016中有一个async/await特性，微软浏览器Edge目前已支持这一特性，在Edge最新的预览版中仍需开启实验性标志位才能进一步体验，但是想要在未来被广泛接受，走出这一步至关重要。浏览器上可能不放心使用ES6特性，但在react-native中可以尽情的使用。</p>
-<h4 id="5）你应该知道的_RPC_原理">5）<a href="http://blog.jobbole.com/92290/?hmsr=toutiao.io&amp;object_type=webpage&amp;pos=1&amp;url_type=39&amp;utm_medium=toutiao.io&amp;utm_source=toutiao.io" target="_blank" rel="external">你应该知道的 RPC 原理</a></h4><p>大型互联网公司的系统都由成千上万大大小小的服务组成，各服务部署在不同的机器上，由不同的团队负责。这时就会遇到两个问题：1）要搭建一个新服务，免不了需要依赖他人的服务，而现在他人的服务都在远端，怎么调用？2）其它团队要使用我们的服务，我们的服务该怎么发布以便他人调用？下文我们将对这两个问题展开探讨。</p>
-<h2 id="开源函数库与工具">开源函数库与工具</h2><h4 id="1）DroidScripts">1）<a href="https://github.com/Juude/droidScripts" target="_blank" rel="external">DroidScripts</a></h4><p>Android开发中一些有用的脚本。</p>
-<h4 id="2）Android_6-0源码">2）<a href="http://pan.baidu.com/s/1bndnE8J" target="_blank" rel="external">Android 6.0源码</a></h4><p>Android 6.0源码网盘地址。</p>
-<h4 id="3）QCON_上海_2015演讲PPT">3）<a href="http://yun.baidu.com/share/home?uk=387674681#category/type=0" target="_blank" rel="external">QCON 上海 2015演讲PPT</a></h4><p>刚刚结束的QCON嘉宾演讲的PPT，大家各取所需。</p>
-<h4 id="4）React_入门教程">4）<a href="https://github.com/hulufei/react-tutorial" target="_blank" rel="external">React 入门教程</a></h4><p>React一个不错的中文入门教程，尚在更新中。</p>
-
-        
-      
-    </div>
-
-    <div class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </div>
-  </div>
-
-
-    
-      
-
-  <div class="post post-type-normal ">
-    <div class="post-header">
-
-      
-      
-        <h1 class="post-title">
-          
-          
-            
-              <a class="post-title-link" href="/2015/10/14/023/">
-                平安科技移动开发二队技术周报 第二十三期
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          发表于 2015-10-14
-        </span>
-
-        
-          <span class="post-category">
-            &nbsp; | &nbsp; 分类于
-            
-              <a href="/categories/weekly/">weekly</a>
-
-              
-              
-
-            
-          </span>
-        
-
-        
-          
-            <span class="post-comments-count">
-            &nbsp; | &nbsp;
-            <a href="/2015/10/14/023/#comments" >
-              <span class="post-comments-count ds-thread-count" data-thread-key="2015/10/14/023/"></span>
-            </a>
-          </span>
-          
-        
-      </div>
-    </div>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <h2 id="业界新闻">业界新闻</h2><h4 id="1）Google开源Brotli压缩算法">1）<a href="http://www.infoq.com/cn/news/2015/10/Google-Brotli-Zotfli?utm_source=tuicool" target="_blank" rel="external">Google开源Brotli压缩算法</a></h4><p>谷歌非常重视互联网用户的体验，而提升网页加载速度是提升用户体验的一种重要方式。两年前，他们发布了Zotfli压缩算法。该算法在默认设置下的输出比zlib的最大压缩比输出还要小3-8%。PNG优化器、Web内容预处理等许多压缩方案中都集成了该算法。基于该算法的应用情况，结合其它现代压缩需求，谷歌开发并开源了一个新的算法——Brotli压缩算法。</p>
-<h4 id="2）Android_6-0_源代码及_Nexus_设备工厂镜像发布">2）<a href="http://www.oschina.net/news/66842/android-6-0-source-code-and-factory-images-for-nexus-devices?utm_source=tuicool" target="_blank" rel="external">Android 6.0 源代码及 Nexus 设备工厂镜像发布</a></h4><p>Google 已经 pushed Android 6.0 源代码 （注：墙）到 AOSP (Android Open Source Project), 并发布 factory images (MRA58K) 给 Nexus 6 &amp; Nexus 5 智能手机, Nexus Player, 以及 Nexus 9 和 Nexus 7 (2013) 平板电脑。</p>
-<h4 id="3）苹果低调发布全新21-5英寸4K屏幕iMac&amp;version=11020201&amp;pass_ticket=Boa8oCykj3acS9xY4a3CXy6h1zhJp4a47FkHf5zG1CAMA7XuzGHcx5WvG9lkkKj9)">3）<a href="http://mp.weixin.qq.com/s?__biz=MTE3MzE4MTAyMQ==&amp;mid=210825668&amp;idx=1&amp;sn=254ea83af6c57320e9b01b0f1a66ab96&amp;scene=0&amp;key=2877d24f51fa53849ac8f457aacf0c49e3b9af44cfcca0293b029f459055aaf64990e46034d5688b94ab2ba5217bfadc&amp;ascene=0&amp;uin=NTk4MzU3OTAw&amp;devicetype=iMac+MacBookPro12%2C1+OSX+OSX+10.11+build(15A284" target="_blank" rel="external">苹果低调发布全新21.5英寸4K屏幕iMac</a>&amp;version=11020201&amp;pass_ticket=Boa8oCykj3acS9xY4a3CXy6h1zhJp4a47FkHf5zG1CAMA7XuzGHcx5WvG9lkkKj9)</h4><p>苹果公司刚刚更新了自己的iMac一体化电脑产品线，新加入了4K分辨率屏幕的21.5寸iMac产品，提升了原有iMac产品的配置，并更新了无线鼠标、键盘以及触控板等附件。</p>
-<h2 id="Android开发">Android开发</h2><h4 id="1）专访DroidPlugin作者张勇：安卓黑科技是怎样炼成的">1）<a href="http://www.infoq.com/cn/news/2015/09/droidplugin-zhangyong-interview" target="_blank" rel="external">专访DroidPlugin作者张勇：安卓黑科技是怎样炼成的</a></h4><p>前段时间，奇虎360在Github上发布了一个Android开源项目DroidPlugin，这是一个实现动态加载的Android插件框架，可以免安装、免修改的运行第三方APK。一时间，它被誉为安卓黑科技，引起行业内的关注。</p>
-<h4 id="2）Android开发最佳实践">2）<a href="http://www.csdn.net/article/2015-10-05/2825847" target="_blank" rel="external">Android开发最佳实践</a></h4><p>前段时间，Google公布了Android开发最佳实践的一系列课程，涉及到一些平时开发过程中应该保持的良好习惯以及如何使用最新的Android Design Support Library来快速实现官方推荐的Material Design样式的应用。</p>
-<h4 id="3）给_Android_开发者的_RxJava_详解">3）<a href="http://gank.io/post/560e15be2dca930e00da1083?from=timeline&amp;hmsr=toutiao.io&amp;isappinstalled=0&amp;utm_medium=toutiao.io&amp;utm_source=toutiao.io" target="_blank" rel="external">给 Android 开发者的 RxJava 详解</a></h4><p>鉴于 RxJava 目前这种既火爆又神秘的现状，而我又在一年的使用过程中对 RxJava 有了一些理解，我决定写下这篇文章来对 RxJava 做一个相对详细的、针对 Android 开发者的介绍。<br>这篇文章的目的有两个：</p>
-<ul>
-<li>给对 RxJava 感兴趣的人一些入门的指引</li>
-<li>给正在使用 RxJava 但仍然心存疑惑的人一些更深入的解析</li>
-</ul>
-<h4 id="4）安装包立减1M—微信Android资源混淆打包工具">4）<a href="http://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ==&amp;mid=208135658&amp;idx=1&amp;sn=ac9bd6b4927e9e82f9fa14e396183a8f#rd" target="_blank" rel="external">安装包立减1M—微信Android资源混淆打包工具</a></h4><p>微信中的资源混淆工具主要为了混淆资源ID长度(例如将res/drawable/welcome.png混淆为r/s/a.png)，同时利用7z深度压缩，大大减少了安装包体积，同时也增加了逼格，提升了反破解难度。资源混淆工具大约是在2014年4月实现，并在微信5.4中使用，减少了大约1M的空间。然后在8月在公司内部开源，现以推广到QQ邮箱、QQ空间、手机管家等多个产品中使用。</p>
-<h4 id="5）React_Native_For_Android_架构初探">5）<a href="http://mp.weixin.qq.com/s?__biz=MzI1MTA1MzM2Nw==&amp;mid=207782506&amp;idx=1&amp;sn=3ff6b03c0d59fbda406f64739d9272cf&amp;scene=1&amp;srcid=1009Q3qo6mLeT2ydjdzUwLQ7&amp;from=groupmessage&amp;isappinstalled=0#rd" target="_blank" rel="external">React Native For Android 架构初探</a></h4><p>Facebook 在2015.9.15发布了 React Native for Android，把JavaScript 开发技术扩展到了Android平台。React Native 让开发者使用 JavaScript 和 React 编写应用，利用相同的核心代码就可以创建 基于Web，iOS 和 Android 平台的原生应用。本文将浅析Android React的架构及相关基础知识。</p>
-<h2 id="iOS开发">iOS开发</h2><h4 id="1）iOS应用架构谈_本地持久化方案及动态部署">1）<a href="http://casatwy.com/iosying-yong-jia-gou-tan-ben-di-chi-jiu-hua-fang-an-ji-dong-tai-bu-shu.html?hmsr=toutiao.io&amp;utm_medium=toutiao.io&amp;utm_source=toutiao.io" target="_blank" rel="external">iOS应用架构谈 本地持久化方案及动态部署</a></h4><p>持久化方案对整个App架构的影响和网络层方案对整个架构的影响类似，一般都是导致整个项目耦合度高的罪魁祸首。而我也是一如既往的去Model化的实践者，在持久层去Model化的过程中，我引入了Virtual Record的设计，这个在文中也会详细描述。</p>
-<h4 id="2）Swift_与众不同的地方">2）<a href="http://www.cnblogs.com/songliquan/p/4856700.html?hmsr=toutiao.io&amp;utm_medium=toutiao.io&amp;utm_source=toutiao.io" target="_blank" rel="external">Swift 与众不同的地方</a></h4><p>本文总结了Swift关键的基本概念。</p>
-<h4 id="3）自己动手写一个_iOS_网络请求库（五）——设置_SSL_钢钉">3）<a href="https://lvwenhan.com/ios/464.html?hmsr=toutiao.io&amp;utm_medium=toutiao.io&amp;utm_source=toutiao.io" target="_blank" rel="external">自己动手写一个 iOS 网络请求库（五）——设置 SSL 钢钉</a></h4><p>在我们调用 HTTPS 协议的时候，事先把 SSL 证书存到 App 本地，然后在每次请求的时候都进行一次验证，避免中间人攻击（Man-in-the-middle attack）。同时，这个功能也是我们使用自签名证书时候必须的，因为系统默认会拒绝我们自己签名的不受信任的证书，导致连接失败。</p>
-<h4 id="4）iOS_App_的逆向工程:_Hacking_on_Lyft">4）<a href="https://realm.io/cn/news/conrad-kramer-reverse-engineering-ios-apps-lyft/?utm_source=tuicool" target="_blank" rel="external">iOS App 的逆向工程: Hacking on Lyft</a></h4><p>如果你曾经想要知道某一部分代码如何工作，或者很同情某些人程序里的 Bug，你要是有代码，通常可以看看那部分代码。但是，如果没有代码可怎么办？ 在这个演讲里，Conrad 讲到了很多可以逆向 App 的概念和工具，这些方法和工具可以用来 debug 别人的库和你自己的代码。他还展示了逆向 iOS 版本的 Lyft （译者注：Lyft 是美国 Uber 之外的另一款打车软件），并且成功注入代码，探测网络流量，给我们活灵活现地展示逆向的艺术。通过 Conrad 的逆向技术，你也能成功地把 App Store 里所有的 App 的代码都暴露在你面前。</p>
-<h4 id="5）一种头像缓存策略">5）<a href="https://github.com/nixzhu/dev-blog/blob/master/2015-10-08-navi.md?utm_source=tuicool" target="_blank" rel="external">一种头像缓存策略</a></h4><p>许多 App 都有用户系统，不论是自己实现还是使用第三方，大概都需要显示用户的头像。比较常见的情景下，头像会在某些列表里出现，例如联系人列表、消息列表等。虽然头像也是图像，但相比于普通图片，我们对头像有更高的要求。</p>
-<h2 id="技术纵横">技术纵横</h2><h4 id="1）基于webpack搭建前端工程解决方案探索">1）<a href="http://www.infoq.com/cn/articles/frontend-engineering-webpack" target="_blank" rel="external">基于webpack搭建前端工程解决方案探索</a></h4><p>前端工程，最起码需要解决以下问题：</p>
-<ul>
-<li>提供开发所需的一整套运行环境，这和IDE作用类似</li>
-<li>资源管理，包括资源获取、依赖处理、实时更新、按需加载、公共模块管理等</li>
-<li>打通研发链路的各个环节，debug、mock、proxy、test、build、deploy等</li>
-</ul>
-<h4 id="2）Google推出移动网页加速项目AMP">2）<a href="http://www.infoq.com/cn/news/2015/10/Google-AMP" target="_blank" rel="external">Google推出移动网页加速项目AMP</a></h4><p>网页性能一直是网站、用户以及相关团体所关心的问题。近些年来，如何提升网页性能吸引了很多工程人员和研究人员的关注。每年,甚至都会有专门的会议来讨论该问题。然而，广大用户，尤其是移动客户端的用户，仍然会经常遇到网页加载速度过慢的情况。为了解决该问题，Google近期联合数十家技术机构和企业等推出了移动网页加速项目（Accelerated Mobile Pages， AMP）</p>
-<h4 id="3）Github_365天:_给你一年的时间，你会怎样去提高你的水平">3）<a href="https://www.phodal.com/blog/github-365-days-review/" target="_blank" rel="external">Github 365天: 给你一年的时间，你会怎样去提高你的水平</a></h4><p>尽管一直在Github上连击看上去似乎是没有多大必要的，但是人总得有点追求。如果正是漫无目的，却又想着提高技术的同时，为什么不去试试？毕竟技术非常好、不需要太多练习的人只是少数，似乎这样的人是不存在的。大多数的人都是经过练习之后，才会达到别人口中的“技术好”。</p>
-<h4 id="4）从输入_URL_到页面加载完成的过程中都发生了什么事情？">4）<a href="http://fex.baidu.com/blog/2014/05/what-happen/?hmsr=toutiao.io&amp;utm_medium=toutiao.io&amp;utm_source=toutiao.io" target="_blank" rel="external">从输入 URL 到页面加载完成的过程中都发生了什么事情？</a></h4><p>一道面试题所引申出来的知识点。</p>
-<h4 id="5）微博推荐架构的演进">5）<a href="http://www.wbrecom.com/?hmsr=toutiao.io&amp;p=540&amp;utm_medium=toutiao.io&amp;utm_source=toutiao.io" target="_blank" rel="external">微博推荐架构的演进</a></h4><p>在微博推荐发展的过程中遇到体系方向的变化、业务的不断更迭、目标的重新树立，其产品思路、架构以及算法也随之进行变迁。本文主要阐述在这个过程中推荐架构的演进，从产品目标、算法需求以及技术发展等维度为读者呈现一个完整的发展脉络，同时也希望通过这个机会跟大家一起探讨业务与技术的相互关系。</p>
-<h2 id="开源函数库与工具">开源函数库与工具</h2><h4 id="1）浅入浅出Java_Web">1）<a href="https://github.com/someus/another-tutorial-about-java-web?hmsr=toutiao.io&amp;utm_medium=toutiao.io&amp;utm_source=toutiao.io" target="_blank" rel="external">浅入浅出Java Web</a></h4><p>Java Web开发常见基础知识点总结。</p>
-<h4 id="2）react-native-viewpager">2）<a href="https://github.com/race604/react-native-viewpager?hmsr=toutiao.io&amp;utm_medium=toutiao.io&amp;utm_source=toutiao.io" target="_blank" rel="external">react-native-viewpager</a></h4><p>React native实现的viewpager组建，同时支持Android和iOS。</p>
-
-        
-      
-    </div>
-
-    <div class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </div>
-  </div>
-
-
-    
-      
-
-  <div class="post post-type-normal ">
-    <div class="post-header">
-
-      
-      
-        <h1 class="post-title">
-          
-          
-            
-              <a class="post-title-link" href="/2015/09/30/022/">
-                平安科技移动开发二队技术周报 第二十二期
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          发表于 2015-09-30
-        </span>
-
-        
-          <span class="post-category">
-            &nbsp; | &nbsp; 分类于
-            
-              <a href="/categories/weekly/">weekly</a>
-
-              
-              
-
-            
-          </span>
-        
-
-        
-          
-            <span class="post-comments-count">
-            &nbsp; | &nbsp;
-            <a href="/2015/09/30/022/#comments" >
-              <span class="post-comments-count ds-thread-count" data-thread-key="2015/09/30/022/"></span>
-            </a>
-          </span>
-          
-        
-      </div>
-    </div>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <h2 id="业界新闻">业界新闻</h2><h4 id="1）Google_Nexus_2015发布会总结：五款新品齐登场">1）<a href="http://www.leiphone.com/news/201509/z3ki6sYjKwUC16wR.html" target="_blank" rel="external">Google Nexus 2015发布会总结：五款新品齐登场</a></h4><p>2015年09月30日凌晨00:00，Google 如期在旧金山开了一场 Nexus 新品发布会，Google 一口气发布了手机、平板、Chromecast 这3大类产品的5个新品：两部手机、一台平板、两个 Chromecast。</p>
-<h4 id="2）在_GitHub_上面泄露了公司源码怎么办？">2）<a href="http://www.zhihu.com/question/35904468" target="_blank" rel="external">在 GitHub 上面泄露了公司源码怎么办？</a></h4><p>苏宁易购 iOS 项目代码泄露事件。</p>
-<h2 id="Android开发">Android开发</h2><h4 id="1）Android性能调优利器StrictMode">1）<a href="http://droidyue.com/blog/2015/09/26/android-tuning-tool-strictmode/" target="_blank" rel="external">Android性能调优利器StrictMode</a></h4><p>作为Android开发，日常的开发工作中或多或少要接触到性能问题，比如我的Android程序运行缓慢卡顿，并且常常出现ANR对话框等等问题。既然有性能问题，就需要进行性能优化。正所谓工欲善其事，必先利其器。一个好的工具，可以帮助我们发现并定位问题，进而有的放矢进行解决。本文主要介绍StrictMode 在Android 应用开发中的应用和一些问题。</p>
-<h4 id="2）基于Facebook_Buck改造Android构建系统之初体验">2）<a href="http://www.jianshu.com/p/1e990aac7836" target="_blank" rel="external">基于Facebook Buck改造Android构建系统之初体验</a></h4><p>自从Android开发切换到Android Studio之后，就一直使用Gradle进行项目的构建，随着工程Module的增加，代码的一处改动，都要花费几分钟的时间重新编译，实在是浪费时间，一两个月前就想着使用Facebook的Buck来替换Gradle，换取更快的编译速度，后来由于其他事情就耽搁了。当时在知乎上提问：《国内有Android技术团队在使用facebook的buck进行代码构建吗？》，后面得知微信已经切换到了Buck，最近参与到一个新项目中，也在对原来的代码进行分模块重构，工程的构建时间依然是一个严峻的问题，因此是时候重新开始使用Buck进行改造了。</p>
-<h4 id="3）其实你不知道MultiDex到底有多坑">3）<a href="http://zongwu233.github.io/the-touble-of-multidex/?" target="_blank" rel="external">其实你不知道MultiDex到底有多坑</a></h4><p>MultiDex的问题难点在：要持续解决好几个bug才能最终解决问题。进一步的，想要仔细分辨且解决这些bug，就必须持续探索一些关联性的概念和原理。</p>
-<h4 id="4）React_Native:_Android_的打包">4）<a href="http://www.liaohuqiu.net/cn/posts/react-native-android-package/" target="_blank" rel="external">React Native: Android 的打包</a></h4><p>本文介绍 React Native 中的资源打包，重点介绍使用 react-native-gradle 插件进行 Android APP 的打包。</p>
-<h4 id="5）美团Android资源混淆保护实践">5）<a href="http://tech.meituan.com/mt-android-resource-obfuscation.html" target="_blank" rel="external">美团Android资源混淆保护实践</a></h4><p>Android应用中的APK安全性一直遭人诟病，市面上充斥着各种被破解或者汉化的应用，破解者可以非常简单的通过破解工具就能对一个APK进行反编译、破解、汉化等等，这样就可以修改原有代码的逻辑、添加新代码、添加或修改资源、或者更有甚者植入病毒等等，从而破坏原有APK的安全和用户体验，最终伤害到用户和原有的开发者。</p>
-<h2 id="iOS开发">iOS开发</h2><h4 id="1）自己动手使用_Swift_打造全功能_JSON_解析、生成库">1）<a href="http://lvwenhan.com/ios/463.html" target="_blank" rel="external">自己动手使用 Swift 打造全功能 JSON 解析、生成库</a></h4><p>在我动手搞这个 JSON 解析库之前，我一直在用 SwiftJSON 这个库，这个库是国人开源的最受欢迎的 Swift 项目，没有之一，也是全球最受欢迎的 Swift 库第二名，第一名是网络库 Alamofire。由于要实现 [“key”][“key1”] 这样的递归查找，我一直觉得 JSON 解析库非常复杂难搞。</p>
-<h4 id="2）细说ReactiveCocoa的冷信号与热信号_一_二">2）细说ReactiveCocoa的冷信号与热信号 <a href="http://tech.meituan.com/talk-about-reactivecocoas-cold-signal-and-hot-signal-part-1.html" target="_blank" rel="external">一</a> <a href="http://tech.meituan.com/talk-about-reactivecocoas-cold-signal-and-hot-signal-part-2.html" target="_blank" rel="external">二</a></h4><p>ReactiveCocoa（简称RAC）是最初由GitHub团队开发的一套基于Cocoa的FRP框架。FRP即Functional Reactive Programming（函数式响应式编程），其优点是用随时间改变的函数表示用户输入，这样就不需要可变状态了。我们之前的文章“RACSignal的Subscription深入分析”里曾经详细讲解过RAC核心概念之一RACSignal的实现原理。在美团客户端中，我们大量使用了这个框架。冷信号与热信号的概念很容易混淆并造成一定的问题。鉴于这个问题具有一定普遍性，我将用一系列文章讲解RAC中冷信号与热信号的相关知识点，希望可以加深大家的理解。</p>
-<h4 id="3）iOS_静态库开发">3）<a href="http://www.jianshu.com/p/8f5b9855efb8" target="_blank" rel="external">iOS 静态库开发</a></h4><p>在企业开发中，一些核心技术或者常用框架，出于安全性和稳定性的考虑，不想被外界知道，所以会把核心代码打包成静态库，只暴露头文件给程序员使用（比如：友盟、百度地图等第三方的sdk）</p>
-<h4 id="4）Swift_函数式编程实践">4）<a href="http://codebuild.me/2015/09/15/swift-functional-programming-intro/" target="_blank" rel="external">Swift 函数式编程实践</a></h4><p>Swift 为 iOS 编程世界引入了一个新的范式：函数式范式。大多数 iOS 开发者之前都习惯了用 Objective-C 或者其他面向对象编程语言，函数式的编码和思考会变得有点烧脑(brain-addling)。</p>
-<h4 id="5）RxSwift_入坑手册_Part0_-_基础概念">5）<a href="http://blog.callmewhy.com/2015/09/21/rxswift-getting-started-0/" target="_blank" rel="external">RxSwift 入坑手册 Part0 - 基础概念</a></h4><p>Swift语言的Rx版本入门示例解读。</p>
-<h2 id="技术纵横">技术纵横</h2><h4 id="1）什么是工程师文化？">1）<a href="http://www.zhihu.com/question/22168420" target="_blank" rel="external">什么是工程师文化？</a></h4><p>在你眼中，怎样的公司才算是有工程师文化的公司？包括且不限于计算互联网行业，土木建筑业，机械制造业，航空航天业，生物化工业等众多工程师行业。</p>
-<h4 id="2）解密“攻城狮使用手册”">2）<a href="http://www.csdn.net/article/2015-09-29/2825818-developer-sdcc" target="_blank" rel="external">解密“攻城狮使用手册”</a></h4><p>时下职场里，流行着一句话“事少，钱多，离家近”，指的就是求职者对于一份理想中的工作的诉求，从中我们可以分析出，求职者最关注的三大核心问题是：工作强度是否适中、待遇报酬是否优厚、公司离家的交通是否便捷。</p>
-<h4 id="3）你与其他程序员可能常犯的_6_个错误">3）<a href="http://info.9iphp.com/6-common-problems-you-may-have-with-other-programmers/" target="_blank" rel="external">你与其他程序员可能常犯的 6 个错误</a></h4><p>编程的世界中有很多的问题，我们每个人都有不同的技能，不同的能力和动力来源。学习是关键。自主开发不应该停止。我们不得不这样做，除非我们不想成为优秀的程序员。不断地学习和了解新的东西是我们应该做的工作。</p>
-<h4 id="4）2015年_12条专业的JavaScript规则">4）<a href="http://info.9iphp.com/12-rules-for-professional-javascript-in-2015/" target="_blank" rel="external">2015年 12条专业的JavaScript规则</a></h4><p>学习JavaScript是困难的。它发展的如此之快，以至于在任何一个特定的时刻，你都不清楚自己是否“做错了”。有些时候，感觉像是坏的部分超过了好的部分。然而，讨论这些并没有意义，JavaScript正在征服世界，所以，我们也只能这么做了。</p>
-<h4 id="5）架构师是否应该写代码：架构师的认知误区">5）<a href="http://www.infoq.com/cn/articles/architects-should-code-bryson" target="_blank" rel="external">架构师是否应该写代码：架构师的认知误区</a></h4><p>要让一个成功的架构得以实现，架构师必须要在整个生命周期始终保持与交付团队的紧密合作。保持紧密合作能够促进架构层面的快速反馈循环。并且还能够为架构师提供更多的与团队交流架构愿景和领导团队的机会。</p>
-<h2 id="开源函数库与工具">开源函数库与工具</h2><h4 id="1）Android_Studio有哪些非常好用的插件">1）<a href="http://www.zhihu.com/question/28527388" target="_blank" rel="external">Android Studio有哪些非常好用的插件</a></h4><p>Android Studio提高效率或者美化界面的插件。</p>
-<h4 id="2）Android开发时你遇到过什么相见恨晚的工具或网站">2）<a href="http://www.zhihu.com/question/27140400" target="_blank" rel="external">Android开发时你遇到过什么相见恨晚的工具或网站</a></h4><p>关于Android开发中提高效率的工具和网站的一个知乎问答。</p>
-
-        
-      
-    </div>
-
-    <div class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </div>
-  </div>
-
-
-    
-      
-
-  <div class="post post-type-normal ">
-    <div class="post-header">
-
-      
-      
-        <h1 class="post-title">
-          
-          
-            
-              <a class="post-title-link" href="/2015/09/23/021/">
-                平安科技移动开发二队技术周报 第二十一期
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          发表于 2015-09-23
-        </span>
-
-        
-          <span class="post-category">
-            &nbsp; | &nbsp; 分类于
-            
-              <a href="/categories/weekly/">weekly</a>
-
-              
-              
-
-            
-          </span>
-        
-
-        
-          
-            <span class="post-comments-count">
-            &nbsp; | &nbsp;
-            <a href="/2015/09/23/021/#comments" >
-              <span class="post-comments-count ds-thread-count" data-thread-key="2015/09/23/021/"></span>
-            </a>
-          </span>
-          
-        
-      </div>
-    </div>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <h2 id="业界新闻">业界新闻</h2><h4 id="1）XcodeGhost：墙、感染、信任和欺骗">1）<a href="http://www.leiphone.com/news/201509/Q6MWlts9zKEyX0HV.html" target="_blank" rel="external">XcodeGhost：墙、感染、信任和欺骗</a></h4><p>有人在中国网盘和论坛上传播了一个修改过的Xcode，这个版本的Xcode会在编译出来的App上面加一些可以被远程控制的代码，并且发送数据到某个服务器上。这是iOS出现以来，未越狱系统遭遇的最大安全威胁，在此之前苹果的Sandbox模式几乎没遇到过挑战，iPhone用户甚至大量iOS开发者都认为系统固若金汤，不可能遇到问题。</p>
-<h4 id="2）如何评价_React_Native_Android">2）<a href="http://www.zhihu.com/question/35622976" target="_blank" rel="external">如何评价 React Native Android</a></h4><p>关于React Native Android的一个知乎问答。</p>
-<h4 id="3）C++_之父宣布推出「C++_核心准则」，将通过开源协作方式完善">3）<a href="http://top.jobbole.com/25256/" target="_blank" rel="external">C++ 之父宣布推出「C++ 核心准则」，将通过开源协作方式完善</a></h4><p>9月21日上午，Bjarne Stroustrup 在 CppCon 大会上宣告了「C++ Core Guidelines  | C++ 核心准则」。英文文档已经在 GitHub 上了，目前还是草案阶段，两个主要的作者是 Bjarne Stroustrup 和 Herb Sutter 。Stroustrup 在呼吁：「We need help!」</p>
-<h2 id="Android开发">Android开发</h2><h4 id="1）Android程序的反编译对抗研究">1）<a href="http://www.freebuf.com/tools/76884.html" target="_blank" rel="external">Android程序的反编译对抗研究</a></h4><p>对抗反编译是指让apk文件或者dex文件无法正常通过反编译工具，而且有可能导致工具异常或者崩溃，如apktool、baksmali、dex2jar、JEB等等工具，如下图dex2jar无法正常工作。</p>
-<h4 id="2）Android_Log工具类">2）<a href="http://ihongqiqu.com/blog/2014/10/16/android-log/" target="_blank" rel="external">Android Log工具类</a></h4><p>工欲善其事，必先利其器。在Android开发过程中，相信都会遇到这样的问题：</p>
-<ul>
-<li>Log太多，不容易找到自己设置打印的内容</li>
-<li>找到Log但是定位到Java源码有不是很方便</li>
-<li>对Log打印需要设置Tag，大多时候Tag就是本类的类名，存在重复的工作</li>
-<li>发布正式版本需要注释或者关掉很多Log开关</li>
-</ul>
-<h4 id="3）React_Native_For_Android初体验">3）<a href="http://www.jianshu.com/p/847a54e0c385" target="_blank" rel="external">React Native For Android初体验</a></h4><p>React Native For Android提前发布了，代码托管在Github上面，本文是一个尝鲜体验，主要介绍环境配置的过程。目前React Native只支持在OS X系统上面进行开发，其他系统的筒靴们请掩泪飘过。</p>
-<h4 id="4）Facebook:我们是如何构建第一个跨平台的React_Native_APP">4）<a href="http://ljinkai.github.io/2015/09/21/facebook-react-native-android/?hmsr=toutiao.io&amp;utm_medium=toutiao.io&amp;utm_source=toutiao.io" target="_blank" rel="external">Facebook:我们是如何构建第一个跨平台的React Native APP</a></h4><p>在Facebook我们已经应用React Native在发布的产品有超过一年的时间了。几乎是整整一年之前，我们的团队开始规划开发广告管理APP。我们的部门是创建一个新的APP来让数百万的Facebook广告主来管理他们的账号并能创建新的广告。在完成的时候,这不仅仅是FB的第一个全React Native APP而且是第一个跨平台的APP.在这篇文章里，我们希望能和你分享我们是如何构建这个APP,React Native是如何让我们更快的，还有这个过程中我们的经验。</p>
-<h4 id="5）Android_沉浸式状态栏攻略">5）<a href="http://blog.csdn.net/lmj623565791/article/details/48649563" target="_blank" rel="external">Android 沉浸式状态栏攻略</a></h4><p>Android 沉浸式状态栏目前只有在大于等于Android 4.4版本才支持，但是4.4和5.0的显示效果有一定的差异，所有本篇博文内容为：</p>
-<ul>
-<li>如何实现半透明状态栏效果在大于4.4版本之上。</li>
-<li>如何让4.4的效果与5.0的效果尽可能一致。</li>
-</ul>
-<h2 id="iOS开发">iOS开发</h2><h4 id="1）iOS微信安装包瘦身&amp;version=11020201&amp;pass_ticket=1IEMaQ6RFKDH5CBSqTcMjggMcTG%2FEP1%2FySQBS3DPQaTtjNPY%2BJcx8V23YHqYtG1V)">1）<a href="https://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ==&amp;mid=207986417&amp;idx=1&amp;sn=77ea7d8e4f8ab7b59111e78c86ccfe66&amp;scene=0&amp;key=dffc561732c226510c6c6a2ae7a6c92d2f42b941e05f1e3e8624461eec866b962cf3ee5e02f2f695578cc616a6c429d2&amp;ascene=0&amp;uin=NTk4MzU3OTAw&amp;devicetype=iMac+MacBookPro12%2C1+OSX+OSX+10.10.5+build(14F27" target="_blank" rel="external">iOS微信安装包瘦身</a>&amp;version=11020201&amp;pass_ticket=1IEMaQ6RFKDH5CBSqTcMjggMcTG%2FEP1%2FySQBS3DPQaTtjNPY%2BJcx8V23YHqYtG1V)</h4><p>微信经过多次版本迭代，产生不少冗余代码和无用资源。之前微信也没有很好的手段知道哪个模块增量多少。另外去年10月微信开始做ARC支持，目的是为了减少野指针带来的Crash，但代价是可执行文件增大20%左右。而苹果规定今年6月提交给Appstore的应用必须支持64位，32位和64位两个架构的存在使得可执行文件增加了一倍多。安装包大小优化迫在眉睫。</p>
-<h4 id="2）iOS应用架构思考">2）iOS应用架构思考</h4><ul>
-<li><a href="http://blog.cnbluebox.com/blog/2015/05/07/architecture-ios-1/" target="_blank" rel="external">网络层</a></li>
-<li><a href="http://blog.cnbluebox.com/blog/2015/07/10/architecture-ios-2/" target="_blank" rel="external">网络图片库</a></li>
-</ul>
-<h4 id="3）iOS代码实践总结">3）<a href="http://blog.csdn.net/colorapp/article/details/48597267?url_type=39&amp;object_type=webpage&amp;pos=1" target="_blank" rel="external">iOS代码实践总结</a></h4><p>最近一个月除了专门抽时间和精力重构之外，还有就是遇到需要添加功能的模块的时候，由于项目中的代码历史因素比较多，第一件干的事情往往是重构整理代码，发现很多之前的代码写的时候没有注意的事情特别多，比如全局变量乱用；方法没有层次感，胡乱添加；对业务不了解的情况下，通过打补丁的方式实现功能等等。所以我决定写一篇文章，把自己的觉得实践中需要注意的一些事项，具体总结一下分享给大家。</p>
-<h4 id="4）构建内存高效的应用">4）<a href="http://swift.gg/2015/09/21/building-memory-efficient-apps/" target="_blank" rel="external">构建内存高效的应用</a></h4><p>近年来，移动设备的性能越来越强大。然而，同桌面电脑相比，性能上总还是有一段不小的差距。同时，用户界面和交互设计的要求也越来越高。所以，为移动设备编写内存高效的应用仍然很有必要。</p>
-<h4 id="5）Xcode_7_UI_测试初窥">5）<a href="http://mp.weixin.qq.com/s?__biz=MjM5NTIyNTUyMQ%3D%3D&amp;hmsr=toutiao.io&amp;idx=1&amp;mid=210062364&amp;sn=0e927a1364621a896c0d5d616a61b7de&amp;utm_medium=toutiao.io&amp;utm_source=toutiao.io" target="_blank" rel="external">Xcode 7 UI 测试初窥</a></h4><p>单元测试非常适合用来做 app 的逻辑以及网络接口方面的测试，但是一个 app 所面向的最终人群还是使用的用户。对于用户来说，app 的功能和 UI 界面是否正确是判断这个 app 是否合格的更为直接标准。而传统的单元测试很难对 app 的功能或者 UI 进行测试。</p>
-<h2 id="技术纵横">技术纵横</h2><h4 id="1）你为什么不分享">1）<a href="http://www.cnblogs.com/coffeedeveloper/p/4825177.html?hmsr=toutiao.io&amp;utm_medium=toutiao.io&amp;utm_source=toutiao.io" target="_blank" rel="external">你为什么不分享</a></h4><p>这两天恰好有我的前boss在朋友圈分享他看到的文章，是关于分享的主题。作者在文章里把新人或者说菜鸟不肯分享的原因总结为害怕被所谓的高手/大牛所打脸而害怕分享。从我的经历来说，我认为这并非核心原因，仅仅是次要原因之一。因此特意写此文与大家探讨一下。</p>
-<h4 id="2）Nicholas_C-_Zakas：我得到的最佳职业生涯建议">2）<a href="http://blog.jobbole.com/53812/" target="_blank" rel="external">Nicholas C. Zakas：我得到的最佳职业生涯建议</a></h4><p>最近我与一同事有一次有意思的讨论。我们回忆了各自所走过的职业历程以及不同个性如何长期消极影响我们的职业。事实情况是，我曾经是那种从大学里走出来的令人讨厌的人（有些人可能会说我现在仍然是那种人，但这是另一回事儿）。当时我很傲慢并且很刻薄，是一个十足的愤青。我自以为我很了解自己的性格并且为这种性格感到骄傲。</p>
-<h4 id="3）H5性能优化方案">3）<a href="http://ddtalk.github.io/blog/2015/09/07/dingding-first/?hmsr=toutiao.io&amp;utm_medium=toutiao.io&amp;utm_source=toutiao.io" target="_blank" rel="external">H5性能优化方案</a></h4><p>对于一个H5的产品，功能无疑很重要，但是性能同样是用户体验中不可或缺的一环。原本H5的渲染性能就不及native的app，如果不把性能优化做起来，将极大地影响用户使用产品的积极性。</p>
-<h4 id="4）如何高效的学习掌握新技术">4）<a href="http://www.cnblogs.com/dotey/p/4812633.html?hmsr=toutiao.io&amp;utm_medium=toutiao.io&amp;utm_source=toutiao.io" target="_blank" rel="external">如何高效的学习掌握新技术</a></h4><p>学习新技术，就如探索一片新的领域，一般在心态上来说，都会有两种典型的心态，一种是恐慌和抗拒的，一种是积极和开放的，不同的心态会造成不同的结果。</p>
-<h2 id="开源函数库与工具">开源函数库与工具</h2><h4 id="1）Swift_开发者周刊（第_0_期）">1）<a href="http://doswift.io/archive/0.html" target="_blank" rel="external">Swift 开发者周刊（第 0 期）</a></h4><p>大家好，踩了各种坑之后，第 0 期《Swift 开发者周刊》终于和大家见面了。<br>目前周刊由 SwiftGG 翻译组 维护，每周推送最新的 Swift 文章和开源项目，帮助大家提高 Swift 姿势水平。 </p>
-<h4 id="2）FreeBuilder">2）<a href="https://github.com/google/FreeBuilder?hmsr=toutiao.io&amp;utm_medium=toutiao.io&amp;utm_source=toutiao.io" target="_blank" rel="external">FreeBuilder</a></h4><p>Google出品的基于注解自动生成Builder模式代码的函数库。</p>
-<h4 id="3）腾讯_Android_与_iOS_开发工具镜像服务">3）<a href="http://android-mirror.bugly.qq.com:8080/?hmsr=toutiao.io&amp;utm_medium=toutiao.io&amp;utm_source=toutiao.io" target="_blank" rel="external">腾讯 Android 与 iOS 开发工具镜像服务</a></h4><p>XcodeGhost事件之后，开发工具的下载需要慎之又慎。</p>
-<h4 id="4）F2etest">4）<a href="https://github.com/alibaba/f2etest" target="_blank" rel="external">F2etest</a></h4><p>阿里巴巴出品的一个面向前端、测试、产品等岗位的多浏览器兼容性测试整体解决方案。</p>
-<p><img src="https://raw.githubusercontent.com/alibaba/f2etest/master/imgs/screenshot1.jpg" alt=""></p>
-
-        
-      
-    </div>
-
-    <div class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </div>
-  </div>
-
-
-    
-      
-
-  <div class="post post-type-normal ">
-    <div class="post-header">
-
-      
-      
-        <h1 class="post-title">
-          
-          
-            
-              <a class="post-title-link" href="/2015/09/20/020/">
-                平安科技移动开发二队技术周报 第二十期
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          发表于 2015-09-20
-        </span>
-
-        
-          <span class="post-category">
-            &nbsp; | &nbsp; 分类于
-            
-              <a href="/categories/weekly/">weekly</a>
-
-              
-              
-
-            
-          </span>
-        
-
-        
-          
-            <span class="post-comments-count">
-            &nbsp; | &nbsp;
-            <a href="/2015/09/20/020/#comments" >
-              <span class="post-comments-count ds-thread-count" data-thread-key="2015/09/20/020/"></span>
-            </a>
-          </span>
-          
-        
-      </div>
-    </div>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <h2 id="业界新闻">业界新闻</h2><h4 id="1）React_Native_for_Android_发布">1）<a href="https://facebook.github.io/react-native/" target="_blank" rel="external">React Native for Android 发布</a></h4><p>今年早期，Facebook发布了React Native for iOS，并于昨日正式发布了React Native for Android。React Native将React on the Web带入了移动平台的开发，同时保留了速度、保真和原生应用的界面体验，引起国内外开发界的重视和关注。</p>
-<h2 id="Android开发">Android开发</h2><h4 id="1）深入理解Android之Gradle">1）<a href="http://android.jobbole.com/81436/?utm_source=tuicool" target="_blank" rel="external">深入理解Android之Gradle</a></h4><p>Gradle是当前非常“劲爆”得构建工具。本篇文章就是专为讲解Gradle而来。</p>
-<h4 id="2）Java反射最佳实践">2）<a href="https://github.com/tianzhijiexian/Android-Best-Practices/blob/master/2015.9/reflect/reflect.md" target="_blank" rel="external">Java反射最佳实践</a></h4><p>最简单优雅的使用反射</p>
-<h4 id="3）Android分包MultiDex原理详解">3）<a href="http://blog.csdn.net/yzzst/article/details/48290701" target="_blank" rel="external">Android分包MultiDex原理详解</a></h4><p>当Android系统安装一个应用的时候，有一步是对Dex进行优化，这个过程有一个专门的工具来处理，叫DexOpt。DexOpt的执行过程是在第一次加载Dex文件的时候执行的。这个过程会生成一个ODEX文件，即Optimised Dex。执行ODex的效率会比直接执行Dex文件的效率要高很多。</p>
-<h4 id="4）Chromium的GPU进程启动过程分析">4）<a href="http://blog.csdn.net/luoshengyang/article/details/48123761" target="_blank" rel="external">Chromium的GPU进程启动过程分析</a></h4><p>Chromium除了有Browser进程和Render进程，还有GPU进程。GPU进程负责Chromium的GPU操作，例如Render进程通过GPU进程离屏渲染网页，Browser进程也是通过GPU进程将离屏渲染好的网页显示在屏幕上。Chromium之所以将GPU操作运行在独立进程中，是考虑到稳定性问题。毕竟GPU操作是硬件相关操作，硬件的差异性会引发一定的不稳性。本文分析GPU进程的启动过程。</p>
-<h4 id="5）Android主题动态切换开源库Prism基本原理">5）<a href="http://www.devtf.cn/?p=1056" target="_blank" rel="external">Android主题动态切换开源库Prism基本原理</a></h4><p>Prism是一个全新的Android主题切换框架。虽然现在只是初步的发布，只具有一些基础功能，但已经足够强大了！在本系列文章中我会全方位地介绍Prism的使用方法，并告诉你怎样将它拓展到自己的工程中。</p>
-<h2 id="iOS开发">iOS开发</h2><h4 id="1）Swift中的设计模式">1）<a href="http://www.infoq.com/cn/articles/design-patterns-in-swift" target="_blank" rel="external">Swift中的设计模式</a></h4><p>Swift是一门多范式编程语言。除了支持面向对象编程范式之外，还支持函数式编程范式，和泛型编程。这使得Swift可以使用函数式编程的某些优秀工具解决我们在面向对象编程中遇到的困难。在Swift中，一些模式已经被语言特性所吸收，你在使用Swift甚至察觉不出这类问题的存在；一些问题仍然存在，我们仍然需要某种设计模式，但实现起来会更为简便。</p>
-<h4 id="2）前Twitter_iOS技术团队负责人：使用第三方库的四大准则">2）<a href="http://www.csdn.net/article/2015-09-15/2825703-when-to-avoid-libraries" target="_blank" rel="external">前Twitter iOS技术团队负责人：使用第三方库的四大准则</a></h4><p>直接使用第三方库能够最大程度缩短开发时长，开发者很难抵挡着近在眼前的“短期红利”，但“魔法神奇库”也有可能阻碍程序排错。本文作者Ben Sandofsky曾领导Twitter iOS应用技术团队，他给出了挑选库时的几条原则。</p>
-<h4 id="3）一个资深iOS开发者对于React_Native的看法">3）<a href="http://blog.csdn.net/zhe13/article/details/48439967#0-tsina-1-99344-397232819ff9a47a7b7e80a40613cfe1" target="_blank" rel="external">一个资深iOS开发者对于React Native的看法</a></h4><p>当我第一次尝试ReactNative的时候，我觉得这只是网页开发者涉足原生移动应用领域的歪门邪道。我认为一个js开发者可以使用javascript来构建iPhone应用确实是一件很酷的事情，但是我很快放弃了自己去使用它的念头。毕竟我因为爱好而从事ios原生开发多年，并且目前为止已经很熟悉这一套开发专业工具。</p>
-<h4 id="4）iOS_9_开发高级技巧：通过_12_个团队所提供的技巧来快速适配_iOS_9">4）<a href="https://realm.io/cn/news/tips-for-ios-9-development/?hmsr=toutiao.io&amp;utm_medium=toutiao.io&amp;utm_source=toutiao.io" target="_blank" rel="external">iOS 9 开发高级技巧：通过 12 个团队所提供的技巧来快速适配 iOS 9</a></h4><p>为了庆祝 iOS 9 的正式发布，作者咨询了一些朋友，让他们分享一下在适配最新版本 iOS 的过程中所需注意的一些事情。下文列出的就是如何加快速度适配 iOS 9 的绝妙建议。</p>
-<h4 id="5）iOS_统计打点那些事">5）<a href="http://limboy.me/ios/2015/09/09/ios-analytics.html?utm_source=tuicool" target="_blank" rel="external">iOS 统计打点那些事</a></h4><p>统计打点是 App 开发里很重要的一个环节，App 的运行状态、改版后的效果、用户的各种行为等都需要打点，市面上也有不少可供选择的第三方库。 </p>
-<h2 id="技术纵横">技术纵横</h2><h4 id="1）我的软件开发生涯">1）<a href="http://www.cnblogs.com/unruledboy/p/DevCareer.html?hmsr=toutiao.io&amp;utm_medium=toutiao.io&amp;utm_source=toutiao.io" target="_blank" rel="external">我的软件开发生涯</a></h4><p>作者10年开发经验总结。</p>
-<h4 id="2）对独立程序员的赞美">2）<a href="http://www.labazhou.net/2015/09/a-salute-to-solo-programmers/" target="_blank" rel="external">对独立程序员的赞美</a></h4><p>帕金森定理告诉了我们，「在工作能够完成的时限内，工作量会一直增加，直到所有可用时间都被填充为止。」将其应用到软件上，这意味着应用程序倾向于成为臃肿软件（bloatware）、极为臃肿的程序，其复杂程度使得它们几乎不可能被调试和维护。今天，我们看到了更开心的反例，从过去到现在，由「隐士级的程序员」创造的有野心的产品。</p>
-<h4 id="3）技术选型：喷子、胆量和产品意识">3）<a href="http://ericliang.info/technology-selection-trolls-courage-and-product-sense/?hmsr=toutiao.io&amp;utm_medium=toutiao.io&amp;utm_source=toutiao.io" target="_blank" rel="external">技术选型：喷子、胆量和产品意识</a></h4><p>大多数技术都存在选型问题，因为技术的发展已经让一件事情可以有多种解决方案，选型问题就自然出现。前段时间也有人说过语言选型，这里举的例子是在组件、框架、服务的范畴。其中有相通之处，各位可以自行领会，不同之处待有闲之时另文专述。</p>
-<h4 id="4）全栈开发工程师就是个神话">4）<a href="http://www.infoq.com/cn/news/2015/09/Stack-Ops" target="_blank" rel="external">全栈开发工程师就是个神话</a></h4><p>“全栈开发工程师（full stack developer）”一词经常出现在企业招聘的岗位描述中。但Hello Pretty联合创始人兼首席技术官Scott Hadfield在近日发表的一篇博文中指出，全栈开发工程师就是一个神话，即使不完全如此，用人单位也很难找到一个这样的人。</p>
-<h4 id="5）ReThought系列：">5）ReThought系列：</h4><ul>
-<li><a href="https://www.phodal.com/blog/rethink-one-build-dream-team/" target="_blank" rel="external">如何构建理想的开发团队</a></li>
-<li><a href="https://www.phodal.com/blog/rethink-one-help-new-hire/" target="_blank" rel="external">如何照顾团队中的新人</a></li>
-<li><a href="https://www.phodal.com/blog/rethink-3-about-code/" target="_blank" rel="external">说说代码</a></li>
-</ul>
-<h2 id="开源函数库与工具">开源函数库与工具</h2><h4 id="1）2015年最棒的10个_JavaScript_框架">1）<a href="http://info.9iphp.com/2015-best-javascript-frameworks/?hmsr=toutiao.io&amp;utm_medium=toutiao.io&amp;utm_source=toutiao.io" target="_blank" rel="external">2015年最棒的10个 JavaScript 框架</a></h4><p>JavaScript是最流行的前端开发程序设计语言。它为WEB开发者提供了能够设计出具有丰富功能、干净用户界面的WEB应用的能力。JavaScript框架使得WEB应用的设计变的简单，并且它能够提供很多的功能和方法。</p>
-<h4 id="2）AndFix">2）<a href="https://github.com/alibaba/AndFix" target="_blank" rel="external">AndFix</a></h4><p>AndFix 是阿里巴巴开源的 Android 应用热修复工具，帮助 Anroid 开发者修复应用的线上问题。</p>
-<h4 id="3）安卓书签网">3）<a href="https://github.com/ColorfulCat/AndroidGuide" target="_blank" rel="external">安卓书签网</a></h4><p>Android开发资料的汇总。</p>
-
-        
-      
-    </div>
-
-    <div class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </div>
-  </div>
-
-
-    
-      
-
-  <div class="post post-type-normal ">
-    <div class="post-header">
-
-      
-      
-        <h1 class="post-title">
-          
-          
-            
-              <a class="post-title-link" href="/2015/09/09/019/">
-                平安科技移动开发二队技术周报 第十九期
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          发表于 2015-09-09
-        </span>
-
-        
-          <span class="post-category">
-            &nbsp; | &nbsp; 分类于
-            
-              <a href="/categories/weekly/">weekly</a>
-
-              
-              
-
-            
-          </span>
-        
-
-        
-          
-            <span class="post-comments-count">
-            &nbsp; | &nbsp;
-            <a href="/2015/09/09/019/#comments" >
-              <span class="post-comments-count ds-thread-count" data-thread-key="2015/09/09/019/"></span>
-            </a>
-          </span>
-          
-        
-      </div>
-    </div>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <h2 id="业界新闻">业界新闻</h2><h4 id="1）重磅!_Google_将于今年秋季重返中国市场,_预计_9_月末宣布">1）<a href="http://cn.technode.com/post/2015-09-05/google-china-return-play-app-store/" target="_blank" rel="external">重磅! Google 将于今年秋季重返中国市场, 预计 9 月末宣布</a></h4><p>据 The Information 消息 ，Google 最快将于今年秋季推出专为中国大陆定制的「妥协版 Google Play 商店」，当前正等待中国政府部门的审核。熟悉该计划的人士指出，Google 为建设和运营这个本土化应用商店做了全方位的规划，包括与一些中国公司建立合作伙伴关系来共推此事。</p>
-<h4 id="2）When_is_React_Native_Android_coming?">2）<a href="http://www.reactnativeandroid.com/" target="_blank" rel="external">When is React Native Android coming?</a></h4><p>React Native Android发布倒计时。</p>
-<h4 id="3）LinkedIn发布旨在检测Android应用漏洞的工具QARK">3）<a href="http://www.infoq.com/cn/news/2015/09/qark" target="_blank" rel="external">LinkedIn发布旨在检测Android应用漏洞的工具QARK</a></h4><p>QARK的首秀是在8月23日的DEFCON 23上，之后便很快在GitHub上公布了源代码。QARK使用PLYJ——一个分析Java源码的Python工具，还使用了Beautiful Soup来分析Android manifest（配置文件）。而且，QARK通过使用多种反编译器（包括：Procyon, JD-Core, CFR,DEX2JAR, 和APKTool）并合并他们的分析结果，还可以处理编译后的二进制文件。</p>
-<h2 id="Android开发">Android开发</h2><h4 id="1）Log最佳实践">1）<a href="https://github.com/tianzhijiexian/Android-Best-Practices/blob/master/2015.8/log/log.md" target="_blank" rel="external">Log最佳实践</a></h4><p>通过本文，我们可以看到即使一个最简单的log都有很多点是可优化的，而且看到了我们之前一直写的模板式代码是多么枯燥乏味。通过这篇文章，大家可以看到一个优化的过程，相信大家都会喜欢最终的简单、美观、方便的log类去调试应用。</p>
-<h4 id="2）剖析Android中进程与线程调度之nice">2）<a href="http://droidyue.com/blog/2015/09/05/android-process-and-thread-schedule-nice/" target="_blank" rel="external">剖析Android中进程与线程调度之nice</a></h4><p>在计算机操作系统中，进程是进行资源分配和调度的基本单位，同时每个进程之内也可以存在多个线程。那么在Android系统（Linux Kernel）中，进程是如何去抢占资源，线程又是如何根据优先级切换呢，本文将尝试剖析这个问题，研究nice在Linux以及Android系统中的应用。</p>
-<h4 id="3）Android微信上的SVG&amp;version=11020201&amp;pass_ticket=%2Bs6pqujbse1gbtzw94A4fz3rneIoDGUk8aDHv3Qc4O1tU2cpG7IIyYKiaubpnWAZ)">3）<a href="https://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ==&amp;mid=207863967&amp;idx=1&amp;sn=3d7b07d528f38e9f812e8df7df1e3322&amp;scene=0&amp;key=dffc561732c226510058a809485453faeca197aabfd2758f76f3a8d1ae3e35e72762cfd56cf433051e7f57acf62feb69&amp;ascene=0&amp;uin=NTk4MzU3OTAw&amp;devicetype=iMac+MacBookPro12%2C1+OSX+OSX+10.10.5+build(14F27" target="_blank" rel="external">Android微信上的SVG</a>&amp;version=11020201&amp;pass_ticket=%2Bs6pqujbse1gbtzw94A4fz3rneIoDGUk8aDHv3Qc4O1tU2cpG7IIyYKiaubpnWAZ)</h4><p>栅格图自身特点导致了高清资源同安装包体积之间的矛盾。这方面矢量图存在明显的优势，它可以在表达清晰图片的同时，不增加文件体积。而且只要你不重新设计图片，就用不着再去适配高dpi模式，矢量图什么分辨率都可以自适应。</p>
-<h4 id="4）Android内存泄露案例分析">4）<a href="http://www.csdn.net/article/2015-09-07/2825631" target="_blank" rel="external">Android内存泄露案例分析</a></h4><p>一款优秀的Android应用，不仅要有完善的功能，也要有良好的体验，而性能是影响体验的重要因素之一。内存泄露是Android开发中常见的性能问题。本文作者以真实案例演示内存泄露从发现、分析定位到最终解决的全过程。</p>
-<h4 id="5）手把手教你当微信运动第一名_–_利用Android_Hook进行微信运动作弊">5）<a href="http://drops.wooyun.org/tips/8416" target="_blank" rel="external">手把手教你当微信运动第一名 – 利用Android Hook进行微信运动作弊</a></h4><p>当微信运动想要知道我们走了多少步的时候，微信app会询问android系统的计数传感器，随后计数传感器会返回我们行走的步数。因此，如果我们能够拦截微信运动和计数传感器之间的对话，然后伪造一个步数传递给微信运动就可以达到我们想要的作弊效果。</p>
-<h2 id="iOS开发">iOS开发</h2><h4 id="1）Objective-C与Runtime">1）<a href="http://springox.w18.net/2015/09/03/objectivecruntime/" target="_blank" rel="external">Objective-C与Runtime</a></h4><p>笔者用了很大的篇幅和代码片段尝试去解释Objective-C最基本的一些概念，包括面向对象、消息派发、内存管理等等，并且也讨论了这些概念在Rumtime上的实现。</p>
-<h4 id="2）ReactiveCocoa2_源码浅析">2）<a href="http://nathanli.cn/2015/08/27/reactivecocoa2-%E6%BA%90%E7%A0%81%E6%B5%85%E6%9E%90/" target="_blank" rel="external">ReactiveCocoa2 源码浅析</a></h4><p>ReactiveCocoa 是一个重型的 FRP 框架，内容十分丰富，它使用了大量内建的 block，这使得其有强大的功能的同时，内部源码也比较复杂。本文研究的版本是2.4.4，小版本间的差别不是太大，无需担心此问题。 这里只探究其核心 RACSignal 源码及其相关部分。</p>
-<h4 id="3）浅谈Swift_2中的Objective-C指针">3）<a href="http://www.csdn.net/article/2015-09-07/2825641" target="_blank" rel="external">浅谈Swift 2中的Objective-C指针</a></h4><p>在Objective-C中，开发者经常会用到指针，有些方法也需要直接去操作指针，本文作者详细介绍了如何在Swift中使用指针，而简而言之即为Swift指针类型是对C指针的包装，用.memory的setter/getter实现了解指针引用。</p>
-<h4 id="4）如何在ReactiveCocoa中写单元测试">4）<a href="http://www.jianshu.com/p/412875512bd1" target="_blank" rel="external">如何在ReactiveCocoa中写单元测试</a></h4><p>现在很多人在开发iOS时都使用ReactiveCocoa，它是一个函数式和响应式编程的框架，使用Signal来代替KVO、Notification、Delegate和Target-Action等传递消息和解决对象之间状态与状态的依赖过多问题。但很多时候使用它之后，如何编写单元测试来验证程序是否正确呢？下面首先了解MVVM架构，然后通过一个例子来讲述我如何在RAC(ReactiveCocoa简称)中使用Kiwi来编写单元测试。</p>
-<h4 id="5）我们是如何创建iOS版的Guillotine菜单动画的">5）<a href="http://ios.jobbole.com/82286/" target="_blank" rel="external">我们是如何创建iOS版的Guillotine菜单动画的</a></h4><p><img src="http://ww1.sinaimg.cn/large/7cc829d3gw1evqnzljx2sg20m80gowog.gif" alt=""></p>
-<h2 id="技术纵横">技术纵横</h2><h4 id="1）Google新logo是如何缩减13000字节的">1）<a href="http://www.jointforce.com/jfperiodical/article/1028" target="_blank" rel="external">Google新logo是如何缩减13000字节的</a></h4><p>有人在Quora上提问：Google的新logo是如何做到只有305字节的？旧logo的大小有14000字节之多。来自多伦多的UI设计师Ilya Yakubovich的回答1万+的投票。</p>
-<h4 id="2）HTTP/2_与_WEB_性能优化">2）<a href="https://imququ.com/post/http2-and-wpo-1.html" target="_blank" rel="external">HTTP/2 与 WEB 性能优化</a></h4><p>HTTP/2 究竟会给前端带来什么，什么都不是？还是像某些人说的「让前端那些优化小伎俩直接退休」？</p>
-<h4 id="3）A_practical_introduction_to_functional_programming">3）<a href="http://maryrosecook.com/blog/post/a-practical-introduction-to-functional-programming" target="_blank" rel="external">A practical introduction to functional programming</a></h4><p>Many functional programming articles teach abstract functional techniques. That is, composition, pipelining, higher order functions. This one is different. It shows examples of imperative, unfunctional code that people write every day and translates these examples to a functional style.</p>
-<h4 id="4）Java_8_被动迭代式特性介绍">4）<a href="http://www.ibm.com/developerworks/cn/java/j-lo-java8-iterator/index.html?ca=drs-" target="_blank" rel="external">Java 8 被动迭代式特性介绍</a></h4><p>本文首先对迭代设计模式进行简单介绍，然后对 Java 8 引入的 Lambda 表达式进行介绍，接下来重点介绍了 Java 8 与较早 JDK 版本对于集合迭代读取操作的不同点，并通过示例代码形式进行解释，最后对该特性进行总结。</p>
-<h4 id="5）细说JavaScript异步函数发展历程">5）<a href="http://www.csdn.net/article/2015-09-08/2825643-asynchronous-javascript" target="_blank" rel="external">细说JavaScript异步函数发展历程</a></h4><p>对大部分JavaScript开发者而言，async函数仍是新鲜事物，其发展经历了漫长的旅程。本文将梳理总结JavaScript异步函数的发展历程，并表示未来async函数将成为实现异步的主要方式。</p>
-<h2 id="开源函数库与工具">开源函数库与工具</h2><h4 id="1）vb-android-app-quality">1）<a href="https://github.com/vincentbrison/vb-android-app-quality" target="_blank" rel="external">vb-android-app-quality</a></h4><p>Gradle标准的android质量工具包。</p>
-<h4 id="2）BuildingBlocks">2）<a href="https://github.com/tangqi92/BuildingBlocks" target="_blank" rel="external">BuildingBlocks</a></h4><p>积木 – 以知乎日报为数据展现内容；以选项菜单为功能扩展入口；以 Material Design 为主导设计 UI，已帮你完成了应用整体框架的搭建，希望你能利用她快速搭建属于自己的应用。</p>
-
-        
-      
-    </div>
-
-    <div class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </div>
-  </div>
-
-
-    
-  </div>
-
-  
-  <div class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/">&raquo;</a>
-  </div>
-
-
-        </div>
-
-        
-      </div>
-
-
-      
-  
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
-    </div>
-  </div>
-
-  <div id="sidebar" class="sidebar">
-    <div class="sidebar-inner">
-
-      
-
-      <div class="site-overview">
-        <div class="site-author motion-element">
-          <img class="site-author-image" src="/images/default_avatar.jpg" alt="PaicHyperion" />
-          <p class="site-author-name">PaicHyperion</p>
-        </div>
-        <p class="site-description motion-element"></p>
-        <div class="site-state motion-element">
-          <div class="site-state-item site-state-posts">
-            <a href="/archives">
-              <span class="site-state-item-count">28</span>
-              <span class="site-state-item-name">日志</span>
-            </a>
-          </div>
-
-          <div class="site-state-item site-state-categories">
-            <a href="/categories">
-              <span class="site-state-item-count">1</span>
-              <span class="site-state-item-name">分类</span>
-              </a>
-          </div>
-
-          <div class="site-state-item site-state-tags">
-            <a href="/tags">
-              <span class="site-state-item-count">0</span>
-              <span class="site-state-item-name">标签</span>
-              </a>
-          </div>
-
-        </div>
-
-        
-          <div class="feed-link motion-element">
-            <a href="/atom.xml">
-              <i class="menu-item-icon icon-feed"></i>
-              RSS
-            </a>
-          </div>
-        
-
-        <div class="links-of-author motion-element">
-          
-            
-              <span class="links-of-author-item">
-              <a href="https://github.com/PaicHyperionDev" target="_blank">github</a>
-            </span>
-            
-          
-        </div>
-
-        
-        
-          <div class="cc-license motion-element">
-            <a href="http://creativecommons.org/licenses/by-nc-sa/4.0" class="cc-opacity" target="_blank">
-              <img src="/images/cc-by-nc-sa.svg" alt="Creative Commons" />
-            </a>
-          </div>
-        
-
-      </div>
-
-      
-
-    </div>
-  </div>
-
-
-    </div>
-
-    <div id="footer" class="footer">
-      <div class="footer-inner">
-        <div class="copyright">
-  
-  &copy; &nbsp; 
-  2015
-  <span class="with-love">
-    <i class="icon-heart"></i>
-  </span>
-  <span class="author">PaicHyperion</span>
+	
+	</div>
+  <a type="button" href="/2015/11/25/028/#more" class="btn btn-default more">阅读此文</a>
 </div>
 
-<div class="powered-by">
-  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+		
+
+		</div>
+
+		<!-- pagination -->
+		<div>
+  		<center>
+		<div class="pagination">
+<ul class="pagination">
+	 
+		
+          <li class="prev disabled"><a><i class="fa fa-arrow-circle-o-left"></i>上一页</a></li>
+        
+
+        <li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+
+		
+		   <li class="next"> <a href="/page/2/" class="alignright next">下一页<i class="fa fa-arrow-circle-o-right"></i></a> </li>          
+        
+	
+</ul>
 </div>
 
-<div class="theme-info">
-  主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT
-  </a>
+  		</center>
+		</div>
+
+		
+		
+	</div> <!-- col-md-9 -->
+
+	
+		<div class="col-md-3">
+	<div id="sidebar">
+	
+			
+  <div id="site_search">
+   <div class="form-group">
+    <input type="text" id="local-search-input" name="q" results="0" placeholder="搜索" class="st-search-input st-default-search-input form-control"/>
+   </div>  
+  <div id="local-search-result"></div>
+  </div>
+
+
+		
+			
+	<div class="widget">
+		<h4>分类</h4>
+		<ul class="tag_box inline list-unstyled">
+		
+			<li><a href="/categories/weekly/">weekly<span>31</span></a></li>
+		
+		</ul>
+	</div>
+
+		
+			
+
+		
+			
+<div class="widget">
+  <h4>最新文章</h4>
+  <ul class="entry list-unstyled">
+    
+      <li>
+        <a href="/2015/12/17/031/" ><i class="fa fa-file-o"></i>第三十一期...</a>
+      </li>
+    
+      <li>
+        <a href="/2015/12/11/030/" ><i class="fa fa-file-o"></i>第三十期...</a>
+      </li>
+    
+      <li>
+        <a href="/2015/12/01/029/" ><i class="fa fa-file-o"></i>第二十九期...</a>
+      </li>
+    
+      <li>
+        <a href="/2015/11/27/027/" ><i class="fa fa-file-o"></i>第二十七期...</a>
+      </li>
+    
+      <li>
+        <a href="/2015/11/25/028/" ><i class="fa fa-file-o"></i>第二十八期...</a>
+      </li>
+    
+  </ul>
+</div>
+
+		
+			
+<div class="widget">
+	<h4>链接</h4>
+	<ul class="blogroll list-unstyled">
+	
+		<li><i class="fa fa-user"></i><a href="http://www.jianshu.com/users/4ef984470da8/latest_articles" title="顾浩鑫的简书" target="_blank"]);">ASCE1885</a></li>
+	
+		<li><i class="fa fa-user"></i><a href="http://hahack.com" title="潘伟洲的博客" target="_blank"]);">HaHack</a></li>
+	
+		<li><i class="fa fa-github"></i><a href="http://www.github.com/paichyperiondev" title="我们的团队Github站点" target="_blank"]);">Our Github</a></li>
+	
+	</ul>
 </div>
 
 
+		
+	</div> <!-- sidebar -->
+</div> <!-- col-md-3 -->
 
-      </div>
-    </div>
-
-    <div class="back-to-top"></div>
+	
+	
+</div> <!-- row-fluid -->
+	</div>
   </div>
-
-  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
-
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2015 PaicHyperion
   
-  
-
-  
-  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
-  <script type="text/javascript" src="/js/fancy-box.js?v=0.4.3"></script>
-
-
-  <script type="text/javascript" src="/js/helpers.js?v=0.4.3"></script>
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a>.    
+</p> </footer>
+</div> <!-- container-narrow -->
   
 
-  <script type="text/javascript" src="/vendors/velocity/velocity.min.js"></script>
-  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js"></script>
-
-  <script type="text/javascript" src="/js/motion_global.js?v=0.4.3" id="motion.global"></script>
-
-
-
-  <script type="text/javascript" src="/js/search-toggle.js"></script>
 
   
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
 
-  <script type="text/javascript">
-    $(document).ready(function () {
-      if (CONFIG.sidebar === 'always') {
-        displaySidebar();
-      }
-    });
-  </script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/search.js"></script> 
 
-  
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
-      processEscapes: true,
-      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-    }
-  });
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
 </script>
 
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Queue(function() {
-    var all = MathJax.Hub.getAllJax(), i;
-    for (i=0; i < all.length; i += 1) {
-      all[i].SourceElement().parentNode.className += ' has-jax';
-    }
-  });
-</script>
-
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
 
-  
-  
+   <script type="text/javascript">      
+     var search_path = "search.xml";
+	 if (search_path.length == 0) {
+	 	search_path = "search.xml";
+	 }
+	 var path = "/" + search_path;
+     searchFunc(path, 'local-search-input', 'local-search-result');
+   </script>
 
-  
-    
-  
-
-  <script type="text/javascript">
-    var duoshuoQuery = {short_name:"hyperion"};
-    (function() {
-      var ds = document.createElement('script');
-      ds.type = 'text/javascript';ds.async = true;
-      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-      ds.charset = 'UTF-8';
-      (document.getElementsByTagName('head')[0]
-      || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-  </script>
-
-  
-
-
-  
-  
-
-  
 </body>
-</html>
+   </html>

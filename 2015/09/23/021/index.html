@@ -1,223 +1,101 @@
-<!doctype html>
-<html class="theme-next use-motion ">
+<!DOCTYPE HTML>
+<html>
 <head>
+  <meta charset="utf-8">
+  
+  <title>第二十一期 | 平安科技移动开发二队技术周报</title>
+  <meta name="author" content="PaicHyperion">
+  
+  <meta name="description" content="业界新闻1）XcodeGhost：墙、感染、信任和欺骗有人在中国网盘和论坛上传播了一个修改过的Xcode，这个版本的Xcode会在编译出来的App上面加一些可以被远程控制的代码，并且发送数据到某个服务器上。这是iOS出现以来，未越狱系统遭遇的最大安全威胁，在此之前苹果的Sandbox模式几乎没遇到过">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="第二十一期"/>
+  <meta property="og:site_name" content="平安科技移动开发二队技术周报"/>
+
+  
+    <meta property="og:image" content="undefined"/>
   
 
-<meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
 
 
 
-
-
-
-  <link rel="stylesheet" type="text/css" href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5"/>
-
-
-<link rel="stylesheet" type="text/css" href="/css/main.css?v=0.4.3"/>
-
-
-
-
-  <meta name="keywords" content="To be the best!" />
-
-
-
-  <link rel="alternate" href="/atom.xml" title="PaicHyperionDev" type="application/atom+xml" />
-
-
-
-  <link rel="shorticon icon" type="image/x-icon" href="/favicon.ico?v=0.4.3" />
-
-
-
-<script type="text/javascript" id="hexo.configuration">
-  var CONFIG = {
-    scheme: '',
-    analytics: {
-      google: ''
-    },
-    sidebar: 'post'
-  };
-</script>
-
-
-
-
-  <title> 平安科技移动开发二队技术周报 第二十一期 // PaicHyperionDev </title>
 </head>
 
-<body>
-  <!--[if lte IE 8]>
-  <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;margin:0 auto;'>
-    <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-      <img src="http://7u2nvr.com1.z0.glb.clouddn.com/picouterie.jpg" border="0" height="42" width="820"
-           alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today or use other browser ,like chrome firefox safari."
-           style='margin-left:auto;margin-right:auto;display: block;'/>
-    </a>
-  </div>
-<![endif]-->
-
-  <div class="container one-column page-post-detail">
-    <div class="headband"></div>
-
-    <div id="header" class="header">
-      <div class="header-inner">
-        <h1 class="site-meta">
-  <span class="logo-line-before"><i></i></span>
-  <a href="/" class="brand">
-      <span class="logo">
-        <i class="icon-logo"></i>
-      </span>
-      <span class="site-title">PaicHyperionDev</span>
-  </a>
-  <span class="logo-line-after"><i></i></span>
-</h1>
-
-<div class="site-nav-toggle">
-  <button>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-  </button>
-</div>
-
-<div class="site-nav">
-  
-
-  
-    <ul id="menu" class="menu menu-left">
-      
-        
-        <li class="menu-item menu-item-home">
-          <a href="/">
-            <i class="menu-item-icon icon-home"></i> <br />
-            首页
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives">
-            <i class="menu-item-icon icon-archives"></i> <br />
-            归档
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-categories">
-          <a href="/categories">
-            <i class="menu-item-icon icon-categories"></i> <br />
-            分类
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/tags">
-            <i class="menu-item-icon icon-tags"></i> <br />
-            标签
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-about">
-          <a href="/about">
-            <i class="menu-item-icon icon-about"></i> <br />
-            关于
-          </a>
-        </li>
-      
-    </ul>
-  
-
-  
-    <div class="site-search">
-      
-  
-<form class="site-search-form">
-  <input type="text" id="st-search-input" class="st-search-input st-default-search-input" />
-</form>
-<script type="text/javascript">
-  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
-    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
-    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
-  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
-
-  _st('install', 'Lscxh2nMTT2Rw9zqdfBT','2.0.0');
-</script>
-
-<div class="site-search-toggle"></div>
-    </div>
-  
-</div>
-
-
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="/">平安科技移动开发二队技术周报</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/archives" title="所有文章集合">
+			  <i class="fa fa-archive"></i>归档
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/atom.xml" title="订阅本站点">
+			  <i class="fa fa-rss"></i>订阅
+			</a>
+		  </li>
+		  
+		</ul>
       </div>
-    </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
 
-    <div id="main" class="main">
-      <div class="main-inner">
-        <div id="content" class="content">
-          
+  <div class="container">
+  	<div class="content">
+    	 
 
-  <div id="posts" class="posts-expand">
-    
 
-  <div class="post post-type-normal ">
-    <div class="post-header">
+	
+		<div class="page-header">		
+			<h1> 第二十一期</h1>
+		</div>		
+	
 
-      
-      
-        <h1 class="post-title">
-          
-          
-            
-              平安科技移动开发二队技术周报 第二十一期
-            
-          
-        </h1>
-      
 
-      <div class="post-meta">
-        <span class="post-time">
-          发表于 2015-09-23
-        </span>
 
-        
-          <span class="post-category">
-            &nbsp; | &nbsp; 分类于
-            
-              <a href="/categories/weekly/">weekly</a>
+<div class="row post">
+	<!-- cols -->
+	
+	<div id="top_meta"></div>
+	<div class="col-md-9">
+	
 
-              
-              
+	<!-- content -->
+	<div class="mypage">		
+	  		
 
-            
-          </span>
-        
-
-        
-          
-            <span class="post-comments-count">
-            &nbsp; | &nbsp;
-            <a href="/2015/09/23/021/#comments" >
-              <span class="post-comments-count ds-thread-count" data-thread-key="2015/09/23/021/"></span>
-            </a>
-          </span>
-          
-        
-      </div>
-    </div>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        <h2 id="业界新闻">业界新闻</h2><h4 id="1）XcodeGhost：墙、感染、信任和欺骗">1）<a href="http://www.leiphone.com/news/201509/Q6MWlts9zKEyX0HV.html" target="_blank" rel="external">XcodeGhost：墙、感染、信任和欺骗</a></h4><p>有人在中国网盘和论坛上传播了一个修改过的Xcode，这个版本的Xcode会在编译出来的App上面加一些可以被远程控制的代码，并且发送数据到某个服务器上。这是iOS出现以来，未越狱系统遭遇的最大安全威胁，在此之前苹果的Sandbox模式几乎没遇到过挑战，iPhone用户甚至大量iOS开发者都认为系统固若金汤，不可能遇到问题。</p>
+	  <h2 id="业界新闻">业界新闻</h2><h4 id="1）XcodeGhost：墙、感染、信任和欺骗">1）<a href="http://www.leiphone.com/news/201509/Q6MWlts9zKEyX0HV.html" target="_blank" rel="external">XcodeGhost：墙、感染、信任和欺骗</a></h4><p>有人在中国网盘和论坛上传播了一个修改过的Xcode，这个版本的Xcode会在编译出来的App上面加一些可以被远程控制的代码，并且发送数据到某个服务器上。这是iOS出现以来，未越狱系统遭遇的最大安全威胁，在此之前苹果的Sandbox模式几乎没遇到过挑战，iPhone用户甚至大量iOS开发者都认为系统固若金汤，不可能遇到问题。</p>
 <h4 id="2）如何评价_React_Native_Android">2）<a href="http://www.zhihu.com/question/35622976" target="_blank" rel="external">如何评价 React Native Android</a></h4><p>关于React Native Android的一个知乎问答。</p>
 <h4 id="3）C++_之父宣布推出「C++_核心准则」，将通过开源协作方式完善">3）<a href="http://top.jobbole.com/25256/" target="_blank" rel="external">C++ 之父宣布推出「C++ 核心准则」，将通过开源协作方式完善</a></h4><p>9月21日上午，Bjarne Stroustrup 在 CppCon 大会上宣告了「C++ Core Guidelines  | C++ 核心准则」。英文文档已经在 GitHub 上了，目前还是草案阶段，两个主要的作者是 Bjarne Stroustrup 和 Herb Sutter 。Stroustrup 在呼吁：「We need help!」</p>
 <h2 id="Android开发">Android开发</h2><h4 id="1）Android程序的反编译对抗研究">1）<a href="http://www.freebuf.com/tools/76884.html" target="_blank" rel="external">Android程序的反编译对抗研究</a></h4><p>对抗反编译是指让apk文件或者dex文件无法正常通过反编译工具，而且有可能导致工具异常或者崩溃，如apktool、baksmali、dex2jar、JEB等等工具，如下图dex2jar无法正常工作。</p>
@@ -252,409 +130,142 @@
 <h4 id="3）腾讯_Android_与_iOS_开发工具镜像服务">3）<a href="http://android-mirror.bugly.qq.com:8080/?hmsr=toutiao.io&amp;utm_medium=toutiao.io&amp;utm_source=toutiao.io" target="_blank" rel="external">腾讯 Android 与 iOS 开发工具镜像服务</a></h4><p>XcodeGhost事件之后，开发工具的下载需要慎之又慎。</p>
 <h4 id="4）F2etest">4）<a href="https://github.com/alibaba/f2etest" target="_blank" rel="external">F2etest</a></h4><p>阿里巴巴出品的一个面向前端、测试、产品等岗位的多浏览器兼容性测试整体解决方案。</p>
 <p><img src="https://raw.githubusercontent.com/alibaba/f2etest/master/imgs/screenshot1.jpg" alt=""></p>
+	  
+	</div>
 
-      
-    </div>
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+				
+    	<li class="prev"><a href="/2015/09/30/022/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>上一页</a></li>
+  		
 
-    <div class="post-footer">
-      
+        <li><a href="/archives"><i class="fa fa-archive"></i>Archive</a></li>
 
-      
-        <div class="post-nav">
-          <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2015/09/30/022/">平安科技移动开发二队技术周报 第二十二期</a>
-            
-          </div>
-
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/2015/09/20/020/">平安科技移动开发二队技术周报 第二十期</a>
-            
-          </div>
-        </div>
-      
-
-      
-      
-    </div>
-  </div>
-
-
-
-    
-
-    
-      <div class="comments" id="comments">
+		
+		   <li class="next"><a href="/2015/09/20/020/" class="alignright next">下一页<i class="fa fa-arrow-circle-o-right"></i></a></li>         
         
-          <div class="ds-thread" data-thread-key="2015/09/23/021/"
-               data-title="平安科技移动开发二队技术周报 第二十一期" data-url="http://PaicHyperionDev.github.io/2015/09/23/021/">
-          </div>
-        
-      </div>
-    
-  </div>
+	
+</ul>
+</div>
 
+    </center>
+	</div>
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">留言</h2>
 
-        </div>
-
-        
-      </div>
-
-
-      
   
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
-    </div>
-  </div>
+  	 <div id="disqus_thread">
+     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  	 </div>
+  
+</section>
 
-  <div id="sidebar" class="sidebar">
-    <div class="sidebar-inner">
+	</div> <!-- col-md-9/col-md-12 -->
+		
+	
+	<div id="side_meta">
+		<div class="col-md-3" id="post_meta"> 
 
-      
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview">
-            站点概览
-          </li>
-        </ul>
-      
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2015-09-23 
+	</div>
+	
 
-      <div class="site-overview">
-        <div class="site-author motion-element">
-          <img class="site-author-image" src="/images/default_avatar.jpg" alt="PaicHyperion" />
-          <p class="site-author-name">PaicHyperion</p>
-        </div>
-        <p class="site-description motion-element"></p>
-        <div class="site-state motion-element">
-          <div class="site-state-item site-state-posts">
-            <a href="/archives">
-              <span class="site-state-item-count">28</span>
-              <span class="site-state-item-name">日志</span>
-            </a>
-          </div>
-
-          <div class="site-state-item site-state-categories">
-            <a href="/categories">
-              <span class="site-state-item-count">1</span>
-              <span class="site-state-item-name">分类</span>
-              </a>
-          </div>
-
-          <div class="site-state-item site-state-tags">
-            <a href="/tags">
-              <span class="site-state-item-count">0</span>
-              <span class="site-state-item-name">标签</span>
-              </a>
-          </div>
-
-        </div>
-
-        
-          <div class="feed-link motion-element">
-            <a href="/atom.xml">
-              <i class="menu-item-icon icon-feed"></i>
-              RSS
-            </a>
-          </div>
-        
-
-        <div class="links-of-author motion-element">
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
           
-            
-              <span class="links-of-author-item">
-              <a href="https://github.com/PaicHyperionDev" target="_blank">github</a>
-            </span>
-            
-          
-        </div>
+  <li>
+    <li><a href="/categories/weekly/">weekly<span>31</span></a></li>
+  </li>
 
-        
-        
-          <div class="cc-license motion-element">
-            <a href="http://creativecommons.org/licenses/by-nc-sa/4.0" class="cc-opacity" target="_blank">
-              <img src="/images/cc-by-nc-sa.svg" alt="Creative Commons" />
-            </a>
-          </div>
-        
+    </ul>
+	</div>
+	
 
-      </div>
+	<!-- tags -->
+		
 
-      
-        <div class="post-toc-wrap sidebar-panel-active">
-          <div class="post-toc-indicator-top post-toc-indicator"></div>
-          <div class="post-toc">
-            
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#业界新闻"><span class="nav-number">1.</span> <span class="nav-text">业界新闻</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1）XcodeGhost：墙、感染、信任和欺骗"><span class="nav-number">1.0.1.</span> <span class="nav-text">1）XcodeGhost：墙、感染、信任和欺骗</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2）如何评价_React_Native_Android"><span class="nav-number">1.0.2.</span> <span class="nav-text">2）如何评价 React Native Android</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3）C++_之父宣布推出「C++_核心准则」，将通过开源协作方式完善"><span class="nav-number">1.0.3.</span> <span class="nav-text">3）C++ 之父宣布推出「C++ 核心准则」，将通过开源协作方式完善</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Android开发"><span class="nav-number">2.</span> <span class="nav-text">Android开发</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1）Android程序的反编译对抗研究"><span class="nav-number">2.0.1.</span> <span class="nav-text">1）Android程序的反编译对抗研究</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2）Android_Log工具类"><span class="nav-number">2.0.2.</span> <span class="nav-text">2）Android Log工具类</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3）React_Native_For_Android初体验"><span class="nav-number">2.0.3.</span> <span class="nav-text">3）React Native For Android初体验</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4）Facebook:我们是如何构建第一个跨平台的React_Native_APP"><span class="nav-number">2.0.4.</span> <span class="nav-text">4）Facebook:我们是如何构建第一个跨平台的React Native APP</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5）Android_沉浸式状态栏攻略"><span class="nav-number">2.0.5.</span> <span class="nav-text">5）Android 沉浸式状态栏攻略</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#iOS开发"><span class="nav-number">3.</span> <span class="nav-text">iOS开发</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1）iOS微信安装包瘦身&version=11020201&pass_ticket=1IEMaQ6RFKDH5CBSqTcMjggMcTG%2FEP1%2FySQBS3DPQaTtjNPY%2BJcx8V23YHqYtG1V)"><span class="nav-number">3.0.1.</span> <span class="nav-text">1）iOS微信安装包瘦身&version=11020201&pass_ticket=1IEMaQ6RFKDH5CBSqTcMjggMcTG%2FEP1%2FySQBS3DPQaTtjNPY%2BJcx8V23YHqYtG1V)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2）iOS应用架构思考"><span class="nav-number">3.0.2.</span> <span class="nav-text">2）iOS应用架构思考</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3）iOS代码实践总结"><span class="nav-number">3.0.3.</span> <span class="nav-text">3）iOS代码实践总结</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4）构建内存高效的应用"><span class="nav-number">3.0.4.</span> <span class="nav-text">4）构建内存高效的应用</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5）Xcode_7_UI_测试初窥"><span class="nav-number">3.0.5.</span> <span class="nav-text">5）Xcode 7 UI 测试初窥</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#技术纵横"><span class="nav-number">4.</span> <span class="nav-text">技术纵横</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1）你为什么不分享"><span class="nav-number">4.0.1.</span> <span class="nav-text">1）你为什么不分享</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2）Nicholas_C-_Zakas：我得到的最佳职业生涯建议"><span class="nav-number">4.0.2.</span> <span class="nav-text">2）Nicholas C. Zakas：我得到的最佳职业生涯建议</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3）H5性能优化方案"><span class="nav-number">4.0.3.</span> <span class="nav-text">3）H5性能优化方案</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4）如何高效的学习掌握新技术"><span class="nav-number">4.0.4.</span> <span class="nav-text">4）如何高效的学习掌握新技术</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#开源函数库与工具"><span class="nav-number">5.</span> <span class="nav-text">开源函数库与工具</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1）Swift_开发者周刊（第_0_期）"><span class="nav-number">5.0.1.</span> <span class="nav-text">1）Swift 开发者周刊（第 0 期）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2）FreeBuilder"><span class="nav-number">5.0.2.</span> <span class="nav-text">2）FreeBuilder</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3）腾讯_Android_与_iOS_开发工具镜像服务"><span class="nav-number">5.0.3.</span> <span class="nav-text">3）腾讯 Android 与 iOS 开发工具镜像服务</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4）F2etest"><span class="nav-number">5.0.4.</span> <span class="nav-text">4）F2etest</span></a></li></ol></li></ol></li></ol></div>
-            
-          </div>
-          <div class="post-toc-indicator-bottom post-toc-indicator"></div>
-        </div>
-      
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
 
-    </div>
+	</div>
+		
+
+</div><!-- row -->
+
+<script type="text/javascript">
+var disqus_shortname = 'paichyperion';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+</script>
+
+
+
+	</div>
   </div>
-
-
-    </div>
-
-    <div id="footer" class="footer">
-      <div class="footer-inner">
-        <div class="copyright">
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2015 PaicHyperion
   
-  &copy; &nbsp; 
-  2015
-  <span class="with-love">
-    <i class="icon-heart"></i>
-  </span>
-  <span class="author">PaicHyperion</span>
-</div>
-
-<div class="powered-by">
-  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
-</div>
-
-<div class="theme-info">
-  主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT
-  </a>
-</div>
-
-
-
-      </div>
-    </div>
-
-    <div class="back-to-top"></div>
-  </div>
-
-  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
-
-  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a>.    
+</p> </footer>
+</div> <!-- container-narrow -->
   
 
-  
-  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
-  <script type="text/javascript" src="/js/fancy-box.js?v=0.4.3"></script>
-
-
-  <script type="text/javascript" src="/js/helpers.js?v=0.4.3"></script>
-  
-
-  <script type="text/javascript" src="/vendors/velocity/velocity.min.js"></script>
-  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js"></script>
-
-  <script type="text/javascript" src="/js/motion_global.js?v=0.4.3" id="motion.global"></script>
-
-
-
-  <script type="text/javascript" src="/js/search-toggle.js"></script>
 
   
-  
-<script type="text/javascript" src="/js/bootstrap.scrollspy.js?v=0.4.3" id="bootstrap.scrollspy.custom"></script>
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/search.js"></script> 
 
 
-<script type="text/javascript" id="sidebar.toc.highlight">
-  $(document).ready(function () {
-    var tocSelector = '.post-toc';
-    var $tocSelector = $(tocSelector);
-    var activeCurrentSelector = '.active-current';
-
-    $tocSelector
-      .on('activate.bs.scrollspy', function () {
-        var $currentActiveElement = $(tocSelector + ' .active').last();
-
-        removeCurrentActiveClass();
-        $currentActiveElement.addClass('active-current');
-
-        $tocSelector[0].scrollTop = $currentActiveElement.position().top;
-      })
-      .on('clear.bs.scrollspy', function () {
-        removeCurrentActiveClass();
-      });
-
-    function removeCurrentActiveClass () {
-      $(tocSelector + ' ' + activeCurrentSelector)
-        .removeClass(activeCurrentSelector.substring(1));
-    }
-
-    function processTOC () {
-      getTOCMaxHeight();
-      toggleTOCOverflowIndicators();
-    }
-
-    function getTOCMaxHeight () {
-      var $sidebarInner = $('.sidebar-inner');
-      var height = $('.sidebar').height() -
-                   $tocSelector.position().top -
-                   $('.post-toc-indicator-bottom').height();
-
-      $tocSelector.css('height', height);
-
-      return height;
-    }
-
-    function toggleTOCOverflowIndicators () {
-      tocOverflowIndicator(
-        '.post-toc-indicator-top',
-        $tocSelector.scrollTop() > 0 ? 'show' : 'hide'
-      );
-
-      tocOverflowIndicator(
-        '.post-toc-indicator-bottom',
-        $tocSelector.scrollTop() >= $tocSelector.find('ol').height() - $tocSelector.height() ? 'hide' : 'show'
-      )
-    }
-
-    $(document).on('sidebar.didShow', function () {
-      processTOC();
-    });
-
-    $('body').scrollspy({ target: tocSelector });
-    $(window).on('resize', function () {
-      if ( $('.sidebar').hasClass('sidebar-active') ) {
-        processTOC();
-      }
-    });
-
-    onScroll($tocSelector);
-
-    function onScroll (element) {
-      element.on('mousewheel DOMMouseScroll', function (event) {
-          var oe = event.originalEvent;
-          var delta = oe.wheelDelta || -oe.detail;
-          var self = this;
-
-          this.scrollTop += ( delta < 0 ? 1 : -1 ) * 30;
-          event.preventDefault();
-
-          toggleTOCOverflowIndicators();
-      });
-    }
-
-    function tocOverflowIndicator (indicator, action) {
-      $(indicator).velocity('stop').velocity({
-        opacity: action === 'show' ? 0.4 : 0
-      }, { duration: 100 });
-    }
-
-  });
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
 </script>
 
 
-  <script type="text/javascript" id="sidebar.nav">
-    $(document).ready(function () {
-      var html = $('html');
 
-      $('.sidebar-nav li').on('click', function () {
-        var item = $(this);
-        var activeTabClassName = 'sidebar-nav-active';
-        var activePanelClassName = 'sidebar-panel-active';
-        if (item.hasClass(activeTabClassName)) {
-          return;
-        }
+   <script type="text/javascript">      
+     var search_path = "search.xml";
+	 if (search_path.length == 0) {
+	 	search_path = "search.xml";
+	 }
+	 var path = "/" + search_path;
+     searchFunc(path, 'local-search-input', 'local-search-result');
+   </script>
 
-        var currentTarget = $('.' + activePanelClassName);
-        var target = $('.' + item.data('target'));
-
-        currentTarget.velocity('transition.slideUpOut', 200, function () {
-          target
-            .velocity('stop')
-            .velocity('transition.slideDownIn', 200)
-            .addClass(activePanelClassName);
-        });
-
-        item.siblings().removeClass(activeTabClassName);
-        item.addClass(activeTabClassName);
-      });
-
-      $('.post-toc a').on('click', function (e) {
-        e.preventDefault();
-        var offset = $(escapeSelector(this.getAttribute('href'))).offset().top;
-        html.velocity('stop').velocity('scroll', {
-          offset: offset  + 'px',
-          mobileHA: false
-        });
-      });
-
-      // Expand sidebar on post detail page by default, when post has a toc.
-      var $tocContent = $('.post-toc-content');
-      if (isDesktop() && CONFIG.sidebar === 'post') {
-        if ($tocContent.length > 0 && $tocContent.html().trim().length > 0) {
-          displaySidebar();
-        }
-      }
-    });
-  </script>
-
-
-
-
-  <script type="text/javascript">
-    $(document).ready(function () {
-      if (CONFIG.sidebar === 'always') {
-        displaySidebar();
-      }
-    });
-  </script>
-
-  
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
-      processEscapes: true,
-      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-    }
-  });
-</script>
-
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Queue(function() {
-    var all = MathJax.Hub.getAllJax(), i;
-    for (i=0; i < all.length; i += 1) {
-      all[i].SourceElement().parentNode.className += ' has-jax';
-    }
-  });
-</script>
-
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
-
-  
-  
-
-  
-    
-  
-
-  <script type="text/javascript">
-    var duoshuoQuery = {short_name:"hyperion"};
-    (function() {
-      var ds = document.createElement('script');
-      ds.type = 'text/javascript';ds.async = true;
-      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-      ds.charset = 'UTF-8';
-      (document.getElementsByTagName('head')[0]
-      || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-  </script>
-
-  
-
-
-  
-  
-
-  
 </body>
-</html>
+   </html>
